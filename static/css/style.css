@@ -1,0 +1,513 @@
+/*Universal*/
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    display:none!important;
+}
+body{
+    background-color: #000;
+}
+button{
+    cursor: pointer;
+}
+p{
+    color: white;
+}
+/* */
+
+/*Nav Bar*/
+nav{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    width: 100%;
+    height: auto;
+}
+.logo{
+    position: absolute;
+    top: 2.5%;
+    left: 2%;
+    z-index: 100;
+    aspect-ratio: 1/0.7;
+    width: 80px;
+    height: auto;
+    border: 0px solid white;
+    /*background-image: linear-gradient(45deg, aqua, blue, Magenta, red, orange, yellow, green, cyan, blue, violet, cyan, skyblue);
+    background-size: 400% 400%;
+    background-position: 100% 150%;*/
+    background-image: url('/static/images/logo.png');
+    background-position: -580% -420%;
+    background-size: 620%;
+    cursor:pointer;
+}
+@keyframes animat {
+  0% {
+    background-position: 0 0;
+  }
+  25% {
+    background-position: 100% 0;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  75% {
+    background-position: 0 100%;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+.search{
+width: 33%;
+height:55px;
+margin: 15px 15px 10px 15px;
+position: relative;
+}
+#search-bar{
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    background: #1e1e1e;
+    padding: 5px 10%;
+    text-align: left;
+    font-family: 'open sans';
+    font-size: 20px;
+    color: white;
+    outline:0px;
+    border: 2px solid #1e1e1e;
+}
+#search-bar:focus{
+    border: 2px solid #fff;
+    background: #222;
+}
+#search-bar::placeholder{
+    padding: 2% 0;
+    text-align: left;
+    font-family: 'open sans';
+    color: #555;
+    font-weight: bold;
+    font-size: 19px;
+    transform: translateX(0%);
+}
+input[type="search"]::-webkit-search-cancel-button {
+    display:none;
+}
+#search-in-progress{
+width: auto;
+height: 40px;
+overflow:hidden;
+position:absolute;
+right: 10px;
+top: 5px;
+transform: scale(0);
+z-index: 1;
+aspect-ratio: 1/1;
+}
+/* */
+
+/*Clicked Photo*/
+#clicked-photo{
+    width: 50vw;
+    max-width: 520px;
+    height: auto;
+    aspect-ratio: 16/12.5;
+    position: fixed;
+    bottom: -67vh;
+    left: 8.4vw;
+    overflow: hidden;
+    display:flex;
+    z-index: 50;
+    transform: rotateZ(-10deg);
+    border: 20px solid white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+#clicked-photo #photograph{
+    position: relative;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/12.5;
+}
+#clicked-photo #face-box{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0px;
+    transform: translateY(-9%);
+    aspect-ratio: 16/13.5;
+}
+.clicked-photo-animation{
+    animation: throw-upward 3s ease 1;
+    transition: throw-upward 3s ease, bottom 2s ease;
+}
+@keyframes throw-upward{
+    20%{bottom: 39vh;}
+    30%{bottom: 41vh; transform: rotateZ(10deg);}
+    50%{bottom: -67vh; transform: rotateZ(-5deg);}
+}
+
+/* */
+
+/*Panels*/
+#panels{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: -10px;
+}
+.left-panel, .right-panel{
+    flex: 1;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    overflow:hidden;
+    border-radius: 10px;
+    position: relative;
+}
+.left-panel{
+    height: 100vh;
+    margin: 10px 5px 10px 10px;
+    background: #1a1a1a;
+    gap: 5%;
+}
+.right-panel{
+    margin: 10px 10px 10px 5px;
+    background-image: radial-gradient(circle at top, #fff, #121212 40%);
+    background-position: top center;
+}
+/* */
+
+/* Left Side Panel */
+#video{
+    position: relative;
+    transform: translateY(0%);
+    object-fit: cover;
+    width: 100%!important;
+    height: auto!important;
+    aspect-ratio: 48/45!important;
+}
+canvas{
+    position: relative;
+    object-fit: cover;
+    transform: translateY(-105%);
+    width: 100%!important;
+    height: auto!important;
+    aspect-ratio: 48/45!important;
+}
+.gradient {
+    --size: 750px;
+    --speed: 7s;
+    --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
+    width: var(--size);
+    height: var(--size);
+    filter: blur(calc(var(--size) / 5));
+    background-image: linear-gradient(#4377ef, #7befd0);
+    animation: rotate var(--speed) var(--easing) alternate infinite;
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+}
+.smooth-transition{
+    transition: width 5s ease, height 5s ease, filter 0.2s ease, background-image 5s ease, border-radius 5s ease;
+}
+@keyframes rotate {
+    0% {
+       transform: rotate(0deg);
+   }
+    100% {
+       transform: rotate(360deg);
+   }
+}
+@media (min-width: 720px) {
+    .gradient {
+       --size: 500px;
+   }
+}
+#video-container{
+    border: 4px solid white;
+    position:relative;
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+    z-index: 1;
+    border-radius: 19px;
+    aspect-ratio: 16/11;
+    overflow:hidden;
+}
+.camera-toggle{
+    transform: scale(0);
+    transition: transform 0.5s linear;
+    position:absolute;
+    bottom: -20px;
+    right: -20px;
+    border: 2px solid white;
+    width: 3vw;
+    height: 3vw;
+    overflow:hidden;
+    background-color: black;
+    border-radius: 100px;
+    z-index:2;
+}
+.camera-toggle svg{
+    width: 60%;
+    height:60%;
+    transform: translate(35%,25%);
+}
+#recommendation-note{
+    text-align:center;
+    padding: 0%;
+    font-size: 20px;
+    font-family: 'open sans';
+    color:white;
+    font-weight: bold;
+}
+.note-glow{
+    text-transform:uppercase;
+    text-decoration:underline;
+    text-underline-offset: 10px;
+}
+.recommend-button{
+    margin:  5% 0 4% 0;
+}
+.recommend-button, .recommend-button>div{
+padding: -5%;
+width: 65vw;
+max-width: 260px;
+aspect-ratio: 16/4.5;
+background-color: #fff;/* rgb(6, 0, 26);*/
+justify-content:center;
+place-items:center;
+display:flex;
+border-radius: 50px;
+position: relative;
+cursor:pointer;
+}
+.recommend-button p{
+    font-size: min(6.8vw,22px);
+    font-family: 'open sans';
+    color: #000;
+}
+@property --angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+.recommend-button::after, .recommend-button::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: conic-gradient(from var(--angle), #ff4545, #00ff99, #006aff, #ff0095, #ff4545);
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding: 3px;
+    border-radius: 50px;
+    animation: 3s spin linear infinite;
+}
+.recommend-button::before{
+    filter: blur(1.5rem);
+    opacity: 0.5;
+}
+@keyframes spin{
+    from{
+        --angle: 0deg;
+   }
+    to{
+        --angle: 360deg;
+   }
+}
+.lyrics-panel{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    font-size: min(5vw, 25px);
+    font-family: 'open sans';
+    font-weight: bolder;
+    padding: 10% 8%;
+    color: #fff;
+    background: #1e1e1e;
+    overflow: auto;
+}
+.lyrics-panel p{
+    width: 100%;
+    margin-bottom: 20vw;
+}
+/* */
+
+/*Right Side Panel*/
+.player{
+    margin-top: 5%;
+    padding: 2%;
+    border-radius: 10px;
+    overflow:hidden;
+    display: flex; flex-direction: column; justify-content: center; place-items: center;
+    width: 65%;
+    max-width: 470px;
+    height: auto;
+    backdrop-filter: blur(8px);
+    background-color: rgba(255,255,255,0);
+    box-shadow: 0 0 500px #444;
+}
+.player img{
+    margin: 5%;
+    width: 90%;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+.current-song-detail{
+    display: flex;
+    flex-direction: row;
+    gap: 0%;
+    width: 90%;
+    margin-bottom: 0%;
+}
+.current-song-detail h2{
+    font-size: min(5vw, 25px);
+    font-family: 'open sans';
+    color:white;
+}
+.current-song-detail p{
+    font-size: min(4.2vw, 20px);
+    font-family: 'open sans';
+    font-style: italic;
+    color:white;
+}
+.play-button{
+    color: black;
+    background-color: white;
+    width: 65%;
+    height: auto;
+    aspect-ratio: 1/1;
+    padding: 8%;
+    outline: none;
+    border:0px;
+    border-radius: 50%;
+    font-size: 290%;
+    transform: translate(20%,-50%);
+    transition: transform ease-in 0.1s;
+    box-shadow: 0 0 0px #ddd;
+}
+.play-button:hover{
+    background-color: white;
+    color:black;
+    transform: translate(20%,-50%) scale(1.1);
+}
+.slider {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    border-radius: 0px;
+    background: #aaa;
+    outline: none;
+    opacity: 0.6;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    margin-bottom: 6%;
+}
+.slider:hover {
+    opacity: 1;
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 35px;
+    height: 40px;
+    border-radius: 0%;
+    background: #fff;
+    cursor: pointer;
+}
+.slider::-moz-range-thumb {
+    width: 35px;
+    height: 40px;
+    background: #fff;
+    cursor: pointer;
+}
+.similar-songs > div{
+    display:flex;
+    flex-direction: row;
+}
+.song-card{
+    margin:5%;
+    width: auto;
+    height: 400px;
+    aspect-ratio: 16/20;
+    display:flex;
+    flex-direction: column;
+    place-items: center;
+    border-radius: 10px;
+    position: relative;
+    cursor:pointer;
+    transition: transform 0.2s linear;
+}
+.song-card:hover{
+    transform: scale(1.1);
+}
+.thumb{
+    aspect-ratio: 1/1;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    place-items:center;
+    justify-content: center;
+}
+.thumb img{
+    width: 90%;
+    height: auto;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+}
+.song-card h3{
+    margin-top: 5%;
+    font-family: open sans;
+    font-size: min(4vw, 18px);
+    color:white;
+}
+.song-card p{
+    margin-top: 2%;
+    font-family: open sans;
+    font-style: italic;
+    font-size: min(3.7vw, 16px);
+    margin-bottom: 5%;
+    color:white;
+}
+.similar-song-play{
+    width:28%;
+    height: auto;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: rgb(202, 2, 2);
+    position: absolute;
+    bottom: 30%;
+    right: 10%;
+    opacity: 0;
+    transform: translateY(18%);
+    display:flex;
+    justify-content: center;
+    place-items: center;
+    padding: 1%;
+    transition: opacity 0.2s linear, transform 0.2s linear;
+    z-index: 40;
+    cursor: pointer;
+}
+.song-card:hover .similar-song-play{
+    transform: translateY(0%);
+    opacity: 1;
+}
+.similar-song-play:hover{
+    transform: scale(1.08)!important;
+    background-color: rgb(255, 0, 0)!important;
+    transition: transform 0.2s linear, background-color 0.1s linear!important;
+}
+/* */
