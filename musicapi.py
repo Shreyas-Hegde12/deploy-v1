@@ -9,7 +9,7 @@ from scrape import emotion_query
 warnings.filterwarnings("ignore", category=UserWarning, message="some yt attributes must be missing")
 
 # Initialize YTMusic and logging
-ytmusic = YTMusic()
+ytmusic = YTMusic('browser.json')
 songnote = ''
 logger = logging.getLogger(__name__)
 

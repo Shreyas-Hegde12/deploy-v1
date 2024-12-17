@@ -4,3 +4,9 @@
 2024-12-17 19:15:25,494 - INFO - Search query for emotion 'starter': lover diljit
 2024-12-17 19:15:25,494 - INFO - Searching for song: lover diljit
 2024-12-17 19:15:26,059 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-17 19:28:45,084 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-17 19:28:45,085 - INFO - Searching for song: lover diljit
+2024-12-17 19:28:45,749 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-17 19:28:51,355 - INFO - Search query for emotion 'happy': heat waves-glass animals
+2024-12-17 19:28:51,746 - INFO - Searching for song: heat waves-glass animals
+2024-12-17 19:28:52,336 - INFO - Fetching related songs for video_id: XDjB9E3YtUE, artists: Glass Animals
