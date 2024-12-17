@@ -127,13 +127,21 @@ async def fetch_song_url(videoid):
             'simulate': True,
             'forceurl': True,
         }
+
+        # Using asyncio.to_thread to run the blocking yt-dlp code in a separate thread
         loop = asyncio.get_event_loop()
-        with YoutubeDL(ydl_opts) as ydl:
-            result = await loop.run_in_executor(None, ydl.extract_info, f'https://youtube.com/watch?v={videoid}')
-            return result
+        song_info = await asyncio.to_thread(run_yt_dl, ydl_opts, videoid)
+
+        return song_info
+
     except Exception as e:
-        logger.error(f"Error in fetch_song_url for video_id {videoid}: {e}")
+        logger.error(f"Error in fetch_song_url: {e}")
         return {"error": "Failed to fetch song URL"}
+
+def run_yt_dl(ydl_opts, videoid):
+    with YoutubeDL(ydl_opts) as ydl:
+        result = ydl.extract_info(f'https://youtube.com/watch?v={videoid}')
+        return result
 
 # Function to fetch song lyrics
 def song_lyrics(videoid):

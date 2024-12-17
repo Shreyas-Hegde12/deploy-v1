@@ -165,7 +165,7 @@ async function fetchUrl(videoid) {
 async function similarsongclick(id) {
     videoid = document.querySelector(id).getAttribute('data-videoid');
     artists = document.querySelector(id).querySelector('p').innerText;
-    const response = await fetch('https://deploy-v1-q5zd.onrender.com/continuesongs', {
+    const response = await fetch('/continuesongs', {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -217,7 +217,7 @@ function cameraONOFF(action) {
 async function searchFeature() {
     const query = document.querySelector('#search-bar').value;
     document.querySelector('#search-in-progress').style.transform = 'scale(1)';
-    const ans = await fetch("https://deploy-v1-q5zd.onrender.com/search", {
+    const ans = await fetch("/search", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -241,7 +241,7 @@ async function searchFeature() {
 
 async function lyrics(){
     const idforlyrics = document.querySelector('.player img').getAttribute('data-videoid');
-    const lyrics = await fetch('https://deploy-v1-q5zd.onrender.com/songlyrics', {
+    const lyrics = await fetch('/songlyrics', {
         method: "POST",
         headers: {
             "Content-Type": "application/json",

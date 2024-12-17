@@ -61,8 +61,7 @@ def continuesongs():
     except Exception as e:
         logger.error(f"Error in /continuesongs: {e}")
         return jsonify({'error': str(e)}), 500
-
-
+    
 @app.route('/songurl', methods=['POST'])
 async def songurl():
     try:
@@ -80,6 +79,11 @@ async def songurl():
 
         logger.info(f"Fetching song URL for video ID: {videoid}")
         song_info = await fetch_song_url(videoid)
+
+        # If there is an error with song_info
+        if 'error' in song_info:
+            return jsonify({'error': song_info['error']}), 500
+
         song_url = song_info.get('url', '')
 
         logger.info(f"Returning song URL for video ID: {videoid}")
@@ -88,8 +92,7 @@ async def songurl():
     except Exception as e:
         logger.error(f"Error in /songurl: {e}")
         return jsonify({'error': str(e)}), 500
-
-
+    
 @app.route('/search', methods=['POST'])
 def search():
     try:
