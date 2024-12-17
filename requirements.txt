@@ -4,3 +4,4 @@ numpy==1.26.4
 yt-dlp==2024.11.18
 ytmusicapi==1.8.2
 gunicorn
+Flask[async]
