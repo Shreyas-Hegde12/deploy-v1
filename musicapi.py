@@ -1,8 +1,12 @@
 import logging
+import warnings
 import asyncio
 from ytmusicapi import YTMusic
 from yt_dlp import YoutubeDL
 from scrape import emotion_query
+
+# Suppress specific warnings
+warnings.filterwarnings("ignore", category=UserWarning, message="some yt attributes must be missing")
 
 # Initialize YTMusic and logging
 ytmusic = YTMusic()
@@ -84,7 +88,7 @@ def format_track(track):
         return {
             "title": track.get("title", "Unknown Title"),
             "artist": ", ".join([artist.get("name", "Unknown Artist") for artist in track.get("artists", [])]),
-            "coverart": track['thumbnail'][2].get("url", ""),
+            "coverart": track.get('thumbnail', [{}])[-1].get("url", ""),
             "videoid": track.get("videoId", "")
         }
     except Exception as e:
@@ -125,4 +129,3 @@ def song_lyrics(videoid):
     except Exception as e:
         logger.error(f"Error in song_lyrics for video_id {videoid}: {e}")
         return "Error fetching lyrics"
-

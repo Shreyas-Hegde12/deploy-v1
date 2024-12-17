@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', fetchSongOnEmotion('starter'));
 
 // Fetch Song on emotion
 async function fetchSongOnEmotion(emotion) {
-    const response = await fetch('https://deploy-v1-q5zd.onrender.com/getsongs', {
+    const response = await fetch('/getsongs', {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
