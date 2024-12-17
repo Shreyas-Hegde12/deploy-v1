@@ -130,7 +130,7 @@ async function fetchSongOnEmotion(emotion) {
     });
 }
 async function fetchUrl(videoid) {
-    const response = await fetch('https://deploy-v1-q5zd.onrender.com/songurl', {
+    const response = await fetch('/songurl', {
         method: "POST",
         headers: {
             "Content-Type": "application/json",

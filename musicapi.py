@@ -12,7 +12,25 @@ warnings.filterwarnings("ignore", category=UserWarning, message="some yt attribu
 ytmusic = YTMusic()
 songnote = ''
 logger = logging.getLogger(__name__)
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+# Set up logging to both console and file
+log_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+log_file = 'logs.log'
+
+# Console handler (to print logs to console)
+console_handler = logging.StreamHandler()
+console_handler.setFormatter(log_formatter)
+
+# File handler (to save logs to a file)
+file_handler = logging.FileHandler(log_file)
+file_handler.setFormatter(log_formatter)
+
+# Add handlers to logger
+logger.addHandler(console_handler)
+logger.addHandler(file_handler)
+
+# Set log level to INFO (you can change this to DEBUG if needed)
+logger.setLevel(logging.INFO)
 
 def get_song_recommendation(emotion):
     global songnote
@@ -51,17 +69,21 @@ def fetch_related_songs(video_id, songartists):
     global songnote
     try:
         logger.info(f"Fetching related songs for video_id: {video_id}, artists: {songartists}")
+        
+        # Fetch the song details
         song_details = ytmusic.get_song(video_id)
         watch_playlist = ytmusic.get_watch_playlist(videoId=video_id)
-
-        if not watch_playlist or "tracks" not in watch_playlist:
+        
+        # Ensure we get the tracks or provide a fallback
+        tracks = watch_playlist.get("tracks", [])
+        if not tracks:
             logger.warning(f"No related tracks found for video_id: {video_id}")
             return {"error": "No related tracks found"}
-
-        tracks = watch_playlist["tracks"]
+        
         similar_tracks = tracks[1:4]  # Get 3 similar tracks
-        while len(similar_tracks) < 3:  # Fallback in case there are fewer than 3 tracks
-            similar_tracks.append({})
+        
+        while len(similar_tracks) < 3:
+            similar_tracks.append({})  # Fill in empty placeholders if fewer than 3 tracks
 
         return {
             "mainsong": {
