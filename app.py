@@ -17,6 +17,8 @@ def getsongs():
         if not emotion:
             return jsonify({'error': 'Emotion is required'}), 400
         music_json = get_song_recommendation(emotion)
+        if music_json== None:
+            return jsonify({'getsong function is returning none'})
         return jsonify(music_json), 200
     
     except Exception as e:
