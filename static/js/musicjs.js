@@ -66,11 +66,16 @@ function setSong(data) {
                 song.artist = song.artist.slice(0, 17) + '..';
             }
         });
-        if(likeStatus==true && !checkifliked(data.mainsong.videoid)){
+        if(!checkifliked(data.mainsong.videoid)){
             likeButton.src = 'static/images/not-liked.png';
         likeButton.classList.add('like-click');
         const liking = setTimeout(function(){likeButton.classList.remove('like-click');},1e3);
         likeStatus = false; 
+        }else{
+            likeButton.src = 'static/images/liked.png';
+        likeButton.classList.add('like-click');
+        const liking = setTimeout(function(){likeButton.classList.remove('like-click');},1e3);
+        likeStatus = true; 
         }
     }
     document.querySelector('.lyrics-panel p').innerText = 'Fetching lyrics for you..';
