@@ -66,17 +66,6 @@ function setSong(data) {
                 song.artist = song.artist.slice(0, 17) + '..';
             }
         });
-        if(!checkifliked(data.mainsong.videoid)){
-            likeButton.src = 'static/images/not-liked.png';
-        likeButton.classList.add('like-click');
-        const liking = setTimeout(function(){likeButton.classList.remove('like-click');},1e3);
-        likeStatus = false; 
-        }else{
-            likeButton.src = 'static/images/liked.png';
-        likeButton.classList.add('like-click');
-        const liking = setTimeout(function(){likeButton.classList.remove('like-click');},1e3);
-        likeStatus = true; 
-        }
     }
     document.querySelector('.lyrics-panel p').innerText = 'Fetching lyrics for you..';
     const fallbackimg = 'static/images/transparent.png';
@@ -99,7 +88,19 @@ function setSong(data) {
     audioElement.pause();
     if (isPlaying) togglePlay();
     songFetched = false;
+    if(!checkifliked(data.mainsong.videoid)){
+        likeButton.src = 'static/images/not-liked.png';
+    likeButton.classList.add('like-click');
+    const liking = setTimeout(function(){likeButton.classList.remove('like-click');},1e3);
+    likeStatus = false; 
+    }else{
+        likeButton.src = 'static/images/liked.png';
+    likeButton.classList.add('like-click');
+    const liking = setTimeout(function(){likeButton.classList.remove('like-click');},1e3);
+    likeStatus = true; 
+    }
     fetchUrl(data.mainsong.videoid);
+    
 }
 document.addEventListener('DOMContentLoaded', fetchSongOnEmotion('starter'));
 
