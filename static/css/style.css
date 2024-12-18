@@ -5,6 +5,10 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+::selection{
+    color: #fff;
+    background-color: transparent;
+}
 ::-webkit-scrollbar {
     display:none!important;
 }
@@ -108,6 +112,23 @@ z-index: 1;
 aspect-ratio: 1/1;
 }
 /* */
+.like-button{
+    width: 30vw;
+    max-width: 130px;
+    height: auto;
+    aspect-ratio: 1/1;
+    position:absolute;
+    transform: rotateZ(18deg) translate(-15%, -130%);
+    bottom: 0%;
+    right: 0%;
+    filter: drop-shadow(0px 0px 50px #000);
+}
+.like-button img{
+width: 90%;
+height: auto;
+aspect-ratio: 1/1;
+
+}
 
 /*Clicked Photo*/
 #clicked-photo{
@@ -116,14 +137,14 @@ aspect-ratio: 1/1;
     height: auto;
     aspect-ratio: 16/12.5;
     position: fixed;
-    bottom: -67vh;
-    left: 8.4vw;
+    bottom: -77vh;
+    left: 8.5vw;
     overflow: hidden;
     display:flex;
     z-index: 50;
     transform: rotateZ(-10deg);
     border: 20px solid white;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 #clicked-photo #photograph{
     position: relative;
@@ -144,9 +165,9 @@ aspect-ratio: 1/1;
     transition: throw-upward 3s ease, bottom 2s ease;
 }
 @keyframes throw-upward{
-    20%{bottom: 39vh;}
-    30%{bottom: 41vh; transform: rotateZ(10deg);}
-    50%{bottom: -67vh; transform: rotateZ(-5deg);}
+    20%{bottom: 36vh;}
+    37%{bottom: 39vh; transform: rotateZ(10deg);}
+    60%{bottom: -77vh; transform: rotateZ(-5deg);}
 }
 
 /* */
@@ -172,14 +193,160 @@ aspect-ratio: 1/1;
     position: relative;
 }
 .left-panel{
-    height: 100vh;
+    height: 180vh;
     margin: 10px 5px 10px 10px;
-    background: #1a1a1a;
+    background: transparent;
+    gap: 5%;
+    display:flex;
+    flex-direction: column;
+}
+.left-panel-top{
+    width: 100%;
+    height: 105vh!important;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    overflow:hidden;
+    border-radius: 10px;
+    position: relative;
+    background: #1e1e1e;
     gap: 5%;
 }
+
+#liked-section {
+    width: 94%;
+    height: 67vh;  /* This is fine, but ensure this height is needed */
+    overflow: hidden;
+    position: relative;
+    display:flex; 
+    justify-content: center;
+    place-items: center;
+}
+
+.liked-songs {
+    border-radius: 50px;
+    background: linear-gradient(to bottom, #39E9F8, #A356FA, #010100);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16/14;
+    color: black;
+    font-size: 25px;
+    justify-content: center;
+    place-items: center;
+    overflow: hidden;
+}
+
+.liked-songs-head {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    gap: 8%;
+    background: rgba(200, 200, 200, 0.5);
+    backdrop-filter: blur(5px);
+    justify-content: space-between;
+    place-items: center;
+}
+
+.liked-songs-head p {
+    color: black;
+    padding: 55px;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'open sans';
+}
+
+.section-title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.mood-description {
+    font-size: 14px;
+    color: #666;
+}
+
+.liked-list {
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 95%;
+    height: 80%;
+    margin-top: 10px;
+}
+
+.liked-strip {
+    color: white;
+    background: rgba(20, 20, 20, 0.6);
+    backdrop-filter: blur(10px);
+    width: 99%;
+    height: 60px;
+    border-radius: 20px;
+    padding: 8px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 5px;
+    align-items: center;
+    cursor:pointer;
+    font-family: 'open sans';
+    position: relative;
+}
+
+.liked-strip:hover {
+    background: rgba(20, 20, 20, 0.9);
+}
+.liked-strip:hover > p {
+    text-decoration: underline;
+}
+
+.llsong-name, .llartist-name, .llmood {
+    margin: 0;
+    padding: 0;
+}
+
+.llsong-name {
+    flex: 3;
+}
+
+.llartist-name {
+    flex: 3;
+}
+
+.llmood {
+    flex: 2;
+    text-decoration: none!important;
+}
+.llminusbutton{
+    position:absolute;
+    z-index: 10;
+    bottom: 0;
+    right:0px;
+    width: 45px;
+    height: 45px;
+    transform: translate(-20%,-20%);
+    font-weight: bold;
+    font-size: 22px;
+    color:white;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    padding: 2px;
+    background: rgba(57, 233, 248, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+
 .right-panel{
     margin: 10px 10px 10px 5px;
-    background-image: radial-gradient(circle at top, #fff, #121212 40%);
+    background-image: radial-gradient(circle at top, #fff, #121212 45%);
     background-position: top center;
 }
 /* */
@@ -271,8 +438,35 @@ canvas{
     text-decoration:underline;
     text-underline-offset: 10px;
 }
+.note-gluw{
+    background-image: linear-gradient(-20deg, #fff, #b721ff 10%, #21d4fd 90%, #fff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent!important;
+    text-transform:uppercase;
+    text-decoration:underline;
+    text-decoration-color: #fff;
+    text-underline-offset: 10px;
+    animation: textShine 2s ease-in-out 3;
+    transition: background-position 1s linear;
+}
 .recommend-button{
     margin:  5% 0 4% 0;
+}
+.recommend-button-click{
+    animation: 1s clickclick ease 1;
+}
+@keyframes clickclick{
+    10%{transform: scale(0.9);}
+    50%{transform: scale(1.12);}
+}
+.like-click{
+    animation: 1s liking ease 1;
+}
+@keyframes liking{
+    10%{transform: scale(0.8);}
+    50%{transform: scale(1.18);}
 }
 .recommend-button, .recommend-button>div{
 padding: -5%;
@@ -350,7 +544,6 @@ cursor:pointer;
     margin-top: 5%;
     padding: 2%;
     border-radius: 10px;
-    overflow:hidden;
     display: flex; flex-direction: column; justify-content: center; place-items: center;
     width: 65%;
     max-width: 470px;
@@ -358,6 +551,7 @@ cursor:pointer;
     backdrop-filter: blur(8px);
     background-color: rgba(255,255,255,0);
     box-shadow: 0 0 500px #444;
+    position: relative;
 }
 .player img{
     margin: 5%;

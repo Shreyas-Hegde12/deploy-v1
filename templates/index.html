@@ -8,6 +8,7 @@
     <link href="static/css/style.css" rel="stylesheet">
     <link href="{{url_for('static', filename='images/favicon.png')}}" rel="icon" type="image/x-icon">
     <script defer src="static/js/face-api.min.js"></script>
+    <script defer src="static/js/users.js"></script>
     <script defer src="static/js/musicjs.js"></script>
     <script defer src="static/js/faceapi.js"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/vibrant.js/1.0.0/Vibrant.min.js"></script>
@@ -45,11 +46,12 @@
     </div>
 
     <!--App Area-->
-    <div id="panels" onclick="snap()">
+    <div id="panels">
         <!--Capture Area - Left Panel-->
         <div class="left-panel">
+        <div class="left-panel-top" onclick="snap()">
             <!--WebCam-->
-            <div name="video cam" style="width: 85%; display: flex; justify-content: center; place-items: center; max-width: 600px; height: auto; aspect-ratio: 16/11; position: relative;">
+            <div name="video cam" style="width: 85%; display: flex; justify-content: center; place-items: center; max-width: 590px; height: auto; aspect-ratio: 16/11; position: relative;">
                 <!--Container-->
                 <div class="gradient" id="video-container">
                     <video id="video" width="480px" height="450px" autoplay muted></video>
@@ -77,12 +79,37 @@
             </div>
 
         </div>
+        <div id="liked-section">
+            <section class="liked-songs">
+                <header class="liked-songs-head">
+                    <p class="section-title">Liked Songs</p>
+                    <p class="mood-description">Your Mood Back Then</p>
+                </header>
+        
+                <div class="liked-list">
+                    <div class="liked-strip">
+                        <p class="song-name">Song Name</p>
+                        <p class="artist-name">Artist</p>
+                        <p class="mood">😀 Happy</p>
+                    </div>
+                    <!-- Additional songs can be added here -->
+                    <div class="liked-strip">
+                        <p class="song-name">Another Song</p>
+                        <p class="artist-name">Another Artist</p>
+                        <p class="mood">😔 Sad</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+    </div>
 
         <!-- Music Player - Right Panel -->
-        <div class="right-panel">
+        <div class="right-panel" onclick="snap()">
             <!-- Music Card -->
             <div class="player">
                 <img  onclick="lyricToggle()" src="static/images/transparent.png" alt="Song Artwork">
+                <div class="like-button"><img src="static/images/not-liked.png"></div>
                 <div name="mainsong metadata" class="current-song-detail">
                     <div style="flex: 1;">
                         <button class="play-button" onclick="togglePlay();">

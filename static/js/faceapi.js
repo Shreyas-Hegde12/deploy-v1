@@ -1,9 +1,10 @@
 const video = document.getElementById('video')
 const sampler = document.querySelector('.start-sampling');
 let inView = true;
-let cooldowntime = false;
-let dominantExpression = 'starter';
-const emoji = {
+var cooldowntime = false;
+var lastcaptured='happy';
+var dominantExpression = 'starter';
+var emoji = {
     'neutral': '😇 CALM',
     'happy': '😊 JOY',
     'surprised': '😮 SURPRISED',
@@ -27,6 +28,7 @@ function startVideo() {
     )
 }
 
+let prevDominant = 'starter';
 let firstvideoplay = true;
 video.addEventListener('play', () => {
     if (!firstvideoplay)
@@ -65,17 +67,22 @@ video.addEventListener('play', () => {
                 if (dominantExpression == 'fearful') {
                     dominantExpression = 'sad';
                 }
+                if (false && dominantExpression == 'neutral' && prevDominant != 'angry' && confidence<95) {
+                    dominantExpression = 'sad';
+                }
+                prevDominant = dominantExpression;
                 ctx.fillStyle = 'rgba(255, 255, 255, 1)';
                 ctx.font = '16px open sans';
                 ctx.fillText(`${emoji[dominantExpression]} : ${confidence}%`, box.x + 10, box.y + 20);
+                
             }
         }
     }, 200);
     const a = setTimeout(function() {
         document.querySelector('#video-container').classList.remove('gradient');
         document.querySelector('.camera-toggle').style.transform = 'scale(1)';
-        document.querySelector('#video-container').style.maxWidth = '600px';
-    }, 2e3);
+        document.querySelector('#video-container').style.maxWidth = '590px';
+    }, 1e3);
     firstvideoplay = false;
 });
 
@@ -123,6 +130,9 @@ function setDominantEmotion(expressions) {
 }
 
 function recommend() {
+    lastcaptured = dominantExpression;
+    document.querySelector('.recommend-button').classList.add('recommend-button-click');
+    const clickclick = setTimeout(function(){document.querySelector('.recommend-button').classList.remove('recommend-button-click');},1e3);
     document.querySelector('.recommend-button').style.zIndex = 0;
     document.querySelector('.recommend-button').style.backgroundColor = '#060026';
     document.querySelector('.recommend-button>div').style.backgroundColor = '#060026';
@@ -161,6 +171,7 @@ function throwPhoto() {
         document.querySelector('#video-container').classList.add('smooth-transition');
         document.querySelector('#video-container').classList.remove('gradient');
         document.querySelector('.camera-toggle').style.transform = 'scale(1)';
+        cooldown(0);
     }, 3e3);
 }
 

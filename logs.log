@@ -80,3 +80,1541 @@
 2024-12-17 21:05:50,744 - INFO - Search query for emotion 'starter': lover diljit
 2024-12-17 21:05:50,744 - INFO - Searching for song: lover diljit
 2024-12-17 21:05:51,200 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-17 21:14:09,631 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-17 21:14:09,631 - INFO - Searching for song: lover diljit
+2024-12-17 21:14:10,270 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-17 21:14:29,701 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-17 21:14:29,701 - INFO - Searching for song: lover diljit
+2024-12-17 21:14:30,144 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-17 21:14:36,867 - INFO - Search query for emotion 'neutral': Ninna Gungalli
+2024-12-17 21:14:36,869 - INFO - Searching for song: Ninna Gungalli
+2024-12-17 21:14:37,345 - INFO - Fetching related songs for video_id: KhC4CQ32Ew8, artists: Adhvik
+2024-12-17 21:14:41,893 - INFO - Search query for emotion 'happy': heat waves-glass animals
+2024-12-17 21:14:43,259 - INFO - Searching for song: heat waves-glass animals
+2024-12-17 21:14:44,249 - INFO - Fetching related songs for video_id: XDjB9E3YtUE, artists: Glass Animals
+2024-12-17 21:15:02,101 - INFO - Fetching related songs for video_id: QFZIpMnprpQ, artists: The Weeknd
+2024-12-17 21:15:13,642 - INFO - Search query for emotion 'sad': Yenagali Munde Saagu Nee
+2024-12-17 21:15:13,642 - INFO - Searching for song: Yenagali Munde Saagu Nee
+2024-12-17 21:15:14,091 - INFO - Fetching related songs for video_id: 2EWVlyg6rDM, artists: Sonu Nigam
+2024-12-17 21:15:34,103 - INFO - Search query for emotion 'sad': Olithu Maadu Manusa-C Ashwath
+2024-12-17 21:15:34,103 - INFO - Searching for song: Olithu Maadu Manusa-C Ashwath
+2024-12-17 21:15:35,093 - INFO - Fetching related songs for video_id: dtmr-rDIR6s, artists: Lahari Bhavageethegalu & Folk - T-Series
+2024-12-17 21:16:12,715 - INFO - Searching for song: santhoshakke
+2024-12-17 21:16:13,095 - INFO - Fetching related songs for video_id: 91zoUgVeSGQ, artists: S. P. Balasubrahmanyam
+2024-12-17 21:16:29,839 - INFO - Search query for emotion 'happy': Illuminati - From Aavesham
+2024-12-17 21:16:29,839 - INFO - Searching for song: Illuminati - From Aavesham
+2024-12-17 21:16:30,341 - INFO - Fetching related songs for video_id: S1jo8K4kDJc, artists: Sushin Shyam, Dabzee, Vinayak Sasikumar
+2024-12-17 21:16:43,357 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-17 21:16:43,357 - INFO - Searching for song: lover diljit
+2024-12-17 21:16:43,899 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-17 21:25:28,094 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-17 21:25:28,094 - INFO - Searching for song: lover diljit
+2024-12-17 21:25:28,704 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-17 22:00:26,411 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-17 22:00:26,414 - INFO - Searching for song: lover diljit
+2024-12-17 22:00:27,055 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-17 22:00:35,012 - INFO - Search query for emotion 'neutral': Ninna Gungalli
+2024-12-17 22:00:35,013 - INFO - Searching for song: Ninna Gungalli
+2024-12-17 22:00:35,387 - INFO - Fetching related songs for video_id: KhC4CQ32Ew8, artists: Adhvik
+2024-12-17 22:00:40,205 - INFO - Search query for emotion 'happy': heat waves-glass animals
+2024-12-17 22:00:40,522 - INFO - Searching for song: heat waves-glass animals
+2024-12-17 22:00:43,175 - INFO - Fetching related songs for video_id: XDjB9E3YtUE, artists: Glass Animals
+2024-12-17 22:00:50,696 - INFO - Search query for emotion 'sad': Yenagali Munde Saagu Nee
+2024-12-17 22:00:50,697 - INFO - Searching for song: Yenagali Munde Saagu Nee
+2024-12-17 22:00:51,043 - INFO - Fetching related songs for video_id: 2EWVlyg6rDM, artists: Sonu Nigam
+2024-12-17 22:00:55,984 - INFO - Search query for emotion 'surprised': Starboy
+2024-12-17 22:00:56,007 - INFO - Searching for song: Starboy
+2024-12-17 22:00:56,453 - INFO - Fetching related songs for video_id: 3_g2un5M350, artists: The Weeknd
+2024-12-17 22:01:02,192 - INFO - Search query for emotion 'angry': Krishna Flute
+2024-12-17 22:01:02,192 - INFO - Searching for song: Krishna Flute
+2024-12-17 22:01:02,596 - INFO - Fetching related songs for video_id: 91iGTV2HNbY, artists: Supernatural Brainwave Power
+2024-12-17 22:01:07,716 - INFO - Search query for emotion 'angry': Agam Agarwal Shree Hari Stotram
+2024-12-17 22:01:07,717 - INFO - Searching for song: Agam Agarwal Shree Hari Stotram
+2024-12-17 22:01:08,142 - INFO - Fetching related songs for video_id: PTaPA-odTpM, artists: Agam Aggarwal
+2024-12-17 22:01:12,370 - INFO - Search query for emotion 'angry': Ram Siya Ram
+2024-12-17 22:01:12,371 - INFO - Searching for song: Ram Siya Ram
+2024-12-17 22:01:12,750 - INFO - Fetching related songs for video_id: j_c4S1n710A, artists: Sachet Tandon, Parampara Tandon, Ajay - Atul
+2024-12-17 22:01:16,763 - INFO - Search query for emotion 'angry': Krish Ashok Nilavinte Neelabhasma
+2024-12-17 22:01:16,764 - INFO - Searching for song: Krish Ashok Nilavinte Neelabhasma
+2024-12-17 22:01:17,152 - INFO - Fetching related songs for video_id: IdpDecvW89E, artists: Krish Ashok
+2024-12-17 22:01:21,574 - INFO - Search query for emotion 'angry': Krishna Krish Flute
+2024-12-17 22:01:21,574 - INFO - Searching for song: Krishna Krish Flute
+2024-12-17 22:01:21,970 - INFO - Fetching related songs for video_id: ckgypVmrvrw, artists: Lakhinandan Lahon
+2024-12-17 22:01:25,910 - INFO - Search query for emotion 'angry': Two Thousand and Seventeen
+2024-12-17 22:01:25,911 - INFO - Searching for song: Two Thousand and Seventeen
+2024-12-17 22:01:26,386 - INFO - Fetching related songs for video_id: ZNuaLyPMc48, artists: Four Tet
+2024-12-17 22:01:30,696 - INFO - Search query for emotion 'angry': Sojugada Soojumallige
+2024-12-17 22:01:30,696 - INFO - Searching for song: Sojugada Soojumallige
+2024-12-17 22:01:31,119 - INFO - Fetching related songs for video_id: wzXM50C0x10, artists: Ananya Bhat, Bharath Naik, Girish K.P
+2024-12-17 22:01:35,515 - INFO - Search query for emotion 'surprised': Muqabla original
+2024-12-17 22:01:35,515 - INFO - Searching for song: Muqabla original
+2024-12-17 22:01:36,258 - INFO - Fetching related songs for video_id: 1IuQaLxgVB0, artists: Mano, Swarnalatha
+2024-12-17 22:01:40,119 - INFO - Search query for emotion 'angry': Raga Bagesri
+2024-12-17 22:01:40,399 - INFO - Searching for song: Raga Bagesri
+2024-12-17 22:01:41,027 - INFO - Fetching related songs for video_id: 8l9QzLxpbzs, artists: Pandit Hariprasad Chaurasia
+2024-12-17 22:01:46,253 - INFO - Search query for emotion 'neutral': Zara Zara - lofi
+2024-12-17 22:01:46,253 - INFO - Searching for song: Zara Zara - lofi
+2024-12-17 22:01:46,782 - INFO - Fetching related songs for video_id: DtzBWzgvDWk, artists: Bombay Jayashri
+2024-12-17 22:01:50,771 - INFO - Search query for emotion 'happy': Illuminati - From Aavesham
+2024-12-17 22:01:50,771 - INFO - Searching for song: Illuminati - From Aavesham
+2024-12-17 22:01:51,171 - INFO - Fetching related songs for video_id: S1jo8K4kDJc, artists: Sushin Shyam, Dabzee, Vinayak Sasikumar
+2024-12-17 22:01:55,295 - INFO - Search query for emotion 'sad': Olithu Maadu Manusa-C Ashwath
+2024-12-17 22:01:55,296 - INFO - Searching for song: Olithu Maadu Manusa-C Ashwath
+2024-12-17 22:01:56,096 - INFO - Fetching related songs for video_id: dtmr-rDIR6s, artists: Lahari Bhavageethegalu & Folk - T-Series
+2024-12-17 22:01:59,831 - INFO - Search query for emotion 'sad': Happy-allok
+2024-12-17 22:01:59,919 - INFO - Searching for song: Happy-allok
+2024-12-17 22:02:00,380 - INFO - Fetching related songs for video_id: mSjOwLgNrSY, artists: All Ok
+2024-12-17 22:02:13,196 - INFO - Fetching related songs for video_id: XhVvOcIOo5Q, artists: Sanjith Hegde
+2024-12-17 22:02:27,688 - INFO - Searching for song: hello adele
+2024-12-17 22:02:28,168 - INFO - Fetching related songs for video_id: Ei8UnOPJX7w, artists: Adele
+2024-12-18 18:07:33,245 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:07:33,248 - INFO - Searching for song: lover diljit
+2024-12-18 18:07:34,083 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:07:44,816 - INFO - Search query for emotion 'neutral': Ninna Gungalli
+2024-12-18 18:07:44,817 - INFO - Searching for song: Ninna Gungalli
+2024-12-18 18:07:45,326 - INFO - Fetching related songs for video_id: KhC4CQ32Ew8, artists: Adhvik
+2024-12-18 18:07:54,717 - INFO - Search query for emotion 'neutral': Zara Zara - lofi
+2024-12-18 18:07:54,718 - INFO - Searching for song: Zara Zara - lofi
+2024-12-18 18:07:55,468 - INFO - Fetching related songs for video_id: DtzBWzgvDWk, artists: Bombay Jayashri
+2024-12-18 18:08:00,449 - INFO - Search query for emotion 'neutral': Hallu jenu
+2024-12-18 18:08:00,765 - INFO - Searching for song: Hallu jenu
+2024-12-18 18:08:02,908 - INFO - Fetching related songs for video_id: ecRhNLEyA5Y, artists: Dr. Rajkumar
+2024-12-18 18:09:32,669 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:09:32,669 - INFO - Searching for song: lover diljit
+2024-12-18 18:09:33,145 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:14:33,002 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:14:33,002 - INFO - Searching for song: lover diljit
+2024-12-18 18:14:33,596 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:14:54,447 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:14:54,447 - INFO - Searching for song: lover diljit
+2024-12-18 18:14:54,893 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:15:03,000 - INFO - Search query for emotion 'happy': heat waves-glass animals
+2024-12-18 18:15:03,001 - INFO - Searching for song: heat waves-glass animals
+2024-12-18 18:15:03,595 - INFO - Fetching related songs for video_id: XDjB9E3YtUE, artists: Glass Animals
+2024-12-18 18:15:47,145 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:15:47,145 - INFO - Searching for song: lover diljit
+2024-12-18 18:15:47,713 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:16:55,775 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:16:55,776 - INFO - Searching for song: lover diljit
+2024-12-18 18:16:56,259 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:17:19,064 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:17:19,064 - INFO - Searching for song: lover diljit
+2024-12-18 18:17:19,851 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:18:04,813 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:18:04,813 - INFO - Searching for song: lover diljit
+2024-12-18 18:18:05,830 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:18:19,040 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:18:19,040 - INFO - Searching for song: lover diljit
+2024-12-18 18:18:19,545 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:18:41,250 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:18:41,250 - INFO - Searching for song: lover diljit
+2024-12-18 18:18:41,797 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:18:54,003 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:18:54,003 - INFO - Searching for song: lover diljit
+2024-12-18 18:18:54,525 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:19:00,853 - INFO - Search query for emotion 'happy': Illuminati - From Aavesham
+2024-12-18 18:19:00,875 - INFO - Searching for song: Illuminati - From Aavesham
+2024-12-18 18:19:01,473 - INFO - Fetching related songs for video_id: S1jo8K4kDJc, artists: Sushin Shyam, Dabzee, Vinayak Sasikumar
+2024-12-18 18:19:06,290 - INFO - Search query for emotion 'happy': India Waale
+2024-12-18 18:19:06,593 - INFO - Searching for song: India Waale
+2024-12-18 18:19:08,317 - INFO - Fetching related songs for video_id: XHpXUyxyOjo, artists: NEETI MOHAN, VISHAL DADLANI, K.K., SHANKAR MAHADEVAN, VISHAL-SHEKHAR, and IRSHAD KAMIL
+2024-12-18 18:20:23,647 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:20:23,647 - INFO - Searching for song: lover diljit
+2024-12-18 18:20:24,093 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:20:35,038 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:20:35,039 - INFO - Searching for song: lover diljit
+2024-12-18 18:20:35,436 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:20:42,768 - INFO - Search query for emotion 'neutral': Pal Pal Dil Ke Paas (From Blackmail)
+2024-12-18 18:20:42,769 - INFO - Searching for song: Pal Pal Dil Ke Paas (From Blackmail)
+2024-12-18 18:20:43,357 - INFO - Fetching related songs for video_id: V0TejHIZLV8, artists: Kishore Kumar
+2024-12-18 18:21:32,848 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:21:32,848 - INFO - Searching for song: lover diljit
+2024-12-18 18:21:33,585 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:21:50,885 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:21:50,885 - INFO - Searching for song: lover diljit
+2024-12-18 18:21:51,584 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:21:57,451 - INFO - Search query for emotion 'neutral': Munjaane Manjali
+2024-12-18 18:21:57,453 - INFO - Searching for song: Munjaane Manjali
+2024-12-18 18:21:57,919 - INFO - Fetching related songs for video_id: wH3baKreC5A, artists: Raghu Dixit
+2024-12-18 18:25:23,199 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:25:23,199 - INFO - Searching for song: lover diljit
+2024-12-18 18:25:23,888 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:25:56,824 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:25:56,824 - INFO - Searching for song: lover diljit
+2024-12-18 18:25:57,327 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:26:34,812 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:26:34,812 - INFO - Searching for song: lover diljit
+2024-12-18 18:26:35,282 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:28:20,108 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:28:20,108 - INFO - Searching for song: lover diljit
+2024-12-18 18:28:20,604 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:29:04,619 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:29:04,619 - INFO - Searching for song: lover diljit
+2024-12-18 18:29:05,116 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:29:41,714 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:29:41,714 - INFO - Searching for song: lover diljit
+2024-12-18 18:29:42,254 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:29:49,347 - INFO - Search query for emotion 'neutral': Mayavi
+2024-12-18 18:29:49,347 - INFO - Searching for song: Mayavi
+2024-12-18 18:29:49,874 - INFO - Fetching related songs for video_id: EW8oNyuGg3g, artists: Sonu Nigam, Sanjith Hegde, Nagarjun Sharma
+2024-12-18 18:31:51,095 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:31:51,095 - INFO - Searching for song: lover diljit
+2024-12-18 18:31:51,548 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:31:56,326 - INFO - Search query for emotion 'neutral': Sanjit Hegde Nee Nanage Allava
+2024-12-18 18:31:56,327 - INFO - Searching for song: Sanjit Hegde Nee Nanage Allava
+2024-12-18 18:31:56,793 - INFO - Fetching related songs for video_id: XhVvOcIOo5Q, artists: Sanjith Hegde
+2024-12-18 18:32:04,338 - INFO - Search query for emotion 'happy': Dwapara- Krishnam Pranaya
+2024-12-18 18:32:04,338 - INFO - Searching for song: Dwapara- Krishnam Pranaya
+2024-12-18 18:32:04,889 - INFO - Fetching related songs for video_id: C93Tcb9wJRE, artists: Jaskaran Singh
+2024-12-18 18:32:12,340 - INFO - Search query for emotion 'happy': Arabic Kuthu - Halamithi Habibo
+2024-12-18 18:32:12,340 - INFO - Searching for song: Arabic Kuthu - Halamithi Habibo
+2024-12-18 18:32:13,007 - INFO - Fetching related songs for video_id: 9nRvqemGydw, artists: Anirudh Ravichander, Jonita Gandhi
+2024-12-18 18:32:24,490 - INFO - Search query for emotion 'happy': Chaleya
+2024-12-18 18:32:24,490 - INFO - Searching for song: Chaleya
+2024-12-18 18:32:25,077 - INFO - Fetching related songs for video_id: V_jp5_VAzXk, artists: Arijit Singh, Shilpa Rao
+2024-12-18 18:32:51,068 - INFO - Fetching lyrics for video_id: V_jp5_VAzXk
+2024-12-18 18:34:13,424 - INFO - Search query for emotion 'neutral': Ninna Ninna Snehake
+2024-12-18 18:34:13,424 - INFO - Searching for song: Ninna Ninna Snehake
+2024-12-18 18:34:13,951 - INFO - Fetching related songs for video_id: zJketpdFjm8, artists: Rajkumar, P. Susheela
+2024-12-18 18:34:35,090 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:34:35,090 - INFO - Searching for song: lover diljit
+2024-12-18 18:34:35,905 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:34:48,774 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:34:48,774 - INFO - Searching for song: lover diljit
+2024-12-18 18:34:49,288 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:34:55,437 - INFO - Search query for emotion 'happy': guruvara sanje song
+2024-12-18 18:34:55,446 - INFO - Searching for song: guruvara sanje song
+2024-12-18 18:34:56,070 - INFO - Fetching related songs for video_id: bmpfE1MOt-s, artists: Puneeth Rajkumar
+2024-12-18 18:35:08,160 - INFO - Search query for emotion 'sad': Yenagali Munde Saagu Nee
+2024-12-18 18:35:08,161 - INFO - Searching for song: Yenagali Munde Saagu Nee
+2024-12-18 18:35:08,571 - INFO - Fetching related songs for video_id: 2EWVlyg6rDM, artists: Sonu Nigam
+2024-12-18 18:35:57,097 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:35:57,097 - INFO - Searching for song: lover diljit
+2024-12-18 18:35:57,684 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:36:03,391 - INFO - Search query for emotion 'neutral': Neele Neele Ambar Par Male Version
+2024-12-18 18:36:03,645 - INFO - Searching for song: Neele Neele Ambar Par Male Version
+2024-12-18 18:36:04,531 - INFO - Fetching related songs for video_id: 9Eg4d56rt-U, artists: Kishore Kumar
+2024-12-18 18:36:12,521 - INFO - Search query for emotion 'happy': Chuttamalle
+2024-12-18 18:36:12,522 - INFO - Searching for song: Chuttamalle
+2024-12-18 18:36:13,026 - INFO - Fetching related songs for video_id: nZiJTYiujUs, artists: Shilpa Rao
+2024-12-18 18:36:20,321 - INFO - Search query for emotion 'neutral': Baani Gondu Elle
+2024-12-18 18:36:20,322 - INFO - Searching for song: Baani Gondu Elle
+2024-12-18 18:36:21,287 - INFO - Fetching related songs for video_id: n1ExC_H7byM, artists: Dr. Rajkumar
+2024-12-18 18:36:43,879 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:36:43,879 - INFO - Searching for song: lover diljit
+2024-12-18 18:36:44,457 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:36:49,568 - INFO - Search query for emotion 'neutral': Let me down slowly
+2024-12-18 18:36:49,613 - INFO - Searching for song: Let me down slowly
+2024-12-18 18:36:50,580 - INFO - Fetching related songs for video_id: Kcj5-jWxgKs, artists: Alec Benjamin
+2024-12-18 18:36:56,768 - INFO - Search query for emotion 'neutral': Nee Sannihake Bandre
+2024-12-18 18:36:56,769 - INFO - Searching for song: Nee Sannihake Bandre
+2024-12-18 18:36:57,293 - INFO - Fetching related songs for video_id: riUO-l-aBAQ, artists: Sonu Nigam
+2024-12-18 18:37:06,041 - INFO - Search query for emotion 'happy': Aasa Kooda
+2024-12-18 18:37:06,042 - INFO - Searching for song: Aasa Kooda
+2024-12-18 18:37:06,575 - INFO - Fetching related songs for video_id: rVqcPUQ2YXI, artists: Sai Abhyankkar, Sai Smriti
+2024-12-18 18:37:43,285 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:37:43,285 - INFO - Searching for song: lover diljit
+2024-12-18 18:37:43,912 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:41:21,622 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:41:21,629 - INFO - Searching for song: lover diljit
+2024-12-18 18:41:22,273 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:41:33,918 - INFO - Search query for emotion 'neutral': Ninna Gungalli
+2024-12-18 18:41:33,919 - INFO - Searching for song: Ninna Gungalli
+2024-12-18 18:41:34,393 - INFO - Fetching related songs for video_id: KhC4CQ32Ew8, artists: Adhvik
+2024-12-18 18:42:19,543 - INFO - Search query for emotion 'sad': Yenagali Munde Saagu Nee
+2024-12-18 18:42:19,543 - INFO - Searching for song: Yenagali Munde Saagu Nee
+2024-12-18 18:42:19,990 - INFO - Fetching related songs for video_id: 2EWVlyg6rDM, artists: Sonu Nigam
+2024-12-18 18:42:28,571 - INFO - Search query for emotion 'sad': Olithu Maadu Manusa-C Ashwath
+2024-12-18 18:42:28,572 - INFO - Searching for song: Olithu Maadu Manusa-C Ashwath
+2024-12-18 18:42:29,512 - INFO - Fetching related songs for video_id: dtmr-rDIR6s, artists: Lahari Bhavageethegalu & Folk - T-Series
+2024-12-18 18:42:37,619 - INFO - Search query for emotion 'sad': Badri Ki Dulhania
+2024-12-18 18:42:37,620 - INFO - Searching for song: Badri Ki Dulhania
+2024-12-18 18:42:38,198 - INFO - Fetching related songs for video_id: 7gZnT8r60A4, artists: Dev Negi, Neha Kakkar, Monali Thakur, Ikka
+2024-12-18 18:43:43,061 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:43:43,061 - INFO - Searching for song: lover diljit
+2024-12-18 18:43:43,622 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:44:01,697 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:44:01,697 - INFO - Searching for song: lover diljit
+2024-12-18 18:44:02,131 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:44:29,236 - INFO - Search query for emotion 'sad': Why This Kolaveri Di
+2024-12-18 18:44:29,236 - INFO - Searching for song: Why This Kolaveri Di
+2024-12-18 18:44:29,762 - INFO - Fetching related songs for video_id: geIAO3PrE2g, artists: Anirudh Ravichander, Dhanush
+2024-12-18 18:44:37,603 - INFO - Search query for emotion 'sad': Happy-allok
+2024-12-18 18:44:37,604 - INFO - Searching for song: Happy-allok
+2024-12-18 18:44:39,087 - INFO - Fetching related songs for video_id: mSjOwLgNrSY, artists: All Ok
+2024-12-18 18:44:45,626 - INFO - Search query for emotion 'sad': Kaun Tujhe
+2024-12-18 18:44:45,765 - INFO - Searching for song: Kaun Tujhe
+2024-12-18 18:44:46,345 - INFO - Fetching related songs for video_id: ZVyA_8rd1Ko, artists: PALAK MUCHHAL, AMAAL MALLIK
+2024-12-18 18:44:53,070 - INFO - Search query for emotion 'surprised': Starboy
+2024-12-18 18:44:53,071 - INFO - Searching for song: Starboy
+2024-12-18 18:44:53,673 - INFO - Fetching related songs for video_id: 3_g2un5M350, artists: The Weeknd
+2024-12-18 18:45:03,939 - INFO - Search query for emotion 'sad': Preethisuve
+2024-12-18 18:45:03,939 - INFO - Searching for song: Preethisuve
+2024-12-18 18:45:04,567 - INFO - Fetching related songs for video_id: sU4Dx7KERIw, artists: Sonu Nigam, Prithwi Bhat
+2024-12-18 18:45:17,890 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:45:17,890 - INFO - Searching for song: lover diljit
+2024-12-18 18:45:18,416 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:45:27,340 - INFO - Search query for emotion 'angry': Krishna Flute
+2024-12-18 18:45:27,341 - INFO - Searching for song: Krishna Flute
+2024-12-18 18:45:28,230 - INFO - Fetching related songs for video_id: 91iGTV2HNbY, artists: Supernatural Brainwave Power
+2024-12-18 18:47:34,946 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:47:34,946 - INFO - Searching for song: lover diljit
+2024-12-18 18:47:35,613 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:49:50,440 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:49:50,440 - INFO - Searching for song: lover diljit
+2024-12-18 18:49:51,104 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:50:00,719 - INFO - Search query for emotion 'happy': heat waves-glass animals
+2024-12-18 18:50:00,720 - INFO - Searching for song: heat waves-glass animals
+2024-12-18 18:50:01,361 - INFO - Fetching related songs for video_id: XDjB9E3YtUE, artists: Glass Animals
+2024-12-18 18:50:09,734 - INFO - Search query for emotion 'neutral': Zara Zara - lofi
+2024-12-18 18:50:09,735 - INFO - Searching for song: Zara Zara - lofi
+2024-12-18 18:50:10,455 - INFO - Fetching related songs for video_id: DtzBWzgvDWk, artists: Bombay Jayashri
+2024-12-18 18:51:27,604 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:51:27,604 - INFO - Searching for song: lover diljit
+2024-12-18 18:51:28,287 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:51:34,802 - INFO - Search query for emotion 'happy': Illuminati - From Aavesham
+2024-12-18 18:51:34,948 - INFO - Searching for song: Illuminati - From Aavesham
+2024-12-18 18:51:35,747 - INFO - Fetching related songs for video_id: S1jo8K4kDJc, artists: Sushin Shyam, Dabzee, Vinayak Sasikumar
+2024-12-18 18:51:42,856 - INFO - Search query for emotion 'neutral': Hallu jenu
+2024-12-18 18:51:42,857 - INFO - Searching for song: Hallu jenu
+2024-12-18 18:51:43,444 - INFO - Fetching related songs for video_id: ecRhNLEyA5Y, artists: Dr. Rajkumar
+2024-12-18 18:51:57,490 - INFO - Search query for emotion 'sad': Tum Hi Ho
+2024-12-18 18:51:57,491 - INFO - Searching for song: Tum Hi Ho
+2024-12-18 18:51:58,295 - INFO - Fetching related songs for video_id: fsiPzT50ZiM, artists: Arijit Singh
+2024-12-18 18:52:06,389 - INFO - Search query for emotion 'neutral': Pal Pal Dil Ke Paas (From Blackmail)
+2024-12-18 18:52:06,390 - INFO - Searching for song: Pal Pal Dil Ke Paas (From Blackmail)
+2024-12-18 18:52:06,937 - INFO - Fetching related songs for video_id: V0TejHIZLV8, artists: Kishore Kumar
+2024-12-18 18:52:18,361 - INFO - Search query for emotion 'angry': Agam Agarwal Shree Hari Stotram
+2024-12-18 18:52:18,362 - INFO - Searching for song: Agam Agarwal Shree Hari Stotram
+2024-12-18 18:52:18,838 - INFO - Fetching related songs for video_id: PTaPA-odTpM, artists: Agam Aggarwal
+2024-12-18 18:52:31,818 - INFO - Search query for emotion 'surprised': Muqabla original
+2024-12-18 18:52:31,819 - INFO - Searching for song: Muqabla original
+2024-12-18 18:52:32,299 - INFO - Fetching related songs for video_id: 1IuQaLxgVB0, artists: Mano, Swarnalatha
+2024-12-18 18:52:40,011 - INFO - Search query for emotion 'happy': India Waale
+2024-12-18 18:52:40,011 - INFO - Searching for song: India Waale
+2024-12-18 18:52:40,551 - INFO - Fetching related songs for video_id: XHpXUyxyOjo, artists: NEETI MOHAN, VISHAL DADLANI, K.K., SHANKAR MAHADEVAN, VISHAL-SHEKHAR, and IRSHAD KAMIL
+2024-12-18 18:53:04,994 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:53:04,994 - INFO - Searching for song: lover diljit
+2024-12-18 18:53:05,581 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:53:11,666 - INFO - Search query for emotion 'neutral': Sanjit Hegde Nee Nanage Allava
+2024-12-18 18:53:11,667 - INFO - Searching for song: Sanjit Hegde Nee Nanage Allava
+2024-12-18 18:53:12,166 - INFO - Fetching related songs for video_id: XhVvOcIOo5Q, artists: Sanjith Hegde
+2024-12-18 18:53:28,364 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:53:28,364 - INFO - Searching for song: lover diljit
+2024-12-18 18:53:28,981 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:53:35,394 - INFO - Search query for emotion 'neutral': Mayavi
+2024-12-18 18:53:35,518 - INFO - Searching for song: Mayavi
+2024-12-18 18:53:36,313 - INFO - Fetching related songs for video_id: EW8oNyuGg3g, artists: Sonu Nigam, Sanjith Hegde, Nagarjun Sharma
+2024-12-18 18:53:43,160 - INFO - Search query for emotion 'neutral': Ninna Ninna Snehake
+2024-12-18 18:53:43,620 - INFO - Searching for song: Ninna Ninna Snehake
+2024-12-18 18:53:44,160 - INFO - Fetching related songs for video_id: zJketpdFjm8, artists: Rajkumar, P. Susheela
+2024-12-18 18:54:04,215 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:54:04,215 - INFO - Searching for song: lover diljit
+2024-12-18 18:54:04,692 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:54:08,901 - INFO - Search query for emotion 'neutral': Neele Neele Ambar Par Male Version
+2024-12-18 18:54:09,803 - INFO - Searching for song: Neele Neele Ambar Par Male Version
+2024-12-18 18:54:11,994 - INFO - Fetching related songs for video_id: 9Eg4d56rt-U, artists: Kishore Kumar
+2024-12-18 18:54:20,181 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:54:20,181 - INFO - Searching for song: lover diljit
+2024-12-18 18:54:20,649 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:54:26,320 - INFO - Search query for emotion 'neutral': Baani Gondu Elle
+2024-12-18 18:54:26,455 - INFO - Searching for song: Baani Gondu Elle
+2024-12-18 18:54:27,153 - INFO - Fetching related songs for video_id: n1ExC_H7byM, artists: Dr. Rajkumar
+2024-12-18 18:54:50,655 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:54:50,655 - INFO - Searching for song: lover diljit
+2024-12-18 18:54:51,073 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:55:08,290 - INFO - Search query for emotion 'sad': Agar Tum Saath Ho
+2024-12-18 18:55:08,291 - INFO - Searching for song: Agar Tum Saath Ho
+2024-12-18 18:55:08,707 - INFO - Fetching related songs for video_id: FOA9iyxsW_A, artists: Arijit Singh, Alka Yagnik
+2024-12-18 18:55:17,669 - INFO - Search query for emotion 'sad': Roja Jaaneman
+2024-12-18 18:55:17,670 - INFO - Searching for song: Roja Jaaneman
+2024-12-18 18:55:18,657 - INFO - Fetching related songs for video_id: qyoN4OAfKF4, artists: A.R. Rahman, S.P. Balasubrahmanyam, K.S. Chithra
+2024-12-18 18:55:28,188 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 18:55:28,188 - INFO - Searching for song: lover diljit
+2024-12-18 18:55:28,836 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 18:55:34,552 - INFO - Search query for emotion 'neutral': Munjaane Manjali
+2024-12-18 18:55:35,432 - INFO - Searching for song: Munjaane Manjali
+2024-12-18 18:55:36,349 - INFO - Fetching related songs for video_id: wH3baKreC5A, artists: Raghu Dixit
+2024-12-18 18:55:56,799 - INFO - Search query for emotion 'sad': Idhu Yaaru Bareda Katheya
+2024-12-18 18:55:56,800 - INFO - Searching for song: Idhu Yaaru Bareda Katheya
+2024-12-18 18:55:57,209 - INFO - Fetching related songs for video_id: 7RFcxh6GQ4o, artists: Dr Rajkumar
+2024-12-18 18:56:13,994 - INFO - Search query for emotion 'sad': Kadalanu
+2024-12-18 18:56:13,995 - INFO - Searching for song: Kadalanu
+2024-12-18 18:56:14,971 - INFO - Fetching related songs for video_id: 2G1H5tiyYNA, artists: Charanraj MR, Nagarjun Sharma, Srilakshmi Belmannu
+2024-12-18 18:56:33,345 - INFO - Search query for emotion 'sad': Tujh Mein Rab Dikhta Hai
+2024-12-18 18:56:33,346 - INFO - Searching for song: Tujh Mein Rab Dikhta Hai
+2024-12-18 18:56:33,886 - INFO - Fetching related songs for video_id: 3E1NLVzDZ_Y, artists: Roop Kumar Rathod
+2024-12-18 18:56:46,073 - INFO - Search query for emotion 'surprised': Stree2- Aaj Ki Raat
+2024-12-18 18:56:46,074 - INFO - Searching for song: Stree2- Aaj Ki Raat
+2024-12-18 18:56:46,764 - INFO - Fetching related songs for video_id: XtZTpxnrHAc, artists: Sachin-Jigar, Amitabh Bhattacharya, Divya Kumar, Madhubanti Bagchi
+2024-12-18 18:56:53,629 - INFO - Search query for emotion 'surprised': Gangnam Style
+2024-12-18 18:56:53,630 - INFO - Searching for song: Gangnam Style
+2024-12-18 18:56:54,458 - INFO - Fetching related songs for video_id: 4AgDYTuZWOw, artists: PSY
+2024-12-18 18:57:32,648 - INFO - Search query for emotion 'angry': Ram Siya Ram
+2024-12-18 18:57:32,649 - INFO - Searching for song: Ram Siya Ram
+2024-12-18 18:57:33,260 - INFO - Fetching related songs for video_id: j_c4S1n710A, artists: Sachet Tandon, Parampara Tandon, Ajay - Atul
+2024-12-18 18:57:41,553 - INFO - Search query for emotion 'angry': Krish Ashok-Nilavinte Neelabhasma
+2024-12-18 18:57:41,554 - INFO - Searching for song: Krish Ashok-Nilavinte Neelabhasma
+2024-12-18 18:57:41,997 - INFO - Fetching related songs for video_id: IdpDecvW89E, artists: Krish Ashok
+2024-12-18 18:57:50,842 - INFO - Fetching related songs for video_id: mXDsuuVs4nM, artists: Sangeeth Vijayan ..
+2024-12-18 18:58:10,137 - INFO - Search query for emotion 'surprised': Darshana-From Hridayam
+2024-12-18 18:58:10,140 - INFO - Searching for song: Darshana-From Hridayam
+2024-12-18 18:58:10,761 - INFO - Fetching related songs for video_id: NjQWctpXU-g, artists: Hesham Abdul Wahab, Darshana Rajendran, Arun Alat
+2024-12-18 18:59:21,867 - INFO - Search query for emotion 'sad': Kanave Unai
+2024-12-18 18:59:21,867 - INFO - Searching for song: Kanave Unai
+2024-12-18 18:59:22,386 - INFO - Fetching related songs for video_id: lyYrvaXMRHs, artists: Hanan Shaah
+2024-12-18 19:03:45,713 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:03:45,713 - INFO - Searching for song: lover diljit
+2024-12-18 19:03:46,677 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:03:54,573 - INFO - Search query for emotion 'sad': Nee Thoreda Ghaligeyali
+2024-12-18 19:03:54,574 - INFO - Searching for song: Nee Thoreda Ghaligeyali
+2024-12-18 19:03:55,366 - INFO - Fetching related songs for video_id: wRFjo-gSgZc, artists: Ananya Bhat
+2024-12-18 19:04:03,174 - INFO - Search query for emotion 'sad': Mosa Madalendu Neenu
+2024-12-18 19:04:03,174 - INFO - Searching for song: Mosa Madalendu Neenu
+2024-12-18 19:04:03,701 - INFO - Fetching related songs for video_id: GJMx79jtxa4, artists: Kailash Kher
+2024-12-18 19:04:39,011 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:04:39,011 - INFO - Searching for song: lover diljit
+2024-12-18 19:04:39,558 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:04:54,462 - INFO - Search query for emotion 'sad': Yenagali Munde Saagu Nee
+2024-12-18 19:04:54,463 - INFO - Searching for song: Yenagali Munde Saagu Nee
+2024-12-18 19:04:54,951 - INFO - Fetching related songs for video_id: 2EWVlyg6rDM, artists: Sonu Nigam
+2024-12-18 19:05:11,252 - INFO - Search query for emotion 'sad': Olithu Maadu Manusa-C Ashwath
+2024-12-18 19:05:11,252 - INFO - Searching for song: Olithu Maadu Manusa-C Ashwath
+2024-12-18 19:05:12,369 - INFO - Fetching related songs for video_id: dtmr-rDIR6s, artists: Lahari Bhavageethegalu & Folk - T-Series
+2024-12-18 19:05:30,474 - INFO - Search query for emotion 'sad': Badri Ki Dulhania
+2024-12-18 19:05:30,475 - INFO - Searching for song: Badri Ki Dulhania
+2024-12-18 19:05:31,151 - INFO - Fetching related songs for video_id: 7gZnT8r60A4, artists: Dev Negi, Neha Kakkar, Monali Thakur, Ikka
+2024-12-18 19:05:40,588 - INFO - Search query for emotion 'sad': Why This Kolaveri Di
+2024-12-18 19:05:40,589 - INFO - Searching for song: Why This Kolaveri Di
+2024-12-18 19:05:41,143 - INFO - Fetching related songs for video_id: geIAO3PrE2g, artists: Anirudh Ravichander, Dhanush
+2024-12-18 19:05:50,969 - INFO - Search query for emotion 'sad': Happy-allok
+2024-12-18 19:05:50,970 - INFO - Searching for song: Happy-allok
+2024-12-18 19:05:51,457 - INFO - Fetching related songs for video_id: mSjOwLgNrSY, artists: All Ok
+2024-12-18 19:06:00,012 - INFO - Search query for emotion 'sad': Kaun Tujhe
+2024-12-18 19:06:00,013 - INFO - Searching for song: Kaun Tujhe
+2024-12-18 19:06:00,625 - INFO - Fetching related songs for video_id: ZVyA_8rd1Ko, artists: PALAK MUCHHAL, AMAAL MALLIK
+2024-12-18 19:06:08,029 - INFO - Search query for emotion 'neutral': Let me down slowly
+2024-12-18 19:06:08,029 - INFO - Searching for song: Let me down slowly
+2024-12-18 19:06:08,695 - INFO - Fetching related songs for video_id: Kcj5-jWxgKs, artists: Alec Benjamin
+2024-12-18 19:06:16,273 - INFO - Search query for emotion 'happy': Dwapara- Krishnam Pranaya
+2024-12-18 19:06:16,309 - INFO - Searching for song: Dwapara- Krishnam Pranaya
+2024-12-18 19:06:16,799 - INFO - Fetching related songs for video_id: C93Tcb9wJRE, artists: Jaskaran Singh
+2024-12-18 19:06:25,447 - INFO - Search query for emotion 'surprised': Dangerous-Michael Jackson
+2024-12-18 19:06:25,447 - INFO - Searching for song: Dangerous-Michael Jackson
+2024-12-18 19:06:25,955 - INFO - Fetching related songs for video_id: anLXXtlgOTg, artists: Michael Jackson
+2024-12-18 19:06:35,936 - INFO - Search query for emotion 'angry': Krishna Krish Flute
+2024-12-18 19:06:35,937 - INFO - Searching for song: Krishna Krish Flute
+2024-12-18 19:06:36,541 - INFO - Fetching related songs for video_id: ckgypVmrvrw, artists: Lakhinandan Lahon
+2024-12-18 19:06:43,360 - INFO - Search query for emotion 'angry': Two Thousand and Seventeen
+2024-12-18 19:06:43,360 - INFO - Searching for song: Two Thousand and Seventeen
+2024-12-18 19:06:43,886 - INFO - Fetching related songs for video_id: ZNuaLyPMc48, artists: Four Tet
+2024-12-18 19:06:51,101 - INFO - Search query for emotion 'sad': Preethisuve
+2024-12-18 19:06:51,101 - INFO - Searching for song: Preethisuve
+2024-12-18 19:06:51,564 - INFO - Fetching related songs for video_id: sU4Dx7KERIw, artists: Sonu Nigam, Prithwi Bhat
+2024-12-18 19:07:22,902 - INFO - Search query for emotion 'sad': Tum Hi Ho
+2024-12-18 19:07:22,903 - INFO - Searching for song: Tum Hi Ho
+2024-12-18 19:07:23,864 - INFO - Fetching related songs for video_id: fsiPzT50ZiM, artists: Arijit Singh
+2024-12-18 19:07:32,598 - INFO - Search query for emotion 'happy': Arabic Kuthu - Halamithi Habibo
+2024-12-18 19:07:32,599 - INFO - Searching for song: Arabic Kuthu - Halamithi Habibo
+2024-12-18 19:07:33,176 - INFO - Fetching related songs for video_id: 9nRvqemGydw, artists: Anirudh Ravichander, Jonita Gandhi
+2024-12-18 19:07:41,101 - INFO - Search query for emotion 'sad': Agar Tum Saath Ho
+2024-12-18 19:07:41,101 - INFO - Searching for song: Agar Tum Saath Ho
+2024-12-18 19:07:41,636 - INFO - Fetching related songs for video_id: FOA9iyxsW_A, artists: Arijit Singh, Alka Yagnik
+2024-12-18 19:07:51,110 - INFO - Search query for emotion 'angry': GGVV Sojugada Soojumallige
+2024-12-18 19:07:51,110 - INFO - Searching for song: GGVV Sojugada Soojumallige
+2024-12-18 19:07:51,602 - INFO - Fetching related songs for video_id: 1Kuf-uaAhIU, artists: Midhun Mukundan, Chaithra J Achar
+2024-12-18 19:07:58,849 - INFO - Search query for emotion 'angry': Raga Bagesri
+2024-12-18 19:07:58,849 - INFO - Searching for song: Raga Bagesri
+2024-12-18 19:07:59,533 - INFO - Fetching related songs for video_id: 8l9QzLxpbzs, artists: Pandit Hariprasad Chaurasia
+2024-12-18 19:08:08,971 - INFO - Search query for emotion 'sad': Roja Jaaneman
+2024-12-18 19:08:08,971 - INFO - Searching for song: Roja Jaaneman
+2024-12-18 19:08:09,433 - INFO - Fetching related songs for video_id: qyoN4OAfKF4, artists: A.R. Rahman, S.P. Balasubrahmanyam, K.S. Chithra
+2024-12-18 19:08:18,039 - INFO - Search query for emotion 'sad': Idhu Yaaru Bareda Katheya
+2024-12-18 19:08:18,040 - INFO - Searching for song: Idhu Yaaru Bareda Katheya
+2024-12-18 19:08:18,480 - INFO - Fetching related songs for video_id: 7RFcxh6GQ4o, artists: Dr Rajkumar
+2024-12-18 19:08:37,313 - INFO - Search query for emotion 'sad': Kadalanu
+2024-12-18 19:08:37,313 - INFO - Searching for song: Kadalanu
+2024-12-18 19:08:37,790 - INFO - Fetching related songs for video_id: 2G1H5tiyYNA, artists: Charanraj MR, Nagarjun Sharma, Srilakshmi Belmannu
+2024-12-18 19:08:49,790 - INFO - Search query for emotion 'sad': Tujh Mein Rab Dikhta Hai
+2024-12-18 19:08:49,791 - INFO - Searching for song: Tujh Mein Rab Dikhta Hai
+2024-12-18 19:08:50,245 - INFO - Fetching related songs for video_id: 3E1NLVzDZ_Y, artists: Roop Kumar Rathod
+2024-12-18 19:08:58,265 - INFO - Search query for emotion 'sad': Kanave Unai
+2024-12-18 19:08:58,265 - INFO - Searching for song: Kanave Unai
+2024-12-18 19:08:58,768 - INFO - Fetching related songs for video_id: lyYrvaXMRHs, artists: Hanan Shaah
+2024-12-18 19:09:07,825 - INFO - Search query for emotion 'sad': Nee Thoreda Ghaligeyali
+2024-12-18 19:09:07,826 - INFO - Searching for song: Nee Thoreda Ghaligeyali
+2024-12-18 19:09:08,361 - INFO - Fetching related songs for video_id: wRFjo-gSgZc, artists: Ananya Bhat
+2024-12-18 19:09:21,264 - INFO - Search query for emotion 'sad': Mosa Madalendu Neenu
+2024-12-18 19:09:21,264 - INFO - Searching for song: Mosa Madalendu Neenu
+2024-12-18 19:09:24,590 - INFO - Fetching related songs for video_id: GJMx79jtxa4, artists: Kailash Kher
+2024-12-18 19:09:29,663 - INFO - Search query for emotion 'happy': Chaleya
+2024-12-18 19:09:29,663 - INFO - Searching for song: Chaleya
+2024-12-18 19:09:30,063 - INFO - Fetching related songs for video_id: V_jp5_VAzXk, artists: Arijit Singh, Shilpa Rao
+2024-12-18 19:10:00,519 - INFO - Search query for emotion 'sad': Yenagali Munde Saagu Nee
+2024-12-18 19:10:00,519 - INFO - Searching for song: Yenagali Munde Saagu Nee
+2024-12-18 19:10:01,381 - INFO - Fetching related songs for video_id: 2EWVlyg6rDM, artists: Sonu Nigam
+2024-12-18 19:10:09,306 - INFO - Search query for emotion 'sad': Olithu Maadu Manusa-C Ashwath
+2024-12-18 19:10:09,306 - INFO - Searching for song: Olithu Maadu Manusa-C Ashwath
+2024-12-18 19:10:10,222 - INFO - Fetching related songs for video_id: dtmr-rDIR6s, artists: Lahari Bhavageethegalu & Folk - T-Series
+2024-12-18 19:10:17,625 - INFO - Search query for emotion 'angry': Shiva Tandava stotram
+2024-12-18 19:10:17,625 - INFO - Searching for song: Shiva Tandava stotram
+2024-12-18 19:10:18,258 - INFO - Fetching related songs for video_id: pj2CpCtJPz0, artists: Uma Mohan
+2024-12-18 19:10:25,393 - INFO - Search query for emotion 'angry': Kaathalae Kaathalae
+2024-12-18 19:10:25,395 - INFO - Searching for song: Kaathalae Kaathalae
+2024-12-18 19:10:26,002 - INFO - Fetching related songs for video_id: vukt6c__-mw, artists: Govind Vasantha, Chinmayi
+2024-12-18 19:10:33,628 - INFO - Search query for emotion 'sad': Badri Ki Dulhania
+2024-12-18 19:10:33,628 - INFO - Searching for song: Badri Ki Dulhania
+2024-12-18 19:10:34,227 - INFO - Fetching related songs for video_id: 7gZnT8r60A4, artists: Dev Negi, Neha Kakkar, Monali Thakur, Ikka
+2024-12-18 19:13:47,631 - INFO - Search query for emotion 'sad': Why This Kolaveri Di
+2024-12-18 19:13:47,635 - INFO - Searching for song: Why This Kolaveri Di
+2024-12-18 19:13:49,344 - INFO - Fetching related songs for video_id: geIAO3PrE2g, artists: Anirudh Ravichander, Dhanush
+2024-12-18 19:13:58,529 - INFO - Search query for emotion 'neutral': Nee Sannihake Bandre
+2024-12-18 19:13:58,529 - INFO - Searching for song: Nee Sannihake Bandre
+2024-12-18 19:13:59,226 - INFO - Fetching related songs for video_id: riUO-l-aBAQ, artists: Sonu Nigam
+2024-12-18 19:28:56,169 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:28:56,169 - INFO - Searching for song: lover diljit
+2024-12-18 19:28:57,148 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:29:56,364 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:29:56,364 - INFO - Searching for song: lover diljit
+2024-12-18 19:29:56,872 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:30:16,560 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:30:16,560 - INFO - Searching for song: lover diljit
+2024-12-18 19:30:17,014 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:31:41,543 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:31:41,543 - INFO - Searching for song: lover diljit
+2024-12-18 19:31:42,121 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:32:09,156 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:32:09,156 - INFO - Searching for song: lover diljit
+2024-12-18 19:32:09,657 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:32:27,162 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:32:27,162 - INFO - Searching for song: lover diljit
+2024-12-18 19:32:27,723 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:32:51,178 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:32:51,183 - INFO - Searching for song: lover diljit
+2024-12-18 19:32:52,013 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:33:12,787 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:33:12,787 - INFO - Searching for song: lover diljit
+2024-12-18 19:33:13,435 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:33:26,817 - INFO - Search query for emotion 'neutral': samajavaragamana
+2024-12-18 19:33:26,817 - INFO - Searching for song: samajavaragamana
+2024-12-18 19:33:27,223 - INFO - Fetching related songs for video_id: peLhDdjKUWU, artists: Sid Sriram
+2024-12-18 19:33:40,882 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:33:40,882 - INFO - Searching for song: lover diljit
+2024-12-18 19:33:41,415 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:33:56,792 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:33:56,793 - INFO - Searching for song: lover diljit
+2024-12-18 19:33:57,279 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:34:07,742 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:34:07,742 - INFO - Searching for song: lover diljit
+2024-12-18 19:34:08,208 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:35:32,033 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:35:32,034 - INFO - Searching for song: lover diljit
+2024-12-18 19:35:32,571 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:35:41,216 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:35:41,223 - INFO - Searching for song: lover diljit
+2024-12-18 19:35:41,733 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:35:47,311 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:35:47,311 - INFO - Searching for song: lover diljit
+2024-12-18 19:35:47,807 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:36:00,004 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:36:00,015 - INFO - Searching for song: lover diljit
+2024-12-18 19:36:00,442 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:36:13,954 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:36:13,954 - INFO - Searching for song: lover diljit
+2024-12-18 19:36:14,477 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:36:19,217 - INFO - Fetching lyrics for video_id: KLBtgOzNAgI
+2024-12-18 19:36:26,747 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:36:26,747 - INFO - Searching for song: lover diljit
+2024-12-18 19:36:27,283 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:37:41,700 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:37:41,700 - INFO - Searching for song: lover diljit
+2024-12-18 19:37:42,205 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:37:53,571 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:37:53,571 - INFO - Searching for song: lover diljit
+2024-12-18 19:37:54,036 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:38:05,579 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:38:05,579 - INFO - Searching for song: lover diljit
+2024-12-18 19:38:06,056 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:38:14,855 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:38:14,857 - INFO - Searching for song: lover diljit
+2024-12-18 19:38:15,419 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:38:30,407 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:38:30,407 - INFO - Searching for song: lover diljit
+2024-12-18 19:38:30,907 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:42:44,474 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:42:44,474 - INFO - Searching for song: lover diljit
+2024-12-18 19:42:45,207 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:43:24,553 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:43:24,553 - INFO - Searching for song: lover diljit
+2024-12-18 19:43:25,006 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:43:53,345 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:43:53,345 - INFO - Searching for song: lover diljit
+2024-12-18 19:43:53,850 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:44:13,679 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:44:13,680 - INFO - Searching for song: lover diljit
+2024-12-18 19:44:14,147 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:44:31,795 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:44:31,795 - INFO - Searching for song: lover diljit
+2024-12-18 19:44:32,367 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:45:19,689 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:45:19,689 - INFO - Searching for song: lover diljit
+2024-12-18 19:45:20,151 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:45:54,784 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:45:54,784 - INFO - Searching for song: lover diljit
+2024-12-18 19:45:55,267 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:50:45,854 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:50:45,854 - INFO - Searching for song: lover diljit
+2024-12-18 19:50:46,495 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 19:59:25,871 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 19:59:25,871 - INFO - Searching for song: lover diljit
+2024-12-18 19:59:26,727 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:06:59,762 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:06:59,763 - INFO - Searching for song: lover diljit
+2024-12-18 20:07:00,738 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:07:18,799 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:07:18,802 - INFO - Searching for song: lover diljit
+2024-12-18 20:07:19,368 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:07:32,475 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:07:32,475 - INFO - Searching for song: lover diljit
+2024-12-18 20:07:32,932 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:07:41,568 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:07:41,568 - INFO - Searching for song: lover diljit
+2024-12-18 20:07:41,970 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:07:57,558 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:07:57,558 - INFO - Searching for song: lover diljit
+2024-12-18 20:07:57,975 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:08:09,028 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:08:09,028 - INFO - Searching for song: lover diljit
+2024-12-18 20:08:09,488 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:08:24,289 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:08:24,289 - INFO - Searching for song: lover diljit
+2024-12-18 20:08:24,686 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:11:08,568 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:11:08,568 - INFO - Searching for song: lover diljit
+2024-12-18 20:11:09,010 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:11:59,782 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:11:59,782 - INFO - Searching for song: lover diljit
+2024-12-18 20:12:00,257 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:12:50,342 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:12:50,342 - INFO - Searching for song: lover diljit
+2024-12-18 20:12:50,954 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:13:17,276 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:13:17,276 - INFO - Searching for song: lover diljit
+2024-12-18 20:13:17,749 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:13:37,998 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:13:37,998 - INFO - Searching for song: lover diljit
+2024-12-18 20:13:38,598 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:30:56,869 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:30:56,869 - INFO - Searching for song: lover diljit
+2024-12-18 20:30:57,630 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:32:14,891 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:32:14,891 - INFO - Searching for song: lover diljit
+2024-12-18 20:32:15,403 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:33:46,485 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:33:46,485 - INFO - Searching for song: lover diljit
+2024-12-18 20:33:47,110 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:34:34,698 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:34:34,700 - INFO - Searching for song: lover diljit
+2024-12-18 20:34:35,119 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:35:24,796 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:35:24,796 - INFO - Searching for song: lover diljit
+2024-12-18 20:35:25,283 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:35:52,509 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:35:52,509 - INFO - Searching for song: lover diljit
+2024-12-18 20:35:53,104 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:36:06,898 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:36:06,899 - INFO - Searching for song: lover diljit
+2024-12-18 20:36:07,287 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:36:14,340 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:36:14,341 - INFO - Searching for song: lover diljit
+2024-12-18 20:36:14,856 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:36:22,364 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:36:22,364 - INFO - Searching for song: lover diljit
+2024-12-18 20:36:22,955 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:36:38,458 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:36:38,458 - INFO - Searching for song: lover diljit
+2024-12-18 20:36:39,004 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:37:13,857 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:37:13,857 - INFO - Searching for song: lover diljit
+2024-12-18 20:37:14,267 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:37:28,937 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:37:28,937 - INFO - Searching for song: lover diljit
+2024-12-18 20:37:29,372 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:38:03,796 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:38:03,796 - INFO - Searching for song: lover diljit
+2024-12-18 20:38:04,272 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:38:16,222 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:38:16,222 - INFO - Searching for song: lover diljit
+2024-12-18 20:38:16,683 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:38:57,300 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:38:57,300 - INFO - Searching for song: lover diljit
+2024-12-18 20:38:58,165 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:39:06,094 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:39:06,094 - INFO - Searching for song: lover diljit
+2024-12-18 20:39:06,514 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:39:21,363 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:39:21,363 - INFO - Searching for song: lover diljit
+2024-12-18 20:39:21,813 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:40:01,548 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:40:01,548 - INFO - Searching for song: lover diljit
+2024-12-18 20:40:02,502 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:40:04,407 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:40:04,407 - INFO - Searching for song: lover diljit
+2024-12-18 20:40:04,913 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:40:54,310 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:40:54,310 - INFO - Searching for song: lover diljit
+2024-12-18 20:40:54,906 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:40:59,489 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:40:59,490 - INFO - Searching for song: lover diljit
+2024-12-18 20:41:00,082 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:41:44,796 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:41:44,796 - INFO - Searching for song: lover diljit
+2024-12-18 20:41:45,352 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:43:16,060 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:43:16,060 - INFO - Searching for song: lover diljit
+2024-12-18 20:43:16,471 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:43:34,200 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:43:34,200 - INFO - Searching for song: lover diljit
+2024-12-18 20:43:34,645 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:43:41,357 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:43:41,357 - INFO - Searching for song: lover diljit
+2024-12-18 20:43:41,878 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:43:51,699 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:43:51,699 - INFO - Searching for song: lover diljit
+2024-12-18 20:43:52,110 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:43:58,748 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:43:58,749 - INFO - Searching for song: lover diljit
+2024-12-18 20:43:59,413 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:44:05,810 - INFO - Search query for emotion 'neutral': srivali
+2024-12-18 20:44:06,091 - INFO - Searching for song: srivali
+2024-12-18 20:44:06,614 - INFO - Fetching related songs for video_id: iks48tNYy6o, artists: Javed Ali
+2024-12-18 20:44:12,845 - INFO - Search query for emotion 'neutral': Minchagi Neenu
+2024-12-18 20:44:12,857 - INFO - Searching for song: Minchagi Neenu
+2024-12-18 20:44:13,436 - INFO - Fetching related songs for video_id: BtxBKKFznMU, artists: Sonu Nigam
+2024-12-18 20:44:56,240 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:44:56,240 - INFO - Searching for song: lover diljit
+2024-12-18 20:44:56,629 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:45:02,689 - INFO - Search query for emotion 'neutral': yeh sham mastani
+2024-12-18 20:45:02,690 - INFO - Searching for song: yeh sham mastani
+2024-12-18 20:45:04,879 - INFO - Fetching related songs for video_id: JNtZj3NaUFw, artists: Kishore Kumar
+2024-12-18 20:45:14,259 - INFO - Search query for emotion 'neutral': Tum itna jo muskura rahe ho arth - live
+2024-12-18 20:45:14,260 - INFO - Searching for song: Tum itna jo muskura rahe ho arth - live
+2024-12-18 20:45:14,914 - INFO - Fetching related songs for video_id: mxjfDct-BD4, artists: Jagjit Singh
+2024-12-18 20:45:21,516 - INFO - Search query for emotion 'happy': guruvara sanje song
+2024-12-18 20:45:21,524 - INFO - Searching for song: guruvara sanje song
+2024-12-18 20:45:22,044 - INFO - Fetching related songs for video_id: bmpfE1MOt-s, artists: Puneeth Rajkumar
+2024-12-18 20:45:29,682 - INFO - Fetching related songs for video_id: mhnuTitlZHs, artists: Charan Raj, Dhana..
+2024-12-18 20:46:07,312 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:46:07,313 - INFO - Searching for song: lover diljit
+2024-12-18 20:46:08,376 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:46:11,221 - INFO - Searching for song: saptha
+2024-12-18 20:46:11,689 - INFO - Fetching related songs for video_id: mhnuTitlZHs, artists: Charan Raj, Dhananjay Ranjan, Kapil Kapilan
+2024-12-18 20:46:59,481 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:46:59,482 - INFO - Searching for song: lover diljit
+2024-12-18 20:47:00,153 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:47:10,842 - INFO - Search query for emotion 'neutral': Ninna Danigaagi
+2024-12-18 20:47:10,842 - INFO - Searching for song: Ninna Danigaagi
+2024-12-18 20:47:11,323 - INFO - Fetching related songs for video_id: we4BQkaAp6M, artists: Karthik, Yazin Nizar, Hamsika Iyer
+2024-12-18 20:47:19,093 - INFO - Search query for emotion 'happy': Chuttamalle
+2024-12-18 20:47:19,095 - INFO - Searching for song: Chuttamalle
+2024-12-18 20:47:19,511 - INFO - Fetching related songs for video_id: nZiJTYiujUs, artists: Shilpa Rao
+2024-12-18 20:47:48,097 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:47:48,097 - INFO - Searching for song: lover diljit
+2024-12-18 20:47:48,586 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:47:54,370 - INFO - Search query for emotion 'happy': Aasa Kooda
+2024-12-18 20:47:55,199 - INFO - Searching for song: Aasa Kooda
+2024-12-18 20:47:55,715 - INFO - Fetching related songs for video_id: rVqcPUQ2YXI, artists: Sai Abhyankkar, Sai Smriti
+2024-12-18 20:48:53,351 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:48:53,351 - INFO - Searching for song: lover diljit
+2024-12-18 20:48:53,798 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:49:39,938 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:49:39,939 - INFO - Searching for song: lover diljit
+2024-12-18 20:49:40,320 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:50:01,388 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:50:01,388 - INFO - Searching for song: lover diljit
+2024-12-18 20:50:01,784 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:50:04,373 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:50:04,374 - INFO - Searching for song: lover diljit
+2024-12-18 20:50:04,775 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:50:53,805 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:50:53,805 - INFO - Searching for song: lover diljit
+2024-12-18 20:50:54,213 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:51:05,745 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:51:05,745 - INFO - Searching for song: lover diljit
+2024-12-18 20:51:06,124 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:51:26,061 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:51:26,061 - INFO - Searching for song: lover diljit
+2024-12-18 20:51:26,485 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:51:34,253 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:51:34,253 - INFO - Searching for song: lover diljit
+2024-12-18 20:51:34,710 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:51:41,299 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:51:41,299 - INFO - Searching for song: lover diljit
+2024-12-18 20:51:41,673 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:52:10,713 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:52:10,713 - INFO - Searching for song: lover diljit
+2024-12-18 20:52:11,185 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:52:37,918 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:52:37,918 - INFO - Searching for song: lover diljit
+2024-12-18 20:52:38,362 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:52:56,333 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:52:56,333 - INFO - Searching for song: lover diljit
+2024-12-18 20:52:56,835 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:53:12,428 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:53:12,428 - INFO - Searching for song: lover diljit
+2024-12-18 20:53:13,072 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:53:23,567 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:53:23,567 - INFO - Searching for song: lover diljit
+2024-12-18 20:53:24,034 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:53:41,929 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:53:41,929 - INFO - Searching for song: lover diljit
+2024-12-18 20:53:42,370 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:53:44,416 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:53:44,416 - INFO - Searching for song: lover diljit
+2024-12-18 20:53:44,848 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:53:55,482 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:53:55,482 - INFO - Searching for song: lover diljit
+2024-12-18 20:53:56,020 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:54:10,458 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:54:10,458 - INFO - Searching for song: lover diljit
+2024-12-18 20:54:10,932 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:54:48,979 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:54:48,980 - INFO - Searching for song: lover diljit
+2024-12-18 20:54:49,427 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:54:51,471 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:54:51,473 - INFO - Searching for song: lover diljit
+2024-12-18 20:54:52,261 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:55:23,421 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:55:23,421 - INFO - Searching for song: lover diljit
+2024-12-18 20:55:24,871 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:55:47,670 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:55:47,670 - INFO - Searching for song: lover diljit
+2024-12-18 20:55:48,146 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:55:50,495 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:55:50,495 - INFO - Searching for song: lover diljit
+2024-12-18 20:55:50,951 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:56:00,430 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:56:00,430 - INFO - Searching for song: lover diljit
+2024-12-18 20:56:01,037 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:56:11,781 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:56:11,781 - INFO - Searching for song: lover diljit
+2024-12-18 20:56:12,245 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:57:10,220 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:57:10,221 - INFO - Searching for song: lover diljit
+2024-12-18 20:57:11,737 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:57:45,679 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:57:45,679 - INFO - Searching for song: lover diljit
+2024-12-18 20:57:46,160 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 20:58:21,802 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 20:58:21,802 - INFO - Searching for song: lover diljit
+2024-12-18 20:58:22,486 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:00:01,554 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:00:01,554 - INFO - Searching for song: lover diljit
+2024-12-18 21:00:02,201 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:00:04,125 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:00:04,126 - INFO - Searching for song: lover diljit
+2024-12-18 21:00:04,593 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:00:54,613 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:00:54,613 - INFO - Searching for song: lover diljit
+2024-12-18 21:00:55,061 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:00:57,303 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:00:57,303 - INFO - Searching for song: lover diljit
+2024-12-18 21:00:57,723 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:01:12,129 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:01:12,129 - INFO - Searching for song: lover diljit
+2024-12-18 21:01:12,528 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:01:34,841 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:01:34,842 - INFO - Searching for song: lover diljit
+2024-12-18 21:01:35,400 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:02:01,719 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:02:01,719 - INFO - Searching for song: lover diljit
+2024-12-18 21:02:02,529 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:02:11,127 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:02:11,127 - INFO - Searching for song: lover diljit
+2024-12-18 21:02:11,590 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:02:38,775 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:02:38,775 - INFO - Searching for song: lover diljit
+2024-12-18 21:02:39,193 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:02:48,656 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:02:48,656 - INFO - Searching for song: lover diljit
+2024-12-18 21:02:49,099 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:03:12,802 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:03:12,802 - INFO - Searching for song: lover diljit
+2024-12-18 21:03:13,310 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:03:43,533 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:03:43,533 - INFO - Searching for song: lover diljit
+2024-12-18 21:03:43,926 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:04:07,054 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:04:07,054 - INFO - Searching for song: lover diljit
+2024-12-18 21:04:07,502 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:04:13,495 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:04:13,495 - INFO - Searching for song: lover diljit
+2024-12-18 21:04:13,972 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:04:22,353 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:04:22,353 - INFO - Searching for song: lover diljit
+2024-12-18 21:04:22,867 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:05:00,109 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:05:00,109 - INFO - Searching for song: lover diljit
+2024-12-18 21:05:00,496 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:05:25,402 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:05:25,402 - INFO - Searching for song: lover diljit
+2024-12-18 21:05:25,947 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:06:13,943 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:06:13,943 - INFO - Searching for song: lover diljit
+2024-12-18 21:06:14,339 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:06:33,290 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:06:33,290 - INFO - Searching for song: lover diljit
+2024-12-18 21:06:33,696 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:06:58,457 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:06:58,457 - INFO - Searching for song: lover diljit
+2024-12-18 21:06:58,847 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:07:33,418 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:07:33,418 - INFO - Searching for song: lover diljit
+2024-12-18 21:07:33,830 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:07:53,004 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:07:53,004 - INFO - Searching for song: lover diljit
+2024-12-18 21:07:53,591 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:08:14,916 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:08:14,916 - INFO - Searching for song: lover diljit
+2024-12-18 21:08:15,406 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:08:36,117 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:08:36,117 - INFO - Searching for song: lover diljit
+2024-12-18 21:08:36,977 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:09:03,647 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:09:03,647 - INFO - Searching for song: lover diljit
+2024-12-18 21:09:04,110 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:09:25,375 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:09:25,375 - INFO - Searching for song: lover diljit
+2024-12-18 21:09:25,778 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:10:04,057 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:10:04,057 - INFO - Searching for song: lover diljit
+2024-12-18 21:10:04,515 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:10:59,519 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:10:59,520 - INFO - Searching for song: lover diljit
+2024-12-18 21:10:59,999 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:11:56,302 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:11:56,302 - INFO - Searching for song: lover diljit
+2024-12-18 21:11:56,821 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:12:13,451 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:12:13,451 - INFO - Searching for song: lover diljit
+2024-12-18 21:12:13,891 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:12:24,458 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:12:24,458 - INFO - Searching for song: lover diljit
+2024-12-18 21:12:24,864 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:23:22,220 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:23:22,220 - INFO - Searching for song: lover diljit
+2024-12-18 21:23:22,843 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:38:24,199 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:38:24,200 - INFO - Searching for song: lover diljit
+2024-12-18 21:38:24,885 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:40:47,399 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:40:47,399 - INFO - Searching for song: lover diljit
+2024-12-18 21:40:48,274 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:41:53,273 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:41:53,273 - INFO - Searching for song: lover diljit
+2024-12-18 21:41:54,105 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:43:10,093 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:43:10,093 - INFO - Searching for song: lover diljit
+2024-12-18 21:43:10,584 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:43:24,126 - INFO - Search query for emotion 'happy': heat waves-glass animals
+2024-12-18 21:43:24,126 - INFO - Searching for song: heat waves-glass animals
+2024-12-18 21:43:24,915 - INFO - Fetching related songs for video_id: XDjB9E3YtUE, artists: Glass Animals
+2024-12-18 21:52:07,588 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:52:07,590 - INFO - Searching for song: lover diljit
+2024-12-18 21:52:08,152 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:53:54,899 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:53:54,899 - INFO - Searching for song: lover diljit
+2024-12-18 21:53:55,333 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:54:16,126 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:54:16,126 - INFO - Searching for song: lover diljit
+2024-12-18 21:54:16,517 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:55:07,530 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:55:07,530 - INFO - Searching for song: lover diljit
+2024-12-18 21:55:08,018 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:56:04,394 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:56:04,395 - INFO - Searching for song: lover diljit
+2024-12-18 21:56:04,855 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:56:20,802 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:56:20,802 - INFO - Searching for song: lover diljit
+2024-12-18 21:56:21,240 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:57:28,027 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:57:28,027 - INFO - Searching for song: lover diljit
+2024-12-18 21:57:28,772 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:57:38,994 - INFO - Search query for emotion 'sad': Yenagali Munde Saagu Nee
+2024-12-18 21:57:38,995 - INFO - Searching for song: Yenagali Munde Saagu Nee
+2024-12-18 21:57:39,546 - INFO - Fetching related songs for video_id: 2EWVlyg6rDM, artists: Sonu Nigam
+2024-12-18 21:58:21,446 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:58:21,446 - INFO - Searching for song: lover diljit
+2024-12-18 21:58:21,954 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:58:30,432 - INFO - Search query for emotion 'sad': Olithu Maadu Manusa-C Ashwath
+2024-12-18 21:58:30,433 - INFO - Searching for song: Olithu Maadu Manusa-C Ashwath
+2024-12-18 21:58:31,249 - INFO - Fetching related songs for video_id: dtmr-rDIR6s, artists: Lahari Bhavageethegalu & Folk - T-Series
+2024-12-18 21:58:42,973 - INFO - Search query for emotion 'sad': Badri Ki Dulhania
+2024-12-18 21:58:42,975 - INFO - Searching for song: Badri Ki Dulhania
+2024-12-18 21:58:43,574 - INFO - Fetching related songs for video_id: 7gZnT8r60A4, artists: Dev Negi, Neha Kakkar, Monali Thakur, Ikka
+2024-12-18 21:59:25,430 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 21:59:25,431 - INFO - Searching for song: lover diljit
+2024-12-18 21:59:26,071 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 21:59:32,030 - INFO - Search query for emotion 'sad': Why This Kolaveri Di
+2024-12-18 21:59:32,031 - INFO - Searching for song: Why This Kolaveri Di
+2024-12-18 21:59:32,524 - INFO - Fetching related songs for video_id: geIAO3PrE2g, artists: Anirudh Ravichander, Dhanush
+2024-12-18 21:59:46,773 - INFO - Search query for emotion 'neutral': Ninna Gungalli
+2024-12-18 21:59:46,773 - INFO - Searching for song: Ninna Gungalli
+2024-12-18 21:59:47,235 - INFO - Fetching related songs for video_id: KhC4CQ32Ew8, artists: Adhvik
+2024-12-18 21:59:52,188 - INFO - Search query for emotion 'neutral': Zara Zara - lofi
+2024-12-18 21:59:52,188 - INFO - Searching for song: Zara Zara - lofi
+2024-12-18 21:59:52,720 - INFO - Fetching related songs for video_id: pjdXcEDF6Ag, artists: Bombay Jayashri
+2024-12-18 22:00:49,521 - INFO - Search query for emotion 'neutral': Hallu jenu
+2024-12-18 22:00:49,521 - INFO - Searching for song: Hallu jenu
+2024-12-18 22:00:49,834 - INFO - Search query for emotion 'neutral': Pal Pal Dil Ke Paas (From Blackmail)
+2024-12-18 22:00:49,835 - INFO - Searching for song: Pal Pal Dil Ke Paas (From Blackmail)
+2024-12-18 22:00:49,982 - INFO - Fetching related songs for video_id: ecRhNLEyA5Y, artists: Dr. Rajkumar
+2024-12-18 22:00:50,462 - INFO - Fetching related songs for video_id: V0TejHIZLV8, artists: Kishore Kumar
+2024-12-18 22:01:06,435 - INFO - Search query for emotion 'neutral': Sanjit Hegde Nee Nanage Allava
+2024-12-18 22:01:06,435 - INFO - Searching for song: Sanjit Hegde Nee Nanage Allava
+2024-12-18 22:01:06,930 - INFO - Fetching related songs for video_id: XhVvOcIOo5Q, artists: Sanjith Hegde
+2024-12-18 22:01:36,814 - INFO - Searching for song: zara zara lofi
+2024-12-18 22:01:37,305 - INFO - Fetching related songs for video_id: pjdXcEDF6Ag, artists: Bombay Jayashri
+2024-12-18 22:02:47,938 - INFO - Search query for emotion 'neutral': Mayavi
+2024-12-18 22:02:47,939 - INFO - Searching for song: Mayavi
+2024-12-18 22:02:49,360 - INFO - Fetching related songs for video_id: EW8oNyuGg3g, artists: Sonu Nigam, Sanjith Hegde, Nagarjun Sharma
+2024-12-18 22:04:04,940 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:04:04,940 - INFO - Searching for song: lover diljit
+2024-12-18 22:04:05,765 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:04:22,517 - INFO - Search query for emotion 'happy': Illuminati - From Aavesham
+2024-12-18 22:04:22,524 - INFO - Searching for song: Illuminati - From Aavesham
+2024-12-18 22:04:23,266 - INFO - Fetching related songs for video_id: S1jo8K4kDJc, artists: Sushin Shyam, Dabzee, Vinayak Sasikumar
+2024-12-18 22:04:53,898 - INFO - Search query for emotion 'neutral': Ninna Ninna Snehake
+2024-12-18 22:04:53,899 - INFO - Searching for song: Ninna Ninna Snehake
+2024-12-18 22:04:54,339 - INFO - Fetching related songs for video_id: zJketpdFjm8, artists: Rajkumar, P. Susheela
+2024-12-18 22:05:41,072 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:05:41,072 - INFO - Searching for song: lover diljit
+2024-12-18 22:05:41,942 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:05:56,343 - INFO - Search query for emotion 'neutral': Neele Neele Ambar Par Male Version
+2024-12-18 22:05:56,344 - INFO - Searching for song: Neele Neele Ambar Par Male Version
+2024-12-18 22:05:56,821 - INFO - Fetching related songs for video_id: 9Eg4d56rt-U, artists: Kishore Kumar
+2024-12-18 22:06:15,617 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:06:15,617 - INFO - Searching for song: lover diljit
+2024-12-18 22:06:16,068 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:06:26,016 - INFO - Search query for emotion 'neutral': Baani Gondu Elle
+2024-12-18 22:06:26,016 - INFO - Searching for song: Baani Gondu Elle
+2024-12-18 22:06:26,700 - INFO - Fetching related songs for video_id: n1ExC_H7byM, artists: Dr. Rajkumar
+2024-12-18 22:08:28,707 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:08:28,707 - INFO - Searching for song: lover diljit
+2024-12-18 22:08:29,125 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:08:38,559 - INFO - Search query for emotion 'neutral': Munjaane Manjali
+2024-12-18 22:08:38,559 - INFO - Searching for song: Munjaane Manjali
+2024-12-18 22:08:38,966 - INFO - Fetching related songs for video_id: wH3baKreC5A, artists: Raghu Dixit
+2024-12-18 22:11:10,990 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:11:10,990 - INFO - Searching for song: lover diljit
+2024-12-18 22:11:11,508 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:11:17,955 - INFO - Search query for emotion 'neutral': Let me down slowly
+2024-12-18 22:11:18,357 - INFO - Searching for song: Let me down slowly
+2024-12-18 22:11:18,884 - INFO - Fetching related songs for video_id: Kcj5-jWxgKs, artists: Alec Benjamin
+2024-12-18 22:11:55,762 - INFO - Search query for emotion 'neutral': Nee Sannihake Bandre
+2024-12-18 22:11:55,763 - INFO - Searching for song: Nee Sannihake Bandre
+2024-12-18 22:11:56,132 - INFO - Fetching related songs for video_id: riUO-l-aBAQ, artists: Sonu Nigam
+2024-12-18 22:14:47,244 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:14:47,245 - INFO - Searching for song: lover diljit
+2024-12-18 22:14:48,749 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:14:57,788 - INFO - Search query for emotion 'neutral': samajavaragamana
+2024-12-18 22:14:57,788 - INFO - Searching for song: samajavaragamana
+2024-12-18 22:14:58,306 - INFO - Fetching related songs for video_id: peLhDdjKUWU, artists: Sid Sriram
+2024-12-18 22:15:57,037 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:15:57,038 - INFO - Searching for song: lover diljit
+2024-12-18 22:15:57,674 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:16:09,245 - INFO - Search query for emotion 'happy': India Waale
+2024-12-18 22:16:09,245 - INFO - Searching for song: India Waale
+2024-12-18 22:16:09,819 - INFO - Fetching related songs for video_id: XHpXUyxyOjo, artists: NEETI MOHAN, VISHAL DADLANI, K.K., SHANKAR MAHADEVAN, VISHAL-SHEKHAR, and IRSHAD KAMIL
+2024-12-18 22:16:31,111 - INFO - Search query for emotion 'neutral': srivali
+2024-12-18 22:16:31,115 - INFO - Searching for song: srivali
+2024-12-18 22:16:31,515 - INFO - Fetching related songs for video_id: iks48tNYy6o, artists: Javed Ali
+2024-12-18 22:25:49,317 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:25:49,317 - INFO - Searching for song: lover diljit
+2024-12-18 22:25:49,884 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:27:32,122 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:27:32,123 - INFO - Searching for song: lover diljit
+2024-12-18 22:27:32,880 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:28:33,729 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:28:33,730 - INFO - Searching for song: lover diljit
+2024-12-18 22:28:34,126 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:28:48,024 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:28:48,024 - INFO - Searching for song: lover diljit
+2024-12-18 22:28:48,484 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:28:57,155 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:28:57,155 - INFO - Searching for song: lover diljit
+2024-12-18 22:28:57,612 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:29:07,777 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:29:07,777 - INFO - Searching for song: lover diljit
+2024-12-18 22:29:08,206 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:29:20,900 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:29:20,900 - INFO - Searching for song: lover diljit
+2024-12-18 22:29:21,338 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:29:23,760 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:29:23,760 - INFO - Searching for song: lover diljit
+2024-12-18 22:29:24,186 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:30:12,730 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:30:12,730 - INFO - Searching for song: lover diljit
+2024-12-18 22:30:13,169 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:30:28,701 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:30:28,703 - INFO - Searching for song: lover diljit
+2024-12-18 22:30:29,056 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:31:29,300 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:31:29,300 - INFO - Searching for song: lover diljit
+2024-12-18 22:31:29,716 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:31:49,811 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:31:49,811 - INFO - Searching for song: lover diljit
+2024-12-18 22:31:50,676 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:32:04,468 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:32:04,468 - INFO - Searching for song: lover diljit
+2024-12-18 22:32:04,863 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:32:07,108 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:32:07,108 - INFO - Searching for song: lover diljit
+2024-12-18 22:32:07,558 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:32:42,303 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:32:42,303 - INFO - Searching for song: lover diljit
+2024-12-18 22:32:42,694 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:32:52,062 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:32:52,062 - INFO - Searching for song: lover diljit
+2024-12-18 22:32:52,467 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:33:32,560 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:33:32,560 - INFO - Searching for song: lover diljit
+2024-12-18 22:33:32,980 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:33:51,647 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:33:51,647 - INFO - Searching for song: lover diljit
+2024-12-18 22:33:52,071 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:34:06,867 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:34:06,867 - INFO - Searching for song: lover diljit
+2024-12-18 22:34:07,274 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:34:16,770 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:34:16,773 - INFO - Searching for song: lover diljit
+2024-12-18 22:34:17,191 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:34:35,893 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:34:35,893 - INFO - Searching for song: lover diljit
+2024-12-18 22:34:36,356 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:34:49,033 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:34:49,033 - INFO - Searching for song: lover diljit
+2024-12-18 22:34:49,490 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:35:13,607 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:35:13,607 - INFO - Searching for song: lover diljit
+2024-12-18 22:35:13,980 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:35:25,452 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:35:25,452 - INFO - Searching for song: lover diljit
+2024-12-18 22:35:27,805 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:35:40,176 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:35:40,176 - INFO - Searching for song: lover diljit
+2024-12-18 22:35:40,605 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:36:37,914 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:36:37,914 - INFO - Searching for song: lover diljit
+2024-12-18 22:36:38,374 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:36:52,846 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:36:52,846 - INFO - Searching for song: lover diljit
+2024-12-18 22:36:53,260 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:36:59,767 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:36:59,772 - INFO - Searching for song: lover diljit
+2024-12-18 22:37:00,184 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:38:20,867 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:38:20,867 - INFO - Searching for song: lover diljit
+2024-12-18 22:38:21,230 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:38:42,898 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:38:42,898 - INFO - Searching for song: lover diljit
+2024-12-18 22:38:43,267 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:39:19,193 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:39:19,193 - INFO - Searching for song: lover diljit
+2024-12-18 22:39:19,612 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:39:39,690 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:39:39,690 - INFO - Searching for song: lover diljit
+2024-12-18 22:39:40,084 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:39:47,805 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:39:47,805 - INFO - Searching for song: lover diljit
+2024-12-18 22:39:48,201 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:39:57,206 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:39:57,206 - INFO - Searching for song: lover diljit
+2024-12-18 22:39:57,635 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:40:13,564 - INFO - Search query for emotion 'sad': Happy-allok
+2024-12-18 22:40:13,564 - INFO - Searching for song: Happy-allok
+2024-12-18 22:40:13,971 - INFO - Fetching related songs for video_id: mSjOwLgNrSY, artists: All Ok
+2024-12-18 22:43:03,679 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:43:03,684 - INFO - Searching for song: lover diljit
+2024-12-18 22:43:04,116 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:43:21,996 - INFO - Search query for emotion 'sad': Kaun Tujhe
+2024-12-18 22:43:21,997 - INFO - Searching for song: Kaun Tujhe
+2024-12-18 22:43:22,816 - INFO - Fetching related songs for video_id: ZVyA_8rd1Ko, artists: PALAK MUCHHAL, AMAAL MALLIK
+2024-12-18 22:43:43,374 - INFO - Search query for emotion 'sad': Preethisuve
+2024-12-18 22:43:43,374 - INFO - Searching for song: Preethisuve
+2024-12-18 22:43:43,857 - INFO - Fetching related songs for video_id: sU4Dx7KERIw, artists: Sonu Nigam, Prithwi Bhat
+2024-12-18 22:44:43,769 - INFO - Searching for song: kaun tujhe
+2024-12-18 22:44:44,160 - INFO - Fetching related songs for video_id: ZVyA_8rd1Ko, artists: PALAK MUCHHAL, AMAAL MALLIK
+2024-12-18 22:45:05,934 - INFO - Fetching lyrics for video_id: ZVyA_8rd1Ko
+2024-12-18 22:46:31,940 - INFO - Search query for emotion 'neutral': Minchagi Neenu
+2024-12-18 22:46:31,940 - INFO - Searching for song: Minchagi Neenu
+2024-12-18 22:46:32,378 - INFO - Fetching related songs for video_id: BtxBKKFznMU, artists: Sonu Nigam
+2024-12-18 22:49:41,475 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:49:41,476 - INFO - Searching for song: lover diljit
+2024-12-18 22:49:42,900 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:49:47,567 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:49:48,074 - INFO - Searching for song: lover diljit
+2024-12-18 22:49:49,074 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:49:56,338 - INFO - Search query for emotion 'neutral': yeh sham mastani
+2024-12-18 22:49:56,339 - INFO - Searching for song: yeh sham mastani
+2024-12-18 22:49:56,715 - INFO - Fetching related songs for video_id: JNtZj3NaUFw, artists: Kishore Kumar
+2024-12-18 22:50:59,678 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:50:59,678 - INFO - Searching for song: lover diljit
+2024-12-18 22:51:00,102 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:51:16,869 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:51:16,872 - INFO - Searching for song: lover diljit
+2024-12-18 22:51:17,374 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:51:36,111 - INFO - Search query for emotion 'surprised': Starboy
+2024-12-18 22:51:36,111 - INFO - Searching for song: Starboy
+2024-12-18 22:51:36,608 - INFO - Fetching related songs for video_id: 3_g2un5M350, artists: The Weeknd
+2024-12-18 22:52:03,533 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:52:03,533 - INFO - Searching for song: lover diljit
+2024-12-18 22:52:03,971 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:53:30,116 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:53:30,116 - INFO - Searching for song: lover diljit
+2024-12-18 22:53:30,849 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:54:18,140 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:54:18,140 - INFO - Searching for song: lover diljit
+2024-12-18 22:54:18,606 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:54:59,294 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:54:59,294 - INFO - Searching for song: lover diljit
+2024-12-18 22:54:59,800 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:55:10,845 - INFO - Search query for emotion 'neutral': Tum itna jo muskura rahe ho arth - live
+2024-12-18 22:55:10,845 - INFO - Searching for song: Tum itna jo muskura rahe ho arth - live
+2024-12-18 22:55:11,319 - INFO - Fetching related songs for video_id: mxjfDct-BD4, artists: Jagjit Singh
+2024-12-18 22:55:44,902 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:55:44,903 - INFO - Searching for song: lover diljit
+2024-12-18 22:55:45,612 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:55:58,413 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:55:58,413 - INFO - Searching for song: lover diljit
+2024-12-18 22:55:58,787 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:56:46,891 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:56:46,892 - INFO - Searching for song: lover diljit
+2024-12-18 22:56:47,563 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 22:57:32,911 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 22:57:32,911 - INFO - Searching for song: lover diljit
+2024-12-18 22:57:33,403 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:04:15,464 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:04:15,464 - INFO - Searching for song: lover diljit
+2024-12-18 23:04:16,091 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:05:28,242 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:05:28,242 - INFO - Searching for song: lover diljit
+2024-12-18 23:05:28,653 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:06:02,165 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:06:02,165 - INFO - Searching for song: lover diljit
+2024-12-18 23:06:02,642 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:06:08,922 - INFO - Search query for emotion 'neutral': Ninna Danigaagi
+2024-12-18 23:06:08,923 - INFO - Searching for song: Ninna Danigaagi
+2024-12-18 23:06:09,397 - INFO - Fetching related songs for video_id: we4BQkaAp6M, artists: Karthik, Yazin Nizar, Hamsika Iyer
+2024-12-18 23:06:33,179 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:06:33,179 - INFO - Searching for song: lover diljit
+2024-12-18 23:06:33,895 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:06:39,205 - INFO - Search query for emotion 'neutral': Jab Tak
+2024-12-18 23:06:39,207 - INFO - Searching for song: Jab Tak
+2024-12-18 23:06:39,749 - INFO - Fetching related songs for video_id: Wg50Ve_Mpg4, artists: ARMAAN MALIK, AMAAL MALLIK
+2024-12-18 23:08:09,095 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:08:09,096 - INFO - Searching for song: lover diljit
+2024-12-18 23:08:09,584 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:08:12,797 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:08:12,798 - INFO - Searching for song: lover diljit
+2024-12-18 23:08:13,207 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:10:37,719 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:10:37,719 - INFO - Searching for song: lover diljit
+2024-12-18 23:10:38,104 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:10:49,284 - INFO - Search query for emotion 'sad': Tum Hi Ho
+2024-12-18 23:10:49,284 - INFO - Searching for song: Tum Hi Ho
+2024-12-18 23:10:49,768 - INFO - Fetching related songs for video_id: fsiPzT50ZiM, artists: Arijit Singh
+2024-12-18 23:11:00,444 - INFO - Fetching related songs for video_id: NPC-9hYbkLE, artists: Palak Muchhal, Ar..
+2024-12-18 23:11:13,481 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:11:13,482 - INFO - Searching for song: lover diljit
+2024-12-18 23:11:14,268 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:12:09,026 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:12:09,027 - INFO - Searching for song: lover diljit
+2024-12-18 23:12:09,446 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:12:25,928 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:12:25,928 - INFO - Searching for song: lover diljit
+2024-12-18 23:12:26,332 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:13:02,410 - INFO - Search query for emotion 'neutral': Janam Janam
+2024-12-18 23:13:02,410 - INFO - Searching for song: Janam Janam
+2024-12-18 23:13:03,485 - INFO - Fetching related songs for video_id: 5rHzi_5rSyw, artists: Pritam, Arijit Singh, Antara Mitra
+2024-12-18 23:13:08,479 - INFO - Fetching lyrics for video_id: 5rHzi_5rSyw
+2024-12-18 23:13:30,332 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:13:30,333 - INFO - Searching for song: lover diljit
+2024-12-18 23:13:30,751 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:13:41,243 - INFO - Search query for emotion 'happy': Dwapara- Krishnam Pranaya
+2024-12-18 23:13:41,243 - INFO - Searching for song: Dwapara- Krishnam Pranaya
+2024-12-18 23:13:41,713 - INFO - Fetching related songs for video_id: C93Tcb9wJRE, artists: Jaskaran Singh
+2024-12-18 23:13:48,987 - INFO - Search query for emotion 'happy': Arabic Kuthu - Halamithi Habibo
+2024-12-18 23:13:48,988 - INFO - Searching for song: Arabic Kuthu - Halamithi Habibo
+2024-12-18 23:13:49,458 - INFO - Fetching related songs for video_id: 9nRvqemGydw, artists: Anirudh Ravichander, Jonita Gandhi
+2024-12-18 23:15:26,013 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:15:26,013 - INFO - Searching for song: lover diljit
+2024-12-18 23:15:26,949 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:15:31,962 - INFO - Search query for emotion 'happy': Chaleya
+2024-12-18 23:15:32,096 - INFO - Searching for song: Chaleya
+2024-12-18 23:15:34,091 - INFO - Fetching related songs for video_id: V_jp5_VAzXk, artists: Arijit Singh, Shilpa Rao
+2024-12-18 23:15:45,031 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:15:45,032 - INFO - Searching for song: lover diljit
+2024-12-18 23:15:45,500 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:15:52,750 - INFO - Search query for emotion 'neutral': Tere Liye
+2024-12-18 23:15:52,751 - INFO - Searching for song: Tere Liye
+2024-12-18 23:15:53,117 - INFO - Fetching related songs for video_id: 5U5Ru0nTiUM, artists: Atif Aslam, Shreya Ghoshal
+2024-12-18 23:16:20,342 - INFO - Search query for emotion 'sad': Agar Tum Saath Ho
+2024-12-18 23:16:20,342 - INFO - Searching for song: Agar Tum Saath Ho
+2024-12-18 23:16:20,778 - INFO - Fetching related songs for video_id: FOA9iyxsW_A, artists: Arijit Singh, Alka Yagnik
+2024-12-18 23:16:33,202 - INFO - Search query for emotion 'sad': Roja Jaaneman
+2024-12-18 23:16:33,204 - INFO - Searching for song: Roja Jaaneman
+2024-12-18 23:16:33,629 - INFO - Fetching related songs for video_id: qyoN4OAfKF4, artists: A.R. Rahman, S.P. Balasubrahmanyam, K.S. Chithra
+2024-12-18 23:17:07,937 - INFO - Search query for emotion 'sad': Idhu Yaaru Bareda Katheya
+2024-12-18 23:17:07,938 - INFO - Searching for song: Idhu Yaaru Bareda Katheya
+2024-12-18 23:17:08,354 - INFO - Fetching related songs for video_id: 7RFcxh6GQ4o, artists: Dr Rajkumar
+2024-12-18 23:18:46,960 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:18:46,961 - INFO - Searching for song: lover diljit
+2024-12-18 23:18:47,484 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:19:15,822 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:19:15,822 - INFO - Searching for song: lover diljit
+2024-12-18 23:19:16,171 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:20:09,373 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:20:09,373 - INFO - Searching for song: lover diljit
+2024-12-18 23:20:10,131 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:21:35,430 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:21:35,431 - INFO - Searching for song: lover diljit
+2024-12-18 23:21:35,781 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:23:45,951 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:23:45,952 - INFO - Searching for song: lover diljit
+2024-12-18 23:23:46,385 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:24:10,314 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:24:10,314 - INFO - Searching for song: lover diljit
+2024-12-18 23:24:10,713 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:24:30,049 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:24:30,049 - INFO - Searching for song: lover diljit
+2024-12-18 23:24:30,462 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:34:25,877 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:34:25,881 - INFO - Searching for song: lover diljit
+2024-12-18 23:34:26,493 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:34:42,046 - INFO - Search query for emotion 'neutral': O Mere Dil Ke Chain
+2024-12-18 23:34:42,046 - INFO - Searching for song: O Mere Dil Ke Chain
+2024-12-18 23:34:42,569 - INFO - Fetching related songs for video_id: CrnRqE8hOIc, artists: Kishore Kumar
+2024-12-18 23:36:58,405 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:36:58,405 - INFO - Searching for song: lover diljit
+2024-12-18 23:36:58,996 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:36:59,496 - INFO - Searching for song: Artist 1 Song 1
+2024-12-18 23:36:59,496 - INFO - Searching for song: Artist 2 Song 2
+2024-12-18 23:37:00,057 - INFO - Fetching related songs for video_id: SQrKCytWbj8, artists: Blur
+2024-12-18 23:37:00,158 - INFO - Fetching related songs for video_id: n_u_yTZ22fg, artists: Honey , Badshah
+2024-12-18 23:37:00,706 - INFO - Searching for song: Artist Name Song Title
+2024-12-18 23:37:01,210 - INFO - Fetching related songs for video_id: _Cu-5NzGfQA, artists: HWANG SANG JUN
+2024-12-18 23:37:25,413 - INFO - Search query for emotion 'neutral': Agar Tum Mil Jao
+2024-12-18 23:37:25,413 - INFO - Searching for song: Agar Tum Mil Jao
+2024-12-18 23:37:25,753 - INFO - Fetching related songs for video_id: FH-oV5nXblA, artists: Shreya Ghoshal, Roop Kumar Rathod, Anu Malik
+2024-12-18 23:37:47,703 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:37:47,704 - INFO - Searching for song: lover diljit
+2024-12-18 23:37:48,178 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:37:48,759 - INFO - Searching for song: Artist 1 Song 1
+2024-12-18 23:37:48,759 - INFO - Searching for song: Artist 2 Song 2
+2024-12-18 23:37:49,158 - INFO - Fetching related songs for video_id: n_u_yTZ22fg, artists: Honey , Badshah
+2024-12-18 23:37:49,215 - INFO - Fetching related songs for video_id: SQrKCytWbj8, artists: Blur
+2024-12-18 23:38:38,961 - INFO - Searching for song: Blur Song 2
+2024-12-18 23:38:39,480 - INFO - Fetching related songs for video_id: Bz4l9_bzfZM, artists: Blur
+2024-12-18 23:39:11,690 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:39:11,690 - INFO - Searching for song: lover diljit
+2024-12-18 23:39:11,994 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:39:12,753 - INFO - Searching for song: Artist 1 Song 1
+2024-12-18 23:39:12,753 - INFO - Searching for song: Artist 2 Song 2
+2024-12-18 23:39:13,182 - INFO - Fetching related songs for video_id: n_u_yTZ22fg, artists: Honey , Badshah
+2024-12-18 23:39:13,198 - INFO - Fetching related songs for video_id: SQrKCytWbj8, artists: Blur
+2024-12-18 23:40:01,431 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:40:01,431 - INFO - Searching for song: lover diljit
+2024-12-18 23:40:01,786 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:40:02,555 - INFO - Searching for song: Artist 1 Song 1
+2024-12-18 23:40:02,555 - INFO - Searching for song: Artist 2 Song 2
+2024-12-18 23:40:03,108 - INFO - Fetching related songs for video_id: SQrKCytWbj8, artists: Blur
+2024-12-18 23:40:03,146 - INFO - Fetching related songs for video_id: n_u_yTZ22fg, artists: Honey , Badshah
+2024-12-18 23:40:08,765 - INFO - Searching for song: Blur Song 2
+2024-12-18 23:40:09,435 - INFO - Fetching related songs for video_id: Bz4l9_bzfZM, artists: Blur
+2024-12-18 23:40:31,230 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:40:31,230 - INFO - Searching for song: lover diljit
+2024-12-18 23:40:31,651 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:40:39,253 - INFO - Search query for emotion 'neutral': Tu Hi Meri Shab Hai
+2024-12-18 23:40:39,258 - INFO - Searching for song: Tu Hi Meri Shab Hai
+2024-12-18 23:40:39,739 - INFO - Fetching related songs for video_id: 16e78n5x5mE, artists: Pritam, KK
+2024-12-18 23:40:43,943 - INFO - Searching for song: Blur Song 2
+2024-12-18 23:40:44,463 - INFO - Searching for song: Pritam, KK Tu Hi Meri Shab Ha..
+2024-12-18 23:40:46,273 - INFO - Fetching related songs for video_id: Bz4l9_bzfZM, artists: Blur
+2024-12-18 23:40:46,293 - INFO - Fetching related songs for video_id: 16e78n5x5mE, artists: Pritam, KK
+2024-12-18 23:42:03,943 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:42:03,943 - INFO - Searching for song: lover diljit
+2024-12-18 23:42:04,275 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:42:05,040 - INFO - Searching for song: Artist 1 Song 1
+2024-12-18 23:42:05,040 - INFO - Searching for song: Artist 2 Song 2
+2024-12-18 23:42:05,428 - INFO - Fetching related songs for video_id: SQrKCytWbj8, artists: Blur
+2024-12-18 23:42:05,506 - INFO - Fetching related songs for video_id: n_u_yTZ22fg, artists: Honey , Badshah
+2024-12-18 23:42:17,929 - INFO - Search query for emotion 'surprised': Muqabla original
+2024-12-18 23:42:17,930 - INFO - Searching for song: Muqabla original
+2024-12-18 23:42:18,299 - INFO - Fetching related songs for video_id: 1IuQaLxgVB0, artists: Mano, Swarnalatha
+2024-12-18 23:42:22,142 - INFO - Searching for song: Mano, Swarnalatha Muqabala Muqabala
+2024-12-18 23:42:24,221 - INFO - Fetching related songs for video_id: 1IuQaLxgVB0, artists: Mano, Swarnalatha
+2024-12-18 23:42:24,917 - INFO - Search query for emotion 'surprised': Stree2- Aaj Ki Raat
+2024-12-18 23:42:24,919 - INFO - Searching for song: Stree2- Aaj Ki Raat
+2024-12-18 23:42:25,292 - INFO - Fetching related songs for video_id: XtZTpxnrHAc, artists: Sachin-Jigar, Amitabh Bhattacharya, Divya Kumar, Madhubanti Bagchi
+2024-12-18 23:44:13,583 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:44:13,583 - INFO - Searching for song: lover diljit
+2024-12-18 23:44:14,118 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:44:20,274 - INFO - Searching for song: Artist 1 Song 1
+2024-12-18 23:44:21,277 - INFO - Fetching related songs for video_id: n_u_yTZ22fg, artists: Honey , Badshah
+2024-12-18 23:44:28,243 - INFO - Searching for song: Artist 2 Song 2
+2024-12-18 23:44:28,740 - INFO - Fetching related songs for video_id: SQrKCytWbj8, artists: Blur
+2024-12-18 23:44:34,845 - INFO - Search query for emotion 'happy': guruvara sanje song
+2024-12-18 23:44:34,846 - INFO - Searching for song: guruvara sanje song
+2024-12-18 23:44:35,236 - INFO - Fetching related songs for video_id: bmpfE1MOt-s, artists: Puneeth Rajkumar
+2024-12-18 23:44:43,556 - INFO - Search query for emotion 'sad': Kadalanu
+2024-12-18 23:44:43,556 - INFO - Searching for song: Kadalanu
+2024-12-18 23:44:43,897 - INFO - Fetching related songs for video_id: 2G1H5tiyYNA, artists: Charanraj MR, Nagarjun Sharma, Srilakshmi Belmannu
+2024-12-18 23:44:49,829 - INFO - Searching for song: Puneeth Rajkumar Guruvara
+2024-12-18 23:44:50,171 - INFO - Fetching related songs for video_id: bmpfE1MOt-s, artists: Puneeth Rajkumar
+2024-12-18 23:45:34,318 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:45:34,318 - INFO - Searching for song: lover diljit
+2024-12-18 23:45:35,154 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:45:37,573 - INFO - Searching for song: Artist 1 Song 1
+2024-12-18 23:45:37,976 - INFO - Fetching related songs for video_id: n_u_yTZ22fg, artists: Honey , Badshah
+2024-12-18 23:45:44,881 - INFO - Searching for song: Artist 2 Song 2
+2024-12-18 23:45:45,913 - INFO - Fetching related songs for video_id: SQrKCytWbj8, artists: Blur
+2024-12-18 23:45:51,148 - INFO - Search query for emotion 'happy': Chuttamalle
+2024-12-18 23:45:51,149 - INFO - Searching for song: Chuttamalle
+2024-12-18 23:45:51,516 - INFO - Fetching related songs for video_id: nZiJTYiujUs, artists: Shilpa Rao
+2024-12-18 23:45:59,985 - INFO - Searching for song: Artist 2 Song 2
+2024-12-18 23:46:00,494 - INFO - Fetching related songs for video_id: SQrKCytWbj8, artists: Blur
+2024-12-18 23:46:06,574 - INFO - Search query for emotion 'sad': Tujh Mein Rab Dikhta Hai
+2024-12-18 23:46:06,574 - INFO - Searching for song: Tujh Mein Rab Dikhta Hai
+2024-12-18 23:46:07,023 - INFO - Fetching related songs for video_id: 3E1NLVzDZ_Y, artists: Roop Kumar Rathod
+2024-12-18 23:46:19,407 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:46:19,407 - INFO - Searching for song: lover diljit
+2024-12-18 23:46:19,783 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:46:26,903 - INFO - Search query for emotion 'neutral': Ninna Gungalli
+2024-12-18 23:46:26,904 - INFO - Searching for song: Ninna Gungalli
+2024-12-18 23:46:27,298 - INFO - Fetching related songs for video_id: KhC4CQ32Ew8, artists: Adhvik
+2024-12-18 23:46:35,120 - INFO - Search query for emotion 'neutral': Zara Zara - lofi
+2024-12-18 23:46:35,120 - INFO - Searching for song: Zara Zara - lofi
+2024-12-18 23:46:35,578 - INFO - Fetching related songs for video_id: DtzBWzgvDWk, artists: Bombay Jayashri
+2024-12-18 23:46:43,838 - INFO - Search query for emotion 'surprised': Gangnam Style
+2024-12-18 23:46:43,838 - INFO - Searching for song: Gangnam Style
+2024-12-18 23:46:44,279 - INFO - Fetching related songs for video_id: 4AgDYTuZWOw, artists: PSY
+2024-12-18 23:46:50,440 - INFO - Searching for song: Adhvik Ninna Gungalli
+2024-12-18 23:46:50,948 - INFO - Fetching related songs for video_id: KhC4CQ32Ew8, artists: Adhvik
+2024-12-18 23:47:05,091 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:47:05,091 - INFO - Searching for song: lover diljit
+2024-12-18 23:47:05,540 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:47:13,285 - INFO - Search query for emotion 'surprised': Darshana-From Hridayam
+2024-12-18 23:47:13,286 - INFO - Searching for song: Darshana-From Hridayam
+2024-12-18 23:47:13,654 - INFO - Fetching related songs for video_id: NjQWctpXU-g, artists: Hesham Abdul Wahab, Darshana Rajendran, Arun Alat
+2024-12-18 23:47:22,865 - INFO - Search query for emotion 'surprised': Dangerous-Michael Jackson
+2024-12-18 23:47:22,865 - INFO - Searching for song: Dangerous-Michael Jackson
+2024-12-18 23:47:23,303 - INFO - Fetching related songs for video_id: anLXXtlgOTg, artists: Michael Jackson
+2024-12-18 23:47:29,467 - INFO - Searching for song: Hesham Abdul Waha.. Darshana (From "Hr..
+2024-12-18 23:47:29,973 - INFO - Fetching related songs for video_id: NjQWctpXU-g, artists: Hesham Abdul Wahab, Darshana Rajendran, Arun Alat
+2024-12-18 23:47:57,916 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:47:57,916 - INFO - Searching for song: lover diljit
+2024-12-18 23:47:58,320 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:48:04,743 - INFO - Searching for song: Artist 1 Song 1
+2024-12-18 23:48:05,241 - INFO - Fetching related songs for video_id: n_u_yTZ22fg, artists: Honey , Badshah
+2024-12-18 23:48:11,245 - INFO - Searching for song: Artist 2 Song 2
+2024-12-18 23:48:11,816 - INFO - Fetching related songs for video_id: SQrKCytWbj8, artists: Blur
+2024-12-18 23:48:26,463 - INFO - Searching for song: sooji
+2024-12-18 23:48:26,951 - INFO - Fetching related songs for video_id: CvwosiflIg0, artists: Vikas Kumar, Mahi Panchal
+2024-12-18 23:48:37,704 - INFO - Fetching lyrics for video_id: CvwosiflIg0
+2024-12-18 23:48:38,712 - WARNING - No lyrics found for video_id: CvwosiflIg0
+2024-12-18 23:58:30,140 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:58:30,140 - INFO - Searching for song: lover diljit
+2024-12-18 23:58:30,644 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-18 23:59:22,813 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-18 23:59:22,813 - INFO - Searching for song: lover diljit
+2024-12-18 23:59:23,523 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-19 00:01:31,361 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-19 00:01:31,361 - INFO - Searching for song: lover diljit
+2024-12-19 00:01:32,142 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-19 00:01:47,017 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-19 00:01:47,018 - INFO - Searching for song: lover diljit
+2024-12-19 00:01:47,564 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-19 00:02:05,743 - INFO - Search query for emotion 'neutral': Ninna Gungalli
+2024-12-19 00:02:05,744 - INFO - Searching for song: Ninna Gungalli
+2024-12-19 00:02:06,519 - INFO - Fetching related songs for video_id: KhC4CQ32Ew8, artists: Adhvik
+2024-12-19 00:02:15,768 - INFO - Search query for emotion 'neutral': Zara Zara - lofi
+2024-12-19 00:02:15,771 - INFO - Searching for song: Zara Zara - lofi
+2024-12-19 00:02:16,161 - INFO - Fetching related songs for video_id: DtzBWzgvDWk, artists: Bombay Jayashri
+2024-12-19 00:02:24,881 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-19 00:02:24,882 - INFO - Searching for song: lover diljit
+2024-12-19 00:02:25,285 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-19 00:04:10,558 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-19 00:04:10,558 - INFO - Searching for song: lover diljit
+2024-12-19 00:04:10,984 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-19 00:04:26,571 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-19 00:04:26,571 - INFO - Searching for song: lover diljit
+2024-12-19 00:04:27,006 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-19 00:04:36,508 - INFO - Search query for emotion 'neutral': Hallu jenu
+2024-12-19 00:04:36,509 - INFO - Searching for song: Hallu jenu
+2024-12-19 00:04:36,851 - INFO - Fetching related songs for video_id: ecRhNLEyA5Y, artists: Dr. Rajkumar
+2024-12-19 00:04:46,561 - INFO - Search query for emotion 'happy': heat waves-glass animals
+2024-12-19 00:04:46,561 - INFO - Searching for song: heat waves-glass animals
+2024-12-19 00:04:46,981 - INFO - Fetching related songs for video_id: XDjB9E3YtUE, artists: Glass Animals
+2024-12-19 00:04:56,555 - INFO - Searching for song: Dr. Rajkumar HAALU JENU
+2024-12-19 00:04:56,996 - INFO - Fetching related songs for video_id: ecRhNLEyA5Y, artists: Dr. Rajkumar
+2024-12-19 00:05:43,414 - INFO - Search query for emotion 'neutral': Pal Pal Dil Ke Paas (From Blackmail)
+2024-12-19 00:05:43,415 - INFO - Searching for song: Pal Pal Dil Ke Paas (From Blackmail)
+2024-12-19 00:05:43,940 - INFO - Fetching related songs for video_id: V0TejHIZLV8, artists: Kishore Kumar
+2024-12-19 00:05:54,380 - INFO - Search query for emotion 'neutral': Sanjit Hegde Nee Nanage Allava
+2024-12-19 00:05:54,380 - INFO - Searching for song: Sanjit Hegde Nee Nanage Allava
+2024-12-19 00:05:54,723 - INFO - Fetching related songs for video_id: XhVvOcIOo5Q, artists: Sanjith Hegde
+2024-12-19 00:06:07,853 - INFO - Search query for emotion 'sad': Yenagali Munde Saagu Nee
+2024-12-19 00:06:07,853 - INFO - Searching for song: Yenagali Munde Saagu Nee
+2024-12-19 00:06:08,577 - INFO - Fetching related songs for video_id: 2EWVlyg6rDM, artists: Sonu Nigam
+2024-12-19 00:06:31,017 - INFO - Searching for song: Dr. Rajkumar HAALU JENU
+2024-12-19 00:06:31,410 - INFO - Fetching related songs for video_id: ecRhNLEyA5Y, artists: Dr. Rajkumar
+2024-12-19 00:06:48,817 - INFO - Searching for song: Diljit Dosanjh Lover
+2024-12-19 00:06:49,216 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-19 00:07:40,246 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-19 00:07:40,246 - INFO - Searching for song: lover diljit
+2024-12-19 00:07:40,594 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-19 00:08:26,780 - INFO - Fetching lyrics for video_id: KLBtgOzNAgI
+2024-12-19 00:08:29,685 - INFO - Fetching lyrics for video_id: KLBtgOzNAgI
+2024-12-19 00:08:31,927 - INFO - Fetching lyrics for video_id: KLBtgOzNAgI
+2024-12-19 00:08:34,800 - INFO - Fetching lyrics for video_id: KLBtgOzNAgI
+2024-12-19 00:09:36,532 - INFO - Searching for song: Artist 1 Song 1
+2024-12-19 00:09:37,406 - INFO - Fetching related songs for video_id: n_u_yTZ22fg, artists: Honey , Badshah
+2024-12-19 00:11:34,892 - INFO - Searching for song: Honey , Badshah Choot Vol. 1
+2024-12-19 00:11:35,349 - INFO - Fetching related songs for video_id: n_u_yTZ22fg, artists: Honey , Badshah
+2024-12-19 00:21:28,908 - INFO - Searching for song: Honey , Badshah Choot Vol. 1
+2024-12-19 00:21:29,454 - INFO - Fetching related songs for video_id: n_u_yTZ22fg, artists: Honey , Badshah
+2024-12-19 00:23:06,124 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-19 00:23:06,125 - INFO - Searching for song: lover diljit
+2024-12-19 00:23:06,546 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-19 00:23:38,061 - INFO - Search query for emotion 'neutral': Mayavi
+2024-12-19 00:23:38,061 - INFO - Searching for song: Mayavi
+2024-12-19 00:23:38,402 - INFO - Fetching related songs for video_id: EW8oNyuGg3g, artists: Sonu Nigam, Sanjith Hegde, Nagarjun Sharma
+2024-12-19 00:23:55,249 - INFO - Searching for song: Sonu Nigam, Sanji.. Mayavi (From "Bhoo..
+2024-12-19 00:23:55,694 - INFO - Fetching related songs for video_id: rC4sTBtbjEc, artists: Sonu Nigam
+2024-12-19 00:24:15,618 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-19 00:24:15,619 - INFO - Searching for song: lover diljit
+2024-12-19 00:24:16,106 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-19 00:26:09,799 - INFO - Search query for emotion 'happy': Illuminati - From Aavesham
+2024-12-19 00:26:09,799 - INFO - Searching for song: Illuminati - From Aavesham
+2024-12-19 00:26:10,264 - INFO - Fetching related songs for video_id: S1jo8K4kDJc, artists: Sushin Shyam, Dabzee, Vinayak Sasikumar
+2024-12-19 00:26:17,367 - INFO - Search query for emotion 'happy': India Waale
+2024-12-19 00:26:17,367 - INFO - Searching for song: India Waale
+2024-12-19 00:26:18,835 - INFO - Fetching related songs for video_id: XHpXUyxyOjo, artists: NEETI MOHAN, VISHAL DADLANI, K.K., SHANKAR MAHADEVAN, VISHAL-SHEKHAR, and IRSHAD KAMIL
+2024-12-19 00:26:46,039 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-19 00:26:46,039 - INFO - Searching for song: lover diljit
+2024-12-19 00:26:46,864 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-19 00:26:52,795 - INFO - Search query for emotion 'happy': Dwapara- Krishnam Pranaya
+2024-12-19 00:26:52,976 - INFO - Searching for song: Dwapara- Krishnam Pranaya
+2024-12-19 00:26:53,290 - INFO - Fetching related songs for video_id: C93Tcb9wJRE, artists: Jaskaran Singh
+2024-12-19 00:27:03,060 - INFO - Search query for emotion 'starter': lover diljit
+2024-12-19 00:27:03,060 - INFO - Searching for song: lover diljit
+2024-12-19 00:27:03,495 - INFO - Fetching related songs for video_id: KLBtgOzNAgI, artists: Diljit Dosanjh
+2024-12-19 00:27:09,060 - INFO - Search query for emotion 'neutral': Ninna Ninna Snehake
+2024-12-19 00:27:09,074 - INFO - Searching for song: Ninna Ninna Snehake
+2024-12-19 00:27:09,479 - INFO - Fetching related songs for video_id: zJketpdFjm8, artists: Rajkumar, P. Susheela
+2024-12-19 00:27:26,136 - INFO - Search query for emotion 'happy': Arabic Kuthu - Halamithi Habibo
+2024-12-19 00:27:26,137 - INFO - Searching for song: Arabic Kuthu - Halamithi Habibo
+2024-12-19 00:27:26,546 - INFO - Fetching related songs for video_id: 9nRvqemGydw, artists: Anirudh Ravichander, Jonita Gandhi
+2024-12-19 00:27:39,219 - INFO - Searching for song: Anirudh Ravichand.. Arabic Kuthu - Hal..
+2024-12-19 00:27:39,653 - INFO - Fetching related songs for video_id: 9nRvqemGydw, artists: Anirudh Ravichander, Jonita Gandhi
