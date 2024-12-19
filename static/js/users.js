@@ -52,7 +52,7 @@ function renderLikedSongs() {
             <button class="llminusbutton" data-id="${song.id}">-</button>
         `;
         songElement.addEventListener('click',function(){
-            playLikedSong(`${song.name+' '+song.artist}`);
+            playLikedSong(`${song.id}`, `${song.artist}`);
         });
 
         // Attach event listener for the remove button dynamically
@@ -92,16 +92,17 @@ function checkifliked(videoid) {
 }
 
 // Function to play a liked song
-async function playLikedSong(query) {
+async function playLikedSong(vidid, artst) {
     window.location.href = '#panels';
     cooldown(0);
-    const ans = await fetch("/search", {
+    const ans = await fetch("/continuesongs", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
         },
         body: JSON.stringify({
-            "query": query
+           'videoid': vidid,
+            'artists': artst
         }),
     }).then(response => {
         if (!response.ok) {
