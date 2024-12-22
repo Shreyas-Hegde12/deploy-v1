@@ -1,6 +1,4 @@
-const video = document.getElementById('video')
-const sampler = document.querySelector('.start-sampling');
-let inView = true;
+//constants
 var cooldowntime = false;
 var lastcaptured='happy';
 var dominantExpression = 'starter';
@@ -11,7 +9,13 @@ var emoji = {
     'sad': '😭 SAD',
     'angry': '😤 ANGRY',
 }
+let prevDominant = 'starter';
+let inView = true;
+const video = document.getElementById('video')
+const sampler = document.querySelector('.start-sampling');
 
+
+// Download all Models of FaceApi
 Promise.all([
     faceapi.nets.tinyFaceDetector.loadFromUri('/static/models'),
     faceapi.nets.faceLandmark68Net.loadFromUri('/static/models'),
@@ -19,6 +23,8 @@ Promise.all([
     faceapi.nets.faceExpressionNet.loadFromUri('/static/models')
 ]).then(startVideo)
 
+
+// Get Camera Resource
 function startVideo() {
     navigator.getUserMedia({
             video: {}
@@ -28,11 +34,13 @@ function startVideo() {
     )
 }
 
-let prevDominant = 'starter';
+
+// Start detection on videocam ready and Keep Predicting Emotions every 200ms
 let firstvideoplay = true;
 video.addEventListener('play', () => {
     if (!firstvideoplay)
         return;
+    // Setting Up for detections
     const canvas = faceapi.createCanvasFromMedia(video);
     canvas.setAttribute('class', 'canvas-photo');
     document.querySelector('#video-container').append(canvas);
@@ -41,6 +49,14 @@ video.addEventListener('play', () => {
         height: video.height
     };
     faceapi.matchDimensions(canvas, displaySize);
+    // Remove Blur Mask on Video Ready
+    const a = setTimeout(function() {
+        document.querySelector('#video-container').classList.remove('gradient');
+        document.querySelector('.camera-toggle').style.transform = 'scale(1)';
+        document.querySelector('#video-container').style.maxWidth = '590px';
+    }, 1e3);
+    firstvideoplay = false;
+    // Detect Emotions every 200ms
     setInterval(async () => {
         if (inView == true && cooldowntime == false && video.paused == false) {
             // Detect the face with expressions
@@ -74,19 +90,13 @@ video.addEventListener('play', () => {
                 ctx.fillStyle = 'rgba(255, 255, 255, 1)';
                 ctx.font = '16px open sans';
                 ctx.fillText(`${emoji[dominantExpression]} : ${confidence}%`, box.x + 10, box.y + 20);
-                
             }
         }
     }, 200);
-    const a = setTimeout(function() {
-        document.querySelector('#video-container').classList.remove('gradient');
-        document.querySelector('.camera-toggle').style.transform = 'scale(1)';
-        document.querySelector('#video-container').style.maxWidth = '590px';
-    }, 1e3);
-    firstvideoplay = false;
 });
 
-//Intersection Observer
+
+// Intersection Observer for VideoFeed Visiblity
 function handleIntersection(entries) {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -102,7 +112,8 @@ const observer = new IntersectionObserver(handleIntersection, {
 });
 observer.observe(video);
 
-//button click cooldown
+
+// Pause Detections for few seconds using 'cooldowntime' when required (like just after a recommendation)
 let cool;
 function cooldown(bool) {
     if (bool == 0) {
@@ -122,13 +133,16 @@ function cooldown(bool) {
     }
 }
 
-//pick dominant emotion
+
+// Decide Dominant Emotion from Detection Emotion Scores
 function setDominantEmotion(expressions) {
     dominantExpression = Object.keys(expressions).reduce((maxEmotion, currentEmotion) =>
         expressions[currentEmotion] > expressions[maxEmotion] ? currentEmotion : maxEmotion
     );
 }
 
+
+// Recommend Button
 function recommend() {
     lastcaptured = dominantExpression;
     document.querySelector('.recommend-button').classList.add('recommend-button-click');
@@ -146,6 +160,8 @@ function recommend() {
     throwPhoto();
 }
 
+
+// Generate Photo when photo clicked
 function generatePhoto() {
     const vd = document.querySelector('video');
     const canv = document.createElement('canvas');
@@ -160,6 +176,8 @@ function generatePhoto() {
     document.querySelector('#face-box').src = box_src;
 }
 
+
+// Throw the photo up in air
 function throwPhoto() {
     const photo = document.querySelector('#clicked-photo');
     document.querySelector('.camera-toggle').style.transform = 'scale(0)';
@@ -175,10 +193,13 @@ function throwPhoto() {
     }, 3e3);
 }
 
+
+// Reload Page on logo click
 function reload(){
   window.location.href= '/';
 }
 
+// Snap to Main section
 function snap() {
     window.location.href = '#panels';
 }

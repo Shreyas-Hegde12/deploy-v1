@@ -217,14 +217,13 @@ aspect-ratio: 1/1;
 
 #liked-section {
     width: 94%;
-    height: 67vh;  /* This is fine, but ensure this height is needed */
+    height: 67vh;
     overflow: hidden;
     position: relative;
     display:flex; 
     justify-content: center;
     place-items: center;
 }
-
 .liked-songs {
     border-radius: 50px;
     background: linear-gradient(to bottom, #39E9F8, #A356FA, #010100);
@@ -239,7 +238,6 @@ aspect-ratio: 1/1;
     place-items: center;
     overflow: hidden;
 }
-
 .liked-songs-head {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -253,7 +251,6 @@ aspect-ratio: 1/1;
     justify-content: space-between;
     place-items: center;
 }
-
 .liked-songs-head p {
     color: black;
     padding: 55px;
@@ -261,17 +258,14 @@ aspect-ratio: 1/1;
     font-size: 24px;
     font-family: 'open sans';
 }
-
 .section-title {
     font-size: 28px;
     font-weight: bold;
 }
-
 .mood-description {
     font-size: 14px;
     color: #666;
 }
-
 .liked-list {
     overflow-x: hidden;
     overflow-y: auto;
@@ -279,49 +273,49 @@ aspect-ratio: 1/1;
     height: 80%;
     margin-top: 10px;
 }
-
-.liked-strip {
+.liked-strip{
     color: white;
     background: rgba(20, 20, 20, 0.6);
     backdrop-filter: blur(10px);
     width: 99%;
     height: 60px;
     border-radius: 20px;
-    padding: 8px 20px;
-    display: flex;
-    flex-direction: row;
-    gap: 10%;
-    font-size: 18px;
-    font-weight: bold;
     margin: 10px 5px;
-    align-items: center;
-    cursor:pointer;
-    font-family: 'open sans';
+    display: flex;
     position: relative;
 }
-
 .liked-strip:hover {
     background: rgba(20, 20, 20, 0.9);
 }
-.liked-strip:hover > p {
+.liked-strip:hover > div > p {
     text-decoration: underline;
 }
-
+.liked-strip div{
+    justify-content: center;
+    place-items:center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    padding: 8px 20px;
+    gap: 10%;
+    font-size: 18px;
+    font-weight: bold;
+    cursor:pointer;
+    font-family: 'open sans';
+}
 .llsong-name, .llartist-name, .llmood {
     margin: 0;
     padding: 0;
 }
-
 .llsong-name {
     flex: 3;
 }
-
 .llartist-name {
-    flex: 3;
-}
-
-.llmood {
     flex: 2;
+}
+.llmood {
+    flex: 3;
     text-decoration: none!important;
 }
 .llminusbutton{

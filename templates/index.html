@@ -109,7 +109,7 @@
             <!-- Music Card -->
             <div class="player">
                 <img  onclick="lyricToggle()" src="static/images/transparent.png" alt="Song Artwork">
-                <div class="like-button"><img src="static/images/not-liked.png"></div>
+                <div class="like-button"><img onclick="liketoggle()" src="static/images/not-liked.png"></div>
                 <div name="mainsong metadata" class="current-song-detail">
                     <div style="flex: 1;">
                         <button class="play-button" onclick="togglePlay();">
@@ -135,7 +135,7 @@
             <div class="similar-songs"
                 style="overflow-y: hidden; overflow-x: auto; width: 100%;  height: auto; max-width: 450px; aspect-ratio: 16/19; ">
                 <div name="similar song cards">
-                    <div class="song-card" id="similar1" onclick="similarsongclick('#similar1');">
+                    <div class="song-card" id="similar1" onclick="similarSongClicked('#similar1');">
                         <div class="thumb">
                             <img src="static/images/transparent.png" alt="Song 1">
                         </div>
@@ -147,7 +147,7 @@
                             <div style="transform: translateX(5%); font-size: 130%; color:white;">▶</div>
                         </div>
                     </div>
-                    <div class="song-card button" id="similar2" onclick="similarsongclick('#similar2');">
+                    <div class="song-card button" id="similar2" onclick="similarSongClicked('#similar2');">
                         <div class="thumb">
                             <img src="static/images/transparent.png" alt="Song 1">
                         </div>
@@ -159,7 +159,7 @@
                             <div style="transform: translateX(5%);font-size: 130%; color:white;">▶</div>
                         </div>
                     </div>
-                    <div class="song-card button" id="similar3" onclick="similarsongclick('#similar3')">
+                    <div class="song-card button" id="similar3" onclick="similarSongClicked('#similar3')">
                         <div class="thumb">
                             <img src="static/images/transparent.png" alt="Song 1">
                         </div>

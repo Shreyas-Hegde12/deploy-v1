@@ -1,3 +1,10 @@
+//constants
+let isPlaying = false;
+let loading = false;
+let songFetched = false;
+let audioElement = new Audio();
+let currentSong = '';
+let currentNote = '';
 const note = {
     'neutral': "Wow! Been a while seeing a calm face! <br>",
     'happy': "You look so happy! Lets Elevate your mood ++ <br>",
@@ -5,12 +12,16 @@ const note = {
     'sad': ["Buckle up soldier! Don't be sad! Life is not yet over <br>", "You are sad!! Cry it out and feel lighter!!<br>"],
     'angry': "Ooh! You look angry.. Being happy is still a choice... <br>",
 }
-let isPlaying = false;
-let loading = false;
-let songFetched = false;
-let audioElement = new Audio();
+const fallbackimg = 'static/images/transparent.png';
 const playButton = document.querySelector('.play-button div');
+const slider = document.getElementById("music-slider");
 
+
+//Event Listeners
+document.addEventListener('DOMContentLoaded', fetchSongOnEmotion('starter'));
+
+
+//Play-Pause Button
 function togglePlay() {
     isPlaying = !isPlaying;
     if (!songFetched | loading) {
@@ -27,10 +38,11 @@ function togglePlay() {
         cameraONOFF('on');
     }
 }
-const slider = document.getElementById("music-slider");
+
+
+//Update Slider
 let manualMove = false;
 let slide;
-
 function updateSlider(action) {
     if (action == 'reset') {
         slider.value = audioElement.currentTime;
@@ -54,59 +66,10 @@ document.getElementById("music-slider").addEventListener("input", () => {
     manualMove = true;
 });
 
-// Set Audio Source 
-function setSong(data) {
-    if (data) {
-        const cards = [data.mainsong, data.similar1, data.similar2, data.similar3]
-        cards.forEach(function(song) {
-            if (song.title.length > 23) {
-                song.title = song.title.slice(0, 18) + '..';
-            }
-            if (song.artist.length > 20) {
-                song.artist = song.artist.slice(0, 17) + '..';
-            }
-        });
-    }
-    document.querySelector('.lyrics-panel p').innerText = 'Fetching lyrics for you..';
-    const fallbackimg = 'static/images/transparent.png';
-    document.querySelector('.player img').src = data.mainsong.coverart || fallbackimg;
-    document.querySelector('.player img').setAttribute('data-videoid', data.mainsong.videoid);
-    document.querySelector('.player h2').textContent = data.mainsong.title || 'Unknown Title';
-    document.querySelector('.player p').textContent = data.mainsong.artist || 'Unknown Artist';
-    document.querySelector('#similar1 img').src = data.similar1.coverart || fallbackimg;
-    document.querySelector('#similar1').setAttribute('data-videoid', data.similar1.videoid);
-    document.querySelector('#similar1 h3').textContent = data.similar1.title || 'Unknown Title';
-    document.querySelector('#similar1 p').textContent = data.similar1.artist || 'Unknown Artist';
-    document.querySelector('#similar2 img').src = data.similar2.coverart || fallbackimg;
-    document.querySelector('#similar2').setAttribute('data-videoid', data.similar2.videoid);
-    document.querySelector('#similar2 h3').textContent = data.similar2.title || 'Unknown Title';
-    document.querySelector('#similar2 p').textContent = data.similar2.artist || 'Unknown Artist';
-    document.querySelector('#similar3 img').src = data.similar3.coverart || fallbackimg;
-    document.querySelector('#similar3').setAttribute('data-videoid', data.similar3.videoid);
-    document.querySelector('#similar3 h3').textContent = data.similar3.title || 'Unknown Title';
-    document.querySelector('#similar3 p').textContent = data.similar3.artist || 'Unknown Artist';
-    audioElement.pause();
-    if (isPlaying) togglePlay();
-    songFetched = false;
-    if(!checkifliked(data.mainsong.videoid)){
-        likeButton.src = 'static/images/not-liked.png';
-    likeButton.classList.add('like-click');
-    const liking = setTimeout(function(){likeButton.classList.remove('like-click');},1e3);
-    likeStatus = false; 
-    }else{
-        likeButton.src = 'static/images/liked.png';
-    likeButton.classList.add('like-click');
-    const liking = setTimeout(function(){likeButton.classList.remove('like-click');},1e3);
-    likeStatus = true; 
-    }
-    fetchUrl(data.mainsong.videoid);
-    
-}
-document.addEventListener('DOMContentLoaded', fetchSongOnEmotion('starter'));
 
-// Fetch Song on emotion
+// GetRecommendation
 async function fetchSongOnEmotion(emotion) {
-    const response = await fetch('/getsongs', {
+    const response = await fetch('/recommendation', {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -121,19 +84,22 @@ async function fetchSongOnEmotion(emotion) {
         return response.json();
     }).then(data => {
         console.log("Received data:", data);
+        // Set Song Data
         setSong(data)
-        let re_note = (note[emotion] || '') + 'Playing for you ' + ' <b>' + data.mainsong.note + '</b>';
+        // Set Recommendation Note
+        currentNote = (note[emotion] || '') + 'Playing for you ' + ' <b>' + data.note + '</b>';
         if (emotion == 'sad') {
-            let n = data.mainsong.note;
-            let lastletter = n.charAt(n.length - 1);
+            const n = data.note;
+            const lastletter = n.charAt(n.length - 1);
             if (lastletter === 's') {
-                data.mainsong.note = n.slice(0, n.length - 1); // Removing the last character if it's 's'
-                re_note = note[emotion][1] + ' Playing for you ' + ' <b>' + data.mainsong.note + '</b>';
+                data.note = n.slice(0, n.length - 1); // Removing the last character if it's 's'
+                currentNote = note[emotion][1] + ' Playing for you ' + ' <b>' + data.note + '</b>';
             } else {
-                re_note = note[emotion][0] + ' Playing for you ' + ' <b>' + data.mainsong.note + '</b>';
+                currentNote = note[emotion][0] + ' Playing for you ' + ' <b>' + data.note + '</b>';
             }
         }
-        document.querySelector('#recommendation-note').innerHTML = re_note;
+        document.querySelector('#recommendation-note').innerHTML = currentNote;
+        // Note Glow
         const glow = setTimeout(() => {
             document.querySelector('b').classList.add('note-glow');
         }, 3e3);
@@ -141,6 +107,9 @@ async function fetchSongOnEmotion(emotion) {
         console.error("Error fetching data:", error);
     });
 }
+
+
+// Get SongUrl
 async function fetchUrl(videoid) {
     const response = await fetch('/songurl', {
         method: "POST",
@@ -159,12 +128,14 @@ async function fetchUrl(videoid) {
         console.log("Received data:", data);
         audioElement.src = data.songurl;
         songFetched = true;
+        // User Already Waiting for SongUrl (i.e, song play button clicked)
         if (loading == true) {
             audioElement.play();
             playButton.textContent = '⏸';
             loading = false;
             cameraONOFF('off');
         }
+        // Reset Slider
         setTimeout(() => {
             updateSlider('reset');
         }, 1e3);
@@ -173,18 +144,16 @@ async function fetchUrl(videoid) {
     });
 }
 
-//Similar Track Play
-async function similarsongclick(id) {
-    videoid = document.querySelector(id).getAttribute('data-videoid');
-    artists = document.querySelector(id).querySelector('p').innerText;
-    const response = await fetch('/continuesongs', {
+
+// Get Similar Songs
+async function similarSongs(videoid) {
+    const response = await fetch('/similar', {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
         },
         body: JSON.stringify({
-            'videoid': videoid,
-            'artists': artists
+            'videoid': videoid
         }),
     }).then(response => {
         if (!response.ok) {
@@ -193,11 +162,132 @@ async function similarsongclick(id) {
         return response.json();
     }).then(data => {
         console.log("Received data:", data);
-        setSong(data);
+        setSimilarSongData(data);
     }).catch(error => {
         console.error("Error fetching similar songs:", error);
     });
 }
+
+
+// Search 
+async function searchFeature() {
+    const query = document.querySelector('#search-bar').value;
+    document.querySelector('#search-in-progress').style.transform = 'scale(1)';
+    const ans = await fetch("/search", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            "query": query
+        }),
+    }).then(response => {
+        if (!response.ok) {
+            throw new Error(`Error: ${response.status}`);
+        }
+        return response.json();
+    }).then(data => {
+        console.log("Search Result is: ", data);
+        setSong(data);
+        document.querySelector('#search-in-progress').style.transform = 'scale(0)';
+    }).catch(error => {
+        console.log("error from search: ", error);
+    });
+}
+
+
+// Get Lyrics
+async function lyrics(){
+    const lyrics = await fetch('/lyrics', {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+            'videoid': currentSong
+        }),
+    }).then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+    }).then(data => {
+        console.log("Received data:", data);
+        document.querySelector('.lyrics-panel p').innerText = data.lyrics;
+    }).catch(error => {
+        console.error("Error fetching similar songs:", error);
+    });
+}
+
+
+// Set Received Recommendation Data
+function setSong(data) {
+    if (data) {
+        currentSong = data.videoid;
+        if (data.title.length > 23) {
+            data.title = data.title.slice(0, 18) + '..';
+        }
+        if (data.artists.length > 20) {
+            data.artists = data.artists.slice(0, 17) + '..';
+        }
+    }
+    // Set Main Song Data
+    document.querySelector('.lyrics-panel p').innerText = 'Fetching lyrics for you..';
+    document.querySelector('.player img').src = data.coverart || fallbackimg;
+    document.querySelector('.player img').setAttribute('data-videoid', data.videoid);
+    document.querySelector('.player h2').textContent = data.title;
+    document.querySelector('.player p').textContent = data.artists;
+    // Reset Running Elements, Like Status
+    audioElement.pause();
+    if (isPlaying) togglePlay();
+    songFetched = false;
+    // Like Status
+    if(!checkifliked(data.videoid)){
+        likeButton.src = 'static/images/not-liked.png';
+        likeStatus = false; 
+    }else{
+        likeButton.src = 'static/images/liked.png';
+        likeStatus = true; 
+    }
+    // Like Animation
+    const liking = setTimeout(function(){
+        likeButton.classList.add('like-click');
+        const likingEnd = setTimeout(function(){likeButton.classList.remove('like-click');}, 1e3);
+    },1e3);
+    // Ask Similar Songs Now
+    similarSongs(data.videoid);
+    // Ask Current Song's Url Now
+    fetchUrl(data.videoid);
+}
+
+
+// Set Similar Songs Data
+function setSimilarSongData(data){
+    const cards = [data.similar1, data.similar2, data.similar3]
+    cards.forEach(function(card) {
+        if (card.title.length > 23) {
+            card.title = card.title.slice(0, 18) + '..';
+        }
+        if (card.artists.length > 20) {
+            card.artists = card.artists.slice(0, 17) + '..';
+        }
+    });
+    document.querySelector('#similar1 img').src = data.similar1.coverart || fallbackimg;
+    document.querySelector('#similar1').setAttribute('data-videoid', data.similar1.videoid);
+    document.querySelector('#similar1 h3').textContent = data.similar1.title || 'Unknown Title';
+    document.querySelector('#similar1 p').textContent = data.similar1.artists || 'Unknown Artist';
+    document.querySelector('#similar2 img').src = data.similar2.coverart || fallbackimg;
+    document.querySelector('#similar2').setAttribute('data-videoid', data.similar2.videoid);
+    document.querySelector('#similar2 h3').textContent = data.similar2.title || 'Unknown Title';
+    document.querySelector('#similar2 p').textContent = data.similar2.artists || 'Unknown Artist';
+    document.querySelector('#similar3 img').src = data.similar3.coverart || fallbackimg;
+    document.querySelector('#similar3').setAttribute('data-videoid', data.similar3.videoid);
+    document.querySelector('#similar3 h3').textContent = data.similar3.title || 'Unknown Title';
+    document.querySelector('#similar3 p').textContent = data.similar3.artists || 'Unknown Artist';
+}
+
+
+// Camera Feed ON-OFF Button
 var camonsvg = `<svg fill="#ffffff" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px" viewBox="0 0 487.811 487.811" xml:space="preserve"><g><g><polygon points="0,124.814 0,124.814 0,124.805"/><path d="M487.592,118.178l-1.425-1.521c-0.794-0.851-2.247-1.874-4.657-1.874l-77.169,0.067c-2.229,0-7.43-6.101-9.209-11.733
              l-16.639-47.392c-2.477-7.889-10.49-7.889-13.502-7.889l-181.238,0.077l-3.691-0.029c-3.825,0-12.785,0-15.195,8.319
              l-14.564,51.102c-1.1,3.806-5.508,7.545-8.902,7.545l-121.473-0.019c-7.449,0-19.918,0-19.928,9.974
@@ -226,56 +316,26 @@ function cameraONOFF(action) {
     }
 }
 
-async function searchFeature() {
-    const query = document.querySelector('#search-bar').value;
-    document.querySelector('#search-in-progress').style.transform = 'scale(1)';
-    const ans = await fetch("/search", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-            "query": query
-        }),
-    }).then(response => {
-        if (!response.ok) {
-            throw new Error(`Error: ${response.status}`);
-        }
-        return response.json();
-    }).then(data => {
-        console.log("Search Result is: ", data);
-        setSong(data);
-        document.querySelector('#search-in-progress').style.transform = 'scale(0)';
-    }).catch(error => {
-        console.log("error from search: ", error);
-    });
-}
 
-async function lyrics(){
-    const idforlyrics = document.querySelector('.player img').getAttribute('data-videoid');
-    const lyrics = await fetch('/songlyrics', {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-            'videoid': idforlyrics
-        }),
-    }).then(response => {
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        return response.json();
-    }).then(data => {
-        console.log("Received data:", data);
-        document.querySelector('.lyrics-panel p').innerText = data.lyrics;
-    }).catch(error => {
-        console.error("Error fetching similar songs:", error);
-    });
-}
-
+// Lyrics See/Hide Button
 let lyricVisible = false;
 function lyricToggle(){
 if(lyricVisible){document.querySelector('.lyrics-panel').style.display = 'none'; cameraONOFF('on'); lyricVisible = false;}
 else{lyrics(); document.querySelector('.lyrics-panel').style.display = 'flex'; cameraONOFF('off'); lyricVisible=true;}
+}
+
+
+// SimilarSong Clicked By User
+function similarSongClicked(id){
+const sId = document.querySelector(id).getAttribute('data-videoid'),
+sTitle = document.querySelector(id).querySelector('h3').innerText,
+sArtists = document.querySelector(id).querySelector('p').innerText,
+sCoverimg = document.querySelector(id).querySelector('img').src;
+data = {
+    "title":sTitle,
+    "artists":sArtists,
+    "coverart":sCoverimg,
+    "videoid":sId
+};
+setSong(data);
 }
