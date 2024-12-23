@@ -5,7 +5,7 @@ let lmood = 'mood';
 let song;
 let lvidid = '';
 let likeStatus = false;
-let likedSongs = JSON.parse(localStorage.getItem('user1_liked') || '[]');
+let likedSongs = JSON.parse(localStorage.getItem('user1_liked')) || [];
 const likeButton = document.querySelector('.like-button img');
 
 
@@ -60,6 +60,8 @@ function renderLikedSongs() {
         songElement.querySelector('.llminusbutton').addEventListener('click', (event) => {
             const songminusid = event.target.dataset.id;
             removeSong(songminusid);
+            likeButton.src = 'static/images/not-liked.png';
+            likeStatus = false; 
         });
         likedListContainer.appendChild(songElement);
     });
@@ -101,4 +103,16 @@ function playLikedSong(videoid, title, artists, coverart) {
         "videoid": videoid
     };
     setSong(data);
+}
+
+let navVisible = false;
+function pullNav(){
+    if(navVisible){
+        document.querySelector('nav').style.transform = 'translate(0,-100%)';
+        navVisible = false;
+    }
+    else{
+        document.querySelector('nav').style.transform = 'translate(0,0%)';
+        navVisible = true;
+    }
 }

@@ -12,8 +12,6 @@ var emoji = {
 let prevDominant = 'starter';
 let inView = true;
 const video = document.getElementById('video')
-const sampler = document.querySelector('.start-sampling');
-
 
 // Download all Models of FaceApi
 Promise.all([
@@ -50,11 +48,11 @@ video.addEventListener('play', () => {
     };
     faceapi.matchDimensions(canvas, displaySize);
     // Remove Blur Mask on Video Ready
-    const a = setTimeout(function() {
+    const gradientEnd = setTimeout(function() {
         document.querySelector('#video-container').classList.remove('gradient');
         document.querySelector('.camera-toggle').style.transform = 'scale(1)';
-        document.querySelector('#video-container').style.maxWidth = '590px';
-    }, 1e3);
+        document.querySelector('#video-container').style.maxWidth = '600px';
+    }, 2e3);
     firstvideoplay = false;
     // Detect Emotions every 200ms
     setInterval(async () => {
@@ -154,7 +152,6 @@ function recommend() {
     document.querySelector('.recommend-button p').style.fontWeight = 'bold';
     if (isPlaying) togglePlay();
     fetchSongOnEmotion(dominantExpression);
-    cooldown(0);
     generatePhoto();
     updateSlider('reset');
     throwPhoto();

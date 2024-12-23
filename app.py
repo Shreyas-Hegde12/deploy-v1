@@ -49,7 +49,7 @@ async def songurl():
             videoid = 'dtmr-rDIR6s'
         song_info = await fetch_song_url(videoid)
         song_url = song_info.get('url', '')
-        return jsonify({'songurl': song_url}), 200
+        return jsonify({'songurl': song_url, 'videoid': videoid}), 200
 
     except Exception as e:
         return jsonify({'error': str(e)}), 500

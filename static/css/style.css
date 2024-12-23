@@ -3,7 +3,7 @@
     margin:0px;
     padding:0px;
     box-sizing: border-box;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth!important;
 }
 ::selection{
     color: #fff;
@@ -25,17 +25,46 @@ p{
 
 /*Nav Bar*/
 nav{
+    position: absolute;
+    top: 0px;
+    left: 0vw;
+    z-index: 1000;
+    background-color: #000;
+    transform: translate(0, -100%);
     display: flex;
     justify-content: center;
     place-items: center;
     width: 100%;
     height: auto;
+    transition: transform 0.4s ease;
+}
+.pull-nav{
+    position: absolute;
+    top: 0px;
+    left: 50vw;
+    z-index: -5;
+    transform: translate(-50%,10%);
+    width: 10vw;
+    height: 9vw;
+    border-radius: 100%;
+    background-color: rgba(255,255,255,0.02);
+    backdrop-filter: blur(20px);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: '';
+    padding-top: 3%;
+    color:white;
+    font-weight: bolder;
+    font-size: 40px;
+    box-shadow: 0 0 100px #333;
+    cursor:pointer;
 }
 .logo{
     position: absolute;
-    top: 2.5%;
-    left: 2%;
-    z-index: 100;
+    top: 20%;
+    left: 3%;
+    z-index: 1;
     aspect-ratio: 1/0.7;
     width: 80px;
     height: auto;
@@ -46,6 +75,7 @@ nav{
     background-image: url('/static/images/logo.png');
     background-position: -580% -420%;
     background-size: 620%;
+    transform: scale(1.24);
     cursor:pointer;
 }
 @keyframes animat {
@@ -111,14 +141,15 @@ transform: scale(0);
 z-index: 1;
 aspect-ratio: 1/1;
 }
+
 /* */
 .like-button{
     width: 30vw;
-    max-width: 130px;
+    max-width: 140px;
     height: auto;
     aspect-ratio: 1/1;
     position:absolute;
-    transform: rotateZ(18deg) translate(-15%, -130%);
+    transform: rotateZ(18deg) translate(-10%, -120%);
     bottom: 0%;
     right: 0%;
     filter: drop-shadow(0px 0px 50px #000);
@@ -138,7 +169,7 @@ aspect-ratio: 1/1;
     aspect-ratio: 16/12.5;
     position: fixed;
     bottom: -77vh;
-    left: 8.5vw;
+    left: 8.8vw;
     overflow: hidden;
     display:flex;
     z-index: 50;
@@ -165,7 +196,7 @@ aspect-ratio: 1/1;
     transition: throw-upward 3s ease, bottom 2s ease;
 }
 @keyframes throw-upward{
-    20%{bottom: 36vh;}
+    20%{bottom: 38vh;}
     37%{bottom: 39vh; transform: rotateZ(10deg);}
     60%{bottom: -77vh; transform: rotateZ(-5deg);}
 }
@@ -179,7 +210,8 @@ aspect-ratio: 1/1;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: -10px;
+    margin-top: 0px;
+    overflow: hidden;
 }
 .left-panel, .right-panel{
     flex: 1;
@@ -211,7 +243,7 @@ aspect-ratio: 1/1;
     overflow:hidden;
     border-radius: 10px;
     position: relative;
-    background: #1e1e1e;
+    background: #0a0a0a;
     gap: 5%;
 }
 
@@ -340,7 +372,7 @@ aspect-ratio: 1/1;
 
 .right-panel{
     margin: 10px 10px 10px 5px;
-    background-image: radial-gradient(circle at top, #fff, #121212 45%);
+    background-image: radial-gradient(circle at top, #fff, #0a0a0a 37%);
     background-position: top center;
 }
 /* */
@@ -465,7 +497,7 @@ canvas{
 .recommend-button, .recommend-button>div{
 padding: -5%;
 width: 65vw;
-max-width: 260px;
+max-width: 270px;
 aspect-ratio: 16/4.5;
 background-color: #fff;/* rgb(6, 0, 26);*/
 justify-content:center;
@@ -479,6 +511,7 @@ cursor:pointer;
     font-size: min(6.8vw,22px);
     font-family: 'open sans';
     color: #000;
+    font-weight: bolder;
 }
 @property --angle{
     syntax: "<angle>";
@@ -535,20 +568,20 @@ cursor:pointer;
 
 /*Right Side Panel*/
 .player{
-    margin-top: 5%;
+    margin-top: 5.5%;
     padding: 2%;
     border-radius: 10px;
     display: flex; flex-direction: column; justify-content: center; place-items: center;
     width: 65%;
-    max-width: 470px;
+    max-width: 465px;
     height: auto;
     backdrop-filter: blur(8px);
     background-color: rgba(255,255,255,0);
-    box-shadow: 0 0 500px #444;
+    box-shadow: 0 0 500px #333;
     position: relative;
 }
 .player img{
-    margin: 5%;
+    margin: 4.5%;
     width: 90%;
     height: auto;
     aspect-ratio: 1/1;
@@ -558,10 +591,10 @@ cursor:pointer;
     flex-direction: row;
     gap: 0%;
     width: 90%;
-    margin-bottom: 0%;
+    margin-bottom: -2%;
 }
 .current-song-detail h2{
-    font-size: min(5vw, 25px);
+    font-size: min(5vw, 27px);
     font-family: 'open sans';
     color:white;
 }
@@ -574,7 +607,7 @@ cursor:pointer;
 .play-button{
     color: black;
     background-color: white;
-    width: 65%;
+    width: 70%;
     height: auto;
     aspect-ratio: 1/1;
     padding: 8%;
@@ -582,14 +615,14 @@ cursor:pointer;
     border:0px;
     border-radius: 50%;
     font-size: 290%;
-    transform: translate(20%,-50%);
-    transition: transform ease-in 0.1s;
+    transform: translate(15%,-55%);
+    transition: transform ease 0.3s;
     box-shadow: 0 0 0px #ddd;
 }
 .play-button:hover{
     background-color: white;
     color:black;
-    transform: translate(20%,-50%) scale(1.1);
+    transform: translate(15%,-55%) scale(1.08);
 }
 .slider {
     appearance: none;

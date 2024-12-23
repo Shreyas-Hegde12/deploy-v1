@@ -50,8 +50,6 @@ def fetch_related_songs(video_id):
     try:
         watch_playlist = ytmusic.get_watch_playlist(videoId=video_id, limit=5)
         tracks = watch_playlist.get("tracks", [])
-        with open('abcd.txt','w') as abcd:
-            abcd.write(str(format_track(tracks[0])))
         if not tracks:
             return {"error": "No related tracks found"}
         ans = {

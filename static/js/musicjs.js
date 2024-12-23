@@ -126,19 +126,22 @@ async function fetchUrl(videoid) {
         return response.json();
     }).then(data => {
         console.log("Received data:", data);
-        audioElement.src = data.songurl;
-        songFetched = true;
-        // User Already Waiting for SongUrl (i.e, song play button clicked)
-        if (loading == true) {
-            audioElement.play();
-            playButton.textContent = '⏸';
-            loading = false;
-            cameraONOFF('off');
+        // Many song's urls can arrive one after other while browsing. So set the correct url to the song, user is currently waiting for
+        if(data.videoid == currentSong){
+            audioElement.src = data.songurl;
+            songFetched = true;
+            // User Already Waiting for SongUrl (i.e, song play button clicked)
+            if (loading == true) {
+                audioElement.play();
+                playButton.textContent = '⏸';
+                loading = false;
+                cameraONOFF('off');
+            }
+            // Reset Slider
+            setTimeout(() => {
+                updateSlider('reset');
+            }, 1e3);
         }
-        // Reset Slider
-        setTimeout(() => {
-            updateSlider('reset');
-        }, 1e3);
     }).catch(error => {
         console.error("Error fetching data:", error);
     });

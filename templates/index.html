@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <nav>
+    <nav id="nav">
         <!--Logo + Name-->
         <div class="logo" onclick="reload();"></div>
         <!--Search Bar-->
@@ -38,6 +38,7 @@
                     stroke-linecap='round' cx='100' cy='100' r='70'></circle>
             </svg>
         </form>
+        <div class="pull-nav" onclick="pullNav()">?</div>
     </nav>
 
     <!--Photograph-->
@@ -47,11 +48,12 @@
 
     <!--App Area-->
     <div id="panels">
+        
         <!--Capture Area - Left Panel-->
         <div class="left-panel">
         <div class="left-panel-top" onclick="snap()">
             <!--WebCam-->
-            <div name="video cam" style="width: 85%; display: flex; justify-content: center; place-items: center; max-width: 590px; height: auto; aspect-ratio: 16/11; position: relative;">
+            <div name="video cam" style="width: 85%; display: flex; justify-content: center; place-items: center; max-width: 600px; height: auto; aspect-ratio: 16/11; position: relative;">
                 <!--Container-->
                 <div class="gradient" id="video-container">
                     <video id="video" width="480px" height="450px" autoplay muted></video>
@@ -130,6 +132,7 @@
                         min="0" max="100" value="0" />
                 </div>
             </div> <br><br>
+
             <!-- Similar Songs Cards -->
             <p style="font-size: min(8vw, 30px); font-family: open sans; padding: 5% 0% 2% 0%;">Similar Songs</p>
             <div class="similar-songs"
