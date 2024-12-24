@@ -90,15 +90,21 @@
         
                 <div class="liked-list">
                     <div class="liked-strip">
-                        <p class="song-name">Song Name</p>
-                        <p class="artist-name">Artist</p>
-                        <p class="mood">😀 Happy</p>
+                        <div>
+                            <p class="song-name">Song Name</p>
+                            <p class="artist-name">Artist</p>
+                            <p class="mood">😀 Happy</p>
+                        </div>
+                        <button class="llminusbutton">-</button>
                     </div>
                     <!-- Additional songs can be added here -->
                     <div class="liked-strip">
-                        <p class="song-name">Another Song</p>
-                        <p class="artist-name">Another Artist</p>
-                        <p class="mood">😔 Sad</p>
+                        <div>
+                            <p class="song-name">Another Song</p>
+                            <p class="artist-name">Another Artist</p>
+                            <p class="mood">😔 Sad</p>
+                        </div>
+                        <button class="llminusbutton">-</button>
                     </div>
                 </div>
             </section>
@@ -110,15 +116,17 @@
         <div class="right-panel" onclick="snap()">
             <!-- Music Card -->
             <div class="player">
-                <img  onclick="lyricToggle()" src="static/images/transparent.png" alt="Song Artwork">
-                <div class="like-button"><img onclick="liketoggle()" src="static/images/not-liked.png"></div>
+                <div name="song coverart" style="position:relative; aspect-ratio: 1/1; width:100%; height: auto;">
+                    <img  onclick="lyricToggle()" src="static/images/transparent.png" alt="Song Artwork">
+                    <div class="like-button"><img onclick="liketoggle()" src="static/images/not-liked.png"></div>
+                </div>
                 <div name="mainsong metadata" class="current-song-detail">
-                    <div style="flex: 1;">
+                    <div style="flex: 1 1 50%;">
                         <button class="play-button" onclick="togglePlay();">
                             <div style="transform: translate(5%,-5%);">▶</div>
                         </button>
                     </div>
-                    <div style="flex: 1;">
+                    <div style="flex: 1 1 50%; overflow: hidden; text-overflow: ellipsis;">
                         <div>
                             <h2>Song Title</h2>
                         </div>

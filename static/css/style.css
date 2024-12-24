@@ -23,14 +23,13 @@ p{
 }
 /* */
 
+@media(max-width:820px){
+    nav, #panels{display:none!important;}
+}
 /*Nav Bar*/
 nav{
-    position: absolute;
-    top: 0px;
-    left: 0vw;
-    z-index: 1000;
+    position: relative;
     background-color: #000;
-    transform: translate(0, -100%);
     display: flex;
     justify-content: center;
     place-items: center;
@@ -39,21 +38,21 @@ nav{
     transition: transform 0.4s ease;
 }
 .pull-nav{
+    display:none;
     position: absolute;
     top: 0px;
     left: 50vw;
-    z-index: -5;
-    transform: translate(-50%,10%);
+    z-index: 10;
+    transform: translate(-50%,75%);
     width: 10vw;
-    height: 9vw;
-    border-radius: 100%;
+    height: 5.8vw;
+    border-bottom-right-radius: 500px;
+    border-bottom-left-radius: 500px;
     background-color: rgba(255,255,255,0.02);
     backdrop-filter: blur(20px);
-    display:flex;
     justify-content: center;
     align-items: center;
     font-family: '';
-    padding-top: 3%;
     color:white;
     font-weight: bolder;
     font-size: 40px;
@@ -149,56 +148,55 @@ aspect-ratio: 1/1;
     height: auto;
     aspect-ratio: 1/1;
     position:absolute;
-    transform: rotateZ(18deg) translate(-10%, -120%);
-    bottom: 0%;
-    right: 0%;
-    filter: drop-shadow(0px 0px 50px #000);
+    transform: rotateZ(18deg) translate(35%, 15%);
+    bottom: 0px;
+    right: 0px;
+    filter: drop-shadow(0px 0px 70px #000);
 }
 .like-button img{
 width: 90%;
 height: auto;
 aspect-ratio: 1/1;
-
 }
 
 /*Clicked Photo*/
 #clicked-photo{
-    width: 50vw;
-    max-width: 520px;
-    height: auto;
-    aspect-ratio: 16/12.5;
-    position: fixed;
-    bottom: -77vh;
-    left: 8.8vw;
-    overflow: hidden;
-    display:flex;
-    z-index: 50;
-    transform: rotateZ(-10deg);
-    border: 20px solid white;
-    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+display:flex;
+width: 60vw;
+max-width: 550px;
+height: auto;
+aspect-ratio: 16/12.5;
+position: fixed;
+z-index: 50;
+bottom: -67vh;
+left: 8.4vw;
+overflow: hidden;
+transform: rotateZ(-10deg);
+border: 20px solid white;
+/*box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;*/
 }
 #clicked-photo #photograph{
-    position: relative;
-    width: 100%;
-    height: auto;
-    aspect-ratio: 16/12.5;
+position: relative;
+width: 100%;
+height: auto;
+aspect-ratio: 16/12.5;
 }
 #clicked-photo #face-box{
-    position: absolute;
-    width: 100%;
-    height: auto;
-    top: 0px;
-    transform: translateY(-9%);
-    aspect-ratio: 16/13.5;
+position: absolute;
+width: 100%;
+height: auto;
+top: 0px;
+transform: translateY(-9%);
+aspect-ratio: 16/13.5;
 }
 .clicked-photo-animation{
-    animation: throw-upward 3s ease 1;
-    transition: throw-upward 3s ease, bottom 2s ease;
+animation: throw-upward 3s 1;
+transition: throw-upward 3s ease, bottom 3s ease;
 }
 @keyframes throw-upward{
-    20%{bottom: 38vh;}
-    37%{bottom: 39vh; transform: rotateZ(10deg);}
-    60%{bottom: -77vh; transform: rotateZ(-5deg);}
+20%{bottom: 36vh;}
+30%{bottom: 38vh; transform: rotateZ(10deg);}
+50%{bottom: -67vh; transform: rotateZ(-10deg);}
 }
 
 /* */
@@ -210,12 +208,12 @@ aspect-ratio: 1/1;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 0px;
+    margin-top: -10px;
     overflow: hidden;
 }
 .left-panel, .right-panel{
     flex: 1;
-    min-width: 500px;
+    min-width: 470px!important;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -235,7 +233,7 @@ aspect-ratio: 1/1;
 .left-panel-top{
     width: 100%;
     height: 105vh!important;
-    min-width: 500px;
+    min-width: 470px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -269,6 +267,7 @@ aspect-ratio: 1/1;
     justify-content: center;
     place-items: center;
     overflow: hidden;
+    position: relative;
 }
 .liked-songs-head {
     border-top-left-radius: 30px;
@@ -282,6 +281,7 @@ aspect-ratio: 1/1;
     backdrop-filter: blur(5px);
     justify-content: space-between;
     place-items: center;
+    position: relative;
 }
 .liked-songs-head p {
     color: black;
@@ -485,7 +485,7 @@ canvas{
 }
 @keyframes clickclick{
     10%{transform: scale(0.9);}
-    50%{transform: scale(1.12);}
+    50%{transform: scale(1.14);}
 }
 .like-click{
     animation: 1s liking ease 1;
@@ -580,7 +580,7 @@ cursor:pointer;
     box-shadow: 0 0 500px #333;
     position: relative;
 }
-.player img{
+.player > div > img{
     margin: 4.5%;
     width: 90%;
     height: auto;
@@ -594,9 +594,11 @@ cursor:pointer;
     margin-bottom: -2%;
 }
 .current-song-detail h2{
-    font-size: min(5vw, 27px);
+    font-size: min(5vw, 25px);
     font-family: 'open sans';
+    padding: 3% 2% 0 0;
     color:white;
+    overflow-wrap: break-word;
 }
 .current-song-detail p{
     font-size: min(4.2vw, 20px);
@@ -616,13 +618,13 @@ cursor:pointer;
     border-radius: 50%;
     font-size: 290%;
     transform: translate(15%,-55%);
-    transition: transform ease 0.3s;
-    box-shadow: 0 0 0px #ddd;
+    filter: drop-shadow(0px 0px 50px #000);
 }
 .play-button:hover{
     background-color: white;
     color:black;
-    transform: translate(15%,-55%) scale(1.08);
+    transition: transform 0.2s linear;
+    transform: translate(15%,-55%) scale(1.07);
 }
 .slider {
     appearance: none;

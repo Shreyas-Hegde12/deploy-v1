@@ -108,11 +108,11 @@ function playLikedSong(videoid, title, artists, coverart) {
 let navVisible = false;
 function pullNav(){
     if(navVisible){
-        document.querySelector('nav').style.transform = 'translate(0,-100%)';
+        document.querySelector('body').style.marginTop = '-70px';
         navVisible = false;
     }
     else{
-        document.querySelector('nav').style.transform = 'translate(0,0%)';
+        document.querySelector('body').style.marginTop = '0px';
         navVisible = true;
     }
 }

@@ -85,7 +85,11 @@ async function fetchSongOnEmotion(emotion) {
     }).then(data => {
         console.log("Received data:", data);
         // Set Song Data
-        setSong(data)
+        if(isThrowing){
+            const stopTillThrow = setTimeout(function(){setSong(data);},1e3);
+        }else{
+            setSong(data);
+        }
         // Set Recommendation Note
         currentNote = (note[emotion] || '') + 'Playing for you ' + ' <b>' + data.note + '</b>';
         if (emotion == 'sad') {
@@ -230,14 +234,14 @@ function setSong(data) {
         if (data.title.length > 23) {
             data.title = data.title.slice(0, 18) + '..';
         }
-        if (data.artists.length > 20) {
+        if (data.artists.length > 17) {
             data.artists = data.artists.slice(0, 17) + '..';
         }
     }
     // Set Main Song Data
     document.querySelector('.lyrics-panel p').innerText = 'Fetching lyrics for you..';
-    document.querySelector('.player img').src = data.coverart || fallbackimg;
-    document.querySelector('.player img').setAttribute('data-videoid', data.videoid);
+    document.querySelector('.player > div > img').src = data.coverart || fallbackimg;
+    document.querySelector('.player > div > img').setAttribute('data-videoid', data.videoid);
     document.querySelector('.player h2').textContent = data.title;
     document.querySelector('.player p').textContent = data.artists;
     // Reset Running Elements, Like Status
@@ -325,6 +329,20 @@ let lyricVisible = false;
 function lyricToggle(){
 if(lyricVisible){document.querySelector('.lyrics-panel').style.display = 'none'; cameraONOFF('on'); lyricVisible = false;}
 else{lyrics(); document.querySelector('.lyrics-panel').style.display = 'flex'; cameraONOFF('off'); lyricVisible=true;}
+}
+
+// When Song Ends Play a similar song
+audioElement.addEventListener('ended', () => {
+    console.log('Song has ended!');
+    // Handle what happens when the song ends
+    playNextSong(); // Example: Play the next song
+});
+
+// Next Song Player
+function playNextSong(){
+    similarSongClicked('#similar1');
+    // Reset slider
+    slider.value = 0;
 }
 
 

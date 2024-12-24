@@ -9,6 +9,7 @@ var emoji = {
     'sad': '😭 SAD',
     'angry': '😤 ANGRY',
 }
+var isThrowing= false;
 let prevDominant = 'starter';
 let inView = true;
 const video = document.getElementById('video')
@@ -52,7 +53,12 @@ video.addEventListener('play', () => {
         document.querySelector('#video-container').classList.remove('gradient');
         document.querySelector('.camera-toggle').style.transform = 'scale(1)';
         document.querySelector('#video-container').style.maxWidth = '600px';
-    }, 2e3);
+        document.querySelector('.recommend-button').style.zIndex = 0;
+        document.querySelector('.recommend-button').style.backgroundColor = '#060026';
+        document.querySelector('.recommend-button>div').style.backgroundColor = '#060026';
+        document.querySelector('.recommend-button p').style.color = '#fff';
+        document.querySelector('.recommend-button p').style.fontWeight = 'bold';
+    }, 3e3);
     firstvideoplay = false;
     // Detect Emotions every 200ms
     setInterval(async () => {
@@ -117,10 +123,13 @@ function cooldown(bool) {
     if (bool == 0) {
         cooldowntime = true;
         cameraONOFF('off');
+        if (cool) {
+            clearTimeout(cool);
+        }
         cool = setTimeout(function() {
             cooldowntime = false;
             cameraONOFF('on');
-        }, 3e3);
+        }, 5e3);
     }
     if (bool == 1) {
         cooldowntime = false;
@@ -142,19 +151,15 @@ function setDominantEmotion(expressions) {
 
 // Recommend Button
 function recommend() {
+    cooldown(0);
     lastcaptured = dominantExpression;
     document.querySelector('.recommend-button').classList.add('recommend-button-click');
     const clickclick = setTimeout(function(){document.querySelector('.recommend-button').classList.remove('recommend-button-click');},1e3);
-    document.querySelector('.recommend-button').style.zIndex = 0;
-    document.querySelector('.recommend-button').style.backgroundColor = '#060026';
-    document.querySelector('.recommend-button>div').style.backgroundColor = '#060026';
-    document.querySelector('.recommend-button p').style.color = '#fff';
-    document.querySelector('.recommend-button p').style.fontWeight = 'bold';
     if (isPlaying) togglePlay();
-    fetchSongOnEmotion(dominantExpression);
     generatePhoto();
     updateSlider('reset');
     throwPhoto();
+    fetchSongOnEmotion(dominantExpression);
 }
 
 
@@ -176,18 +181,20 @@ function generatePhoto() {
 
 // Throw the photo up in air
 function throwPhoto() {
+    isThrowing = true;
     const photo = document.querySelector('#clicked-photo');
     document.querySelector('.camera-toggle').style.transform = 'scale(0)';
     document.querySelector('#video-container').classList.remove('smooth-transition');
     document.querySelector('#video-container').classList.add('gradient');
     photo.classList.add('clicked-photo-animation');
-    const removeall = setTimeout(function() {
-        photo.classList.remove('clicked-photo-animation');
+    const removeAll = setTimeout(function() {
         document.querySelector('#video-container').classList.add('smooth-transition');
         document.querySelector('#video-container').classList.remove('gradient');
         document.querySelector('.camera-toggle').style.transform = 'scale(1)';
+        photo.classList.remove('clicked-photo-animation');
         cooldown(0);
-    }, 3e3);
+        isThrowing= false;
+    }, 4e3);
 }
 
 

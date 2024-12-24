@@ -3,7 +3,7 @@ import random
 
 e1, e2, e3, e4, e5 = 0,0,0,0,0
 select_group = {
-        'starter':[['heat waves-glass animals','a happy vibe song']],
+        'starter':[['Lover Diljit','a catchy song!']],
         'happy': HAPPY,
         'sad':SAD,
         'angry': ANGER,
