@@ -169,7 +169,7 @@ aspect-ratio: 16/12.5;
 position: fixed;
 z-index: 50;
 bottom: -67vh;
-left: 8.4vw;
+left: 8.5vw;
 overflow: hidden;
 transform: rotateZ(-10deg);
 border: 20px solid white;
@@ -594,14 +594,14 @@ cursor:pointer;
     margin-bottom: -2%;
 }
 .current-song-detail h2{
-    font-size: min(5vw, 25px);
+    font-size: calc(min(5vw, 27px));
     font-family: 'open sans';
-    padding: 3% 2% 0 0;
+    padding: 1% 2% 1% 0;
     color:white;
     overflow-wrap: break-word;
 }
 .current-song-detail p{
-    font-size: min(4.2vw, 20px);
+    font-size: calc(min(4.5vw, 17px));
     font-family: 'open sans';
     font-style: italic;
     color:white;
