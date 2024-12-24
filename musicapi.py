@@ -10,9 +10,13 @@ def get_song_recommendation(emotion):
     try:
         search_query, songnote = emotion_query(emotion)
         search_results = ytmusic.search(str(search_query), filter="songs")
+        if search_query == 'Olithu Maadu Manusa-C Ashwath':
+            search_results = ytmusic.search(str(search_query))
+
         if not search_results:
             return {"error": "No songs found"}
         mainsong = search_results[0]
+
         ans = {
             "title": mainsong.get("title","Unknown Song"),
             "artists": ", ".join([artist.get("name", "Unknown Artist") for artist in mainsong.get("artists", [])]),

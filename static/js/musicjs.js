@@ -27,23 +27,25 @@ function togglePlay() {
     if (!songFetched) {
         playButton.innerHTML = "<svg id='loading-song' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><radialGradient id='l2' cx='.66' fx='.66' cy='.3125' fy='.3125' gradientTransform='scale(1.5)'><stop offset='0' stop-color='#000'></stop><stop offset='.3' stop-color='#000' stop-opacity='.9'></stop><stop offset='.6' stop-color='#000' stop-opacity='.6'></stop><stop offset='.8' stop-color='#000' stop-opacity='.3'></stop><stop offset='1' stop-color='#000' stop-opacity='0'></stop></radialGradient><circle transform-origin='center' fill='none' stroke='url(#l2)' stroke-width='15' stroke-linecap='round' stroke-dasharray='200 1000' stroke-dashoffset='0' cx='100' cy='100' r='70'><animateTransform type='rotate' attributeName='transform' calcMode='spline' dur='2' values='360;0' keyTimes='0;1' keySplines='0 0 1 1' repeatCount='indefinite'></animateTransform></circle><circle transform-origin='center' fill='none' opacity='.2' stroke='#fff' stroke-width='15' stroke-linecap='round' cx='100' cy='100' r='70'></circle></svg>";
         loading = true;
-        cameraONOFF('off');
         return;
     }
     playButton.textContent = isPlaying ? '⏸' : '▶';
     if (isPlaying) {
-        stopCamera();
+        document.querySelector('#video-container').classList.remove('smooth-transition2');
         document.querySelector('#video-container').classList.add('gradient');
+        stopCamera();
         audioElement.play();
-        // Hard Stop Camera Feed
         cameraONOFF('off');
-        
+        document.querySelector('.listening-music-gif').style.transform = 'translate(-50%,-50%) scale(1)';
     } else {
-        document.querySelector('#video-container').classList.remove('gradient');
-        audioElement.pause();
-        // Hard Start Camera Feed
         startCamera();
+        audioElement.pause();
         cameraONOFF('on');
+        document.querySelector('.listening-music-gif').style.transform = 'translate(-50%,-50%) scale(0)';
+        const stEnd = setTimeout(()=>{
+            document.querySelector('#video-container').classList.add('smooth-transition2');
+            document.querySelector('#video-container').classList.remove('gradient');
+        },700);
     }
 }
 
@@ -144,9 +146,13 @@ async function fetchUrl(videoid) {
             songFetched = true;
             // User Already Waiting for SongUrl (i.e, song play button clicked)
             if (loading == true) {
+                document.querySelector('#video-container').classList.remove('smooth-transition2');
+                document.querySelector('#video-container').classList.add('gradient');
                 stopCamera();
                 audioElement.play();
                 playButton.textContent = '⏸';
+                cameraONOFF('off');
+                document.querySelector('.listening-music-gif').style.transform = 'translate(-50%,-50%) scale(1)';
                 loading = false;
             }
             // Reset Slider
@@ -239,8 +245,8 @@ async function lyrics(){
 function setSong(data) {
     if (data) {
         currentSong = data.videoid;
-        if (data.title.length > 23) {
-            data.title = data.title.slice(0, 18) + '..';
+        if (data.title.length > 25) {
+            data.title = data.title.slice(0, 22) + '..';
         }
         if (data.artists.length > 17) {
             data.artists = data.artists.slice(0, 17) + '..';
@@ -248,10 +254,11 @@ function setSong(data) {
     }
     // Set Main Song Data
     document.querySelector('.lyrics-panel p').innerText = 'Fetching lyrics for you..';
+    if(lyricVisible){lyrics();}
     document.querySelector('.player > div > img').src = data.coverart || fallbackimg;
     document.querySelector('.player > div > img').setAttribute('data-videoid', data.videoid);
-    document.querySelector('.player h2').textContent = data.title;
-    document.querySelector('.player p').textContent = data.artists;
+    document.querySelector('.current-song-detail h2').textContent = data.title;
+    document.querySelector('.current-song-detail p').textContent = data.artists;
     // Reset Running Elements, Like Status
     audioElement.pause();
     if (isPlaying) togglePlay();

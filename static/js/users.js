@@ -45,6 +45,9 @@ function renderLikedSongs() {
     likedSongs.forEach(song => {
         const songElement = document.createElement('div');
         songElement.classList.add('liked-strip');
+        if (song.artists.length > 11) {
+            song.artists = song.artists.slice(0, 11);
+        }
         songElement.innerHTML = `
             <div>
             <p class="llsong-name">${song.title}</p>
@@ -95,7 +98,7 @@ function checkifliked(videoid) {
 // Liked song clicked By User to play it
 function playLikedSong(videoid, title, artists, coverart) {
     window.location.href = '#panels';
-    cooldown(0);
+    cooldown(2e3);
     data = {
         "title": title,
         "artists": artists,

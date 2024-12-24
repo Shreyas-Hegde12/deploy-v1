@@ -20,18 +20,7 @@ Promise.all([
     faceapi.nets.faceLandmark68Net.loadFromUri('/static/models'),
     faceapi.nets.faceRecognitionNet.loadFromUri('/static/models'),
     faceapi.nets.faceExpressionNet.loadFromUri('/static/models')
-]).then(startVideo)
-
-
-// Get Camera Resource
-function startVideo() {
-    navigator.getUserMedia({
-            video: {}
-        },
-        stream => video.srcObject = stream,
-        err => console.error(err)
-    )
-}
+]).then(startCamera)
 
 
 // Start detection on videocam ready and Keep Predicting Emotions every 200ms
@@ -53,11 +42,6 @@ video.addEventListener('play', () => {
         document.querySelector('#video-container').classList.remove('gradient');
         document.querySelector('.camera-toggle').style.transform = 'scale(1)';
         document.querySelector('#video-container').style.maxWidth = '600px';
-        document.querySelector('.recommend-button').style.zIndex = 0;
-        document.querySelector('.recommend-button').style.backgroundColor = '#060026';
-        document.querySelector('.recommend-button>div').style.backgroundColor = '#060026';
-        document.querySelector('.recommend-button p').style.color = '#fff';
-        document.querySelector('.recommend-button p').style.fontWeight = 'bold';
     }, 3e3);
     firstvideoplay = false;
     // Detect Emotions every 200ms
@@ -129,14 +113,25 @@ function cooldown(bool) {
         cool = setTimeout(function() {
             cooldowntime = false;
             cameraONOFF('on');
-        }, 5e3);
+        }, 6e3);
     }
-    if (bool == 1) {
+    else if (bool == 1) {
         cooldowntime = false;
         cameraONOFF('on');
         if (cool) {
             clearTimeout(cool);
         }
+    }
+    else{
+        cooldowntime = true;
+        cameraONOFF('off');
+        if (cool) {
+            clearTimeout(cool);
+        }
+        cool = setTimeout(function() {
+            cooldowntime = false;
+            cameraONOFF('on');
+        },bool);
     }
 }
 
@@ -151,6 +146,11 @@ function setDominantEmotion(expressions) {
 
 // Recommend Button
 function recommend() {
+    document.querySelector('.recommend-button').style.zIndex = 0;
+    document.querySelector('.recommend-button').style.backgroundColor = '#060026';
+    document.querySelector('.recommend-button>div').style.backgroundColor = '#060026';
+    document.querySelector('.recommend-button p').style.color = '#fff';
+    document.querySelector('.recommend-button p').style.fontWeight = 'bold';
     cooldown(0);
     lastcaptured = dominantExpression;
     document.querySelector('.recommend-button').classList.add('recommend-button-click');
@@ -193,6 +193,7 @@ function throwPhoto() {
         document.querySelector('.camera-toggle').style.transform = 'scale(1)';
         photo.classList.remove('clicked-photo-animation');
         isThrowing= false;
+        cooldown(2e3);
     }, 4e3);
 }
 
@@ -203,7 +204,11 @@ function reload(){
 }
 
 // Snap to Main section
-function snap() {
+function snap(side) {
+    if(side=='music'){
+        window.location.href = '#nav';
+        return;
+    }
     window.location.href = '#panels';
 }
 
@@ -237,14 +242,12 @@ function cameraONOFF(action) {
 }
 
 // Hard stop the camera (This is currently used only when play/pause button is clicked in music player)
-let mediaStream;
+var mediaStream;
 async function startCamera() {
     try {
         mediaStream = await navigator.mediaDevices.getUserMedia({ video: true });
-        // Attach mediaStream to a video element
         const videoElement = document.getElementById('video');
         videoElement.srcObject = mediaStream;
-        document.querySelector('#video-container').classList.remove('gradient');
     } catch (error) {
         console.error('Error accessing the camera:', error);
     }
@@ -256,6 +259,5 @@ function stopCamera() {
         // Stop all tracks
         mediaStream.getTracks().forEach(track => track.stop());
         mediaStream = null;  // Clear the mediaStream object
-        document.querySelector('#video-container').classList.add('gradient');
     }
 }

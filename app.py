@@ -45,8 +45,6 @@ async def songurl():
         # Picking right id for particular songs that have wrong top result
         if videoid == 'T7xmqisFI-Y':
             videoid = 'EEqq0_Etuos'
-        if videoid == 'dyLS_20hWGg':
-            videoid = 'dtmr-rDIR6s'
         song_info = await fetch_song_url(videoid)
         song_url = song_info.get('url', '')
         return jsonify({'songurl': song_url, 'videoid': videoid}), 200
