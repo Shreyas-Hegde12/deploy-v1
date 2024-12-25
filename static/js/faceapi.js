@@ -43,6 +43,12 @@ video.addEventListener('play', () => {
         document.querySelector('.camera-toggle').style.transform = 'scale(1)';
         document.querySelector('#video-container').style.maxWidth = '600px';
     }, 3e3);
+    document.querySelector('.recommend-button').style.zIndex = 0;
+    document.querySelector('.recommend-button').style.backgroundColor = '#060026';
+    document.querySelector('.recommend-button>div').style.backgroundColor = '#060026';
+    document.querySelector('.recommend-button p').style.color = '#fff';
+    document.querySelector('.recommend-button p').style.fontWeight = 'bold';
+
     firstvideoplay = false;
     // Detect Emotions every 200ms
     setInterval(async () => {
@@ -146,11 +152,6 @@ function setDominantEmotion(expressions) {
 
 // Recommend Button
 function recommend() {
-    document.querySelector('.recommend-button').style.zIndex = 0;
-    document.querySelector('.recommend-button').style.backgroundColor = '#060026';
-    document.querySelector('.recommend-button>div').style.backgroundColor = '#060026';
-    document.querySelector('.recommend-button p').style.color = '#fff';
-    document.querySelector('.recommend-button p').style.fontWeight = 'bold';
     cooldown(0);
     lastcaptured = dominantExpression;
     document.querySelector('.recommend-button').classList.add('recommend-button-click');
@@ -158,6 +159,7 @@ function recommend() {
     if (isPlaying) togglePlay();
     generatePhoto();
     updateSlider('reset');
+    document.querySelector('.photo-panel').style.display = 'flex';
     throwPhoto();
     fetchSongOnEmotion(dominantExpression);
 }
@@ -194,14 +196,23 @@ function throwPhoto() {
         photo.classList.remove('clicked-photo-animation');
         isThrowing= false;
         cooldown(2e3);
+        document.querySelector('.photo-panel').style.display = 'none';
     }, 4e3);
 }
 
 
 // Reload Page on logo click
 function reload(){
+  stopCamera();
   window.location.href= '/';
 }
+
+document.addEventListener('keydown', function(e){
+    if(e.ctrlKey && e.key == 'r'){
+        e.preventDefault();
+        reload();
+    }
+});
 
 // Snap to Main section
 function snap(side) {

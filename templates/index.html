@@ -11,7 +11,7 @@
     <script defer src="static/js/users.js"></script>
     <script defer src="static/js/musicjs.js"></script>
     <script defer src="static/js/faceapi.js"></script>
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/vibrant.js/1.0.0/Vibrant.min.js"></script>
+    <script async defer src="https://cdn.jsdelivr.net/npm/transliteration@2.1.8/dist/browser/bundle.umd.min.js"></script>
 </head>
 
 <body>
@@ -40,11 +40,6 @@
         </form>
         <div class="pull-nav" onclick="pullNav()">?</div>
     </nav>
-
-    <!--Photograph-->
-    <div id="clicked-photo">
-        <img id="photograph" src=""><img id="face-box" src="">
-    </div>
 
     <!--App Area-->
     <div id="panels">
@@ -78,7 +73,20 @@
             </div>
             <!--Lyrics Tab-->
             <div class="lyrics-panel">
-                <p>Fetching Lyrics for you..</p>
+                <div class="to-eng-loading">
+                    Rewriting Lyrics in English
+                </div>
+                <div class="keep-original-lyrics" onclick="keepOriginalLyrics()">
+                    Keep Original
+                </div>
+                <p class="lyrics-body">Fetching Lyrics for you..</p>
+            </div>
+            <!--Photo Tab-->
+            <div class="photo-panel">
+                <!--Photograph-->
+                <div id="clicked-photo">
+                    <img id="photograph" src=""><img id="face-box" src="">
+                </div>
             </div>
 
         </div>

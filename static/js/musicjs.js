@@ -218,6 +218,9 @@ async function searchFeature() {
 
 
 // Get Lyrics
+const engREGEX = new RegExp("^[A-Za-z0-9\\s.,?!'\";:()-]*$");
+var currentLyrics;
+var engLyrics;
 async function lyrics(){
     const lyrics = await fetch('/lyrics', {
         method: "POST",
@@ -234,10 +237,35 @@ async function lyrics(){
         return response.json();
     }).then(data => {
         console.log("Received data:", data);
-        document.querySelector('.lyrics-panel p').innerText = data.lyrics;
+        const isEnglish = engREGEX.test(data.lyrics);
+        currentLyrics = data.lyrics;
+        document.querySelector('.lyrics-body').innerText = currentLyrics;
+        if(isEnglish == false){getLyricsinEnglish();} 
     }).catch(error => {
         console.error("Error fetching similar songs:", error);
     });
+}
+
+// Lyrics Helper Functions (for transliteration support)
+function getLyricsinEnglish(){
+    document.querySelector('.lyrics-body').style.marginTop = '5vh';
+    document.querySelector('.to-eng-loading').style.display='block';
+    engLyrics = transliterate(currentLyrics);
+    setTimeout(()=>{
+        document.querySelector('.lyrics-body').innerText = engLyrics;
+        document.querySelector('.to-eng-loading').style.display='none';
+        document.querySelector('.keep-original-lyrics').style.display='block';
+    },2e3);
+}
+function keepOriginalLyrics(){
+    if(document.querySelector('.keep-original-lyrics').innerText=='No, Type this in English'){
+        document.querySelector('.lyrics-body').innerText = engLyrics;
+        document.querySelector('.keep-original-lyrics').innerText='Keep Original';
+    }
+    else{
+    document.querySelector('.lyrics-body').innerText = currentLyrics;
+    document.querySelector('.keep-original-lyrics').innerText='No, Type this in English';
+    }
 }
 
 
@@ -245,8 +273,8 @@ async function lyrics(){
 function setSong(data) {
     if (data) {
         currentSong = data.videoid;
-        if (data.title.length > 25) {
-            data.title = data.title.slice(0, 22) + '..';
+        if (data.title.length > 23) {
+            data.title = data.title.slice(0, 20) + '..';
         }
         if (data.artists.length > 17) {
             data.artists = data.artists.slice(0, 17) + '..';
@@ -254,7 +282,11 @@ function setSong(data) {
     }
     // Set Main Song Data
     document.querySelector('.lyrics-panel p').innerText = 'Fetching lyrics for you..';
-    if(lyricVisible){lyrics();}
+    if(lyricVisible){
+        lyrics(); 
+        document.querySelector('.keep-original-lyrics').style.display='none';
+        document.querySelector('.lyrics-body').style.marginTop = '0vh';
+    }
     document.querySelector('.player > div > img').src = data.coverart || fallbackimg;
     document.querySelector('.player > div > img').setAttribute('data-videoid', data.videoid);
     document.querySelector('.current-song-detail h2').textContent = data.title;
@@ -312,7 +344,12 @@ function setSimilarSongData(data){
 let lyricVisible = false;
 function lyricToggle(){
 if(lyricVisible){document.querySelector('.lyrics-panel').style.display = 'none'; cameraONOFF('on'); lyricVisible = false;}
-else{lyrics(); document.querySelector('.lyrics-panel').style.display = 'flex'; cameraONOFF('off'); lyricVisible=true;}
+else{ 
+    if(document.querySelector('.lyrics-panel p').innerText == 'Fetching lyrics for you..'){
+        lyrics(); 
+    }
+    document.querySelector('.lyrics-panel').style.display = 'flex'; cameraONOFF('off'); lyricVisible=true;
+}
 }
 
 // When Song Ends Play a similar song

@@ -23,7 +23,7 @@ p{
 }
 /* */
 
-@media(max-width:820px){
+@media(max-width:90px){
     nav, #panels{display:none!important;}
 }
 /*Nav Bar*/
@@ -143,6 +143,7 @@ aspect-ratio: 1/1;
 
 /* */
 .like-button{
+    cursor: pointer;
     width: 30vw;
     max-width: 140px;
     height: auto;
@@ -158,48 +159,6 @@ width: 90%;
 height: auto;
 aspect-ratio: 1/1;
 }
-
-/*Clicked Photo*/
-#clicked-photo{
-display:flex;
-width: 60vw;
-max-width: 550px;
-height: auto;
-aspect-ratio: 16/12.5;
-position: fixed;
-z-index: 50;
-bottom: -67vh;
-left: 7.5vw;
-overflow: hidden;
-transform: rotateZ(-10deg);
-border: 20px solid white;
-/*box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;*/
-}
-#clicked-photo #photograph{
-position: relative;
-width: 100%;
-height: auto;
-aspect-ratio: 16/12.5;
-}
-#clicked-photo #face-box{
-position: absolute;
-width: 100%;
-height: auto;
-top: 0px;
-transform: translateY(-9%);
-aspect-ratio: 16/13.5;
-}
-.clicked-photo-animation{
-animation: throw-upward 3s 1;
-transition: throw-upward 3s ease, bottom 3s ease;
-}
-@keyframes throw-upward{
-20%{bottom: 36vh;}
-30%{bottom: 38vh; transform: rotateZ(10deg);}
-50%{bottom: -67vh; transform: rotateZ(-10deg);}
-}
-
-/* */
 
 /*Panels*/
 #panels{
@@ -579,10 +538,115 @@ cursor:pointer;
     background: #0d0d0d;
     overflow: auto;
 }
+.to-eng-loading{
+display: none;
+position: absolute;
+top: 2%;
+left:4%;
+z-index: 210;
+border-radius: 20px;
+width: 100%;
+height: auto;
+overflow-y:hidden;
+padding: 2% 2% 2% 8%;
+font-size: 20px;
+font-family: 'open sans';
+font-weight: bold;
+color: white;
+}
+.to-eng-loading::before{
+    content:'';
+    position: absolute;
+    top:0px;
+    left:0px;
+    background-image: url("data:image/svg+xml,%3Csvg id='to-eng-progress' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3CradialGradient id='l3' cx='.66' fx='.66' cy='.3125' fy='.3125' gradientTransform='scale(1.5)'%3E%3Cstop offset='0' stop-color='%23fff'%3E%3C/stop%3E%3Cstop offset='.3' stop-color='%23fff' stop-opacity='.9'%3E%3C/stop%3E%3Cstop offset='.6' stop-color='%23fff' stop-opacity='.6'%3E%3C/stop%3E%3Cstop offset='.8' stop-color='%23fff' stop-opacity='.3'%3E%3C/stop%3E%3Cstop offset='1' stop-color='%23fff' stop-opacity='0'%3E%3C/stop%3E%3C/radialGradient%3E%3Ccircle transform-origin='center' fill='none' stroke='url(%23l3)' stroke-width='15' stroke-linecap='round' stroke-dasharray='200 1000' stroke-dashoffset='0' cx='100' cy='100' r='70'%3E%3CanimateTransform type='rotate' attributeName='transform' calcMode='spline' dur='2' values='360;0' keyTimes='0;1' keySplines='0 0 1 1' repeatCount='indefinite'%3E%3C/animateTransform%3E%3C/circle%3E%3Ccircle transform-origin='center' fill='none' opacity='.2' stroke='%23fff' stroke-width='15' stroke-linecap='round' cx='100' cy='100' r='70'%3E%3C/circle%3E%3C/svg%3E");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:auto;
+    height: 100%;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+}
+.keep-original-lyrics{
+display: none;
+cursor:pointer;
+position: absolute;
+top: 2%;
+left:4%;
+z-index: 210;
+border-radius: 10px;
+width: 80%;
+height: auto;
+overflow-y:hidden;
+padding: 3%;
+background-color: #121212;
+font-size: 20px;
+font-family: 'open sans';
+font-weight: bold;
+color: white;
+}
 .lyrics-panel p{
     width: 100%;
     margin-bottom: 20vw;
+    text-align: left;
 }
+.photo-panel{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    top: 0px;
+    z-index: 200;
+    width: 100%;
+    height: 100%;
+    font-size: min(5vw, 25px);
+    font-family: 'open sans';
+    font-weight: bolder;
+    padding: 10% 8%;
+    color: #fff;
+    background: transparent;
+    overflow: auto;
+}
+/*Clicked Photo*/
+#clicked-photo{
+display:flex;
+width: 82%;
+max-width: 550px;
+height: auto;
+aspect-ratio: 16/12.5;
+position: absolute;
+z-index: 50;
+bottom: -67%;
+left: 7.5vw;
+overflow: hidden;
+transform: rotateZ(-10deg);
+border: 20px solid white;
+/*box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;*/
+}
+#clicked-photo #photograph{
+position: relative;
+width: 100%;
+height: auto;
+aspect-ratio: 16/12.5;
+}
+#clicked-photo #face-box{
+position: absolute;
+width: 100%;
+height: auto;
+top: 0px;
+transform: translateY(-9%);
+aspect-ratio: 16/13.5;
+}
+.clicked-photo-animation{
+animation: throw-upward 3s 1;
+transition: throw-upward 3s ease, bottom 3s ease;
+}
+@keyframes throw-upward{
+20%{bottom: 38%;}
+30%{bottom: 40%; transform: rotateZ(10deg);}
+50%{bottom: -67%; transform: rotateZ(-10deg);}
+}
+
 /* */
 
 /*Right Side Panel*/
@@ -601,6 +665,7 @@ cursor:pointer;
 }
 .player > div > img{
     margin: 4.5%;
+    cursor: pointer;
     width: 90%;
     height: auto;
     aspect-ratio: 1/1;
